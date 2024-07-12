@@ -27,3 +27,19 @@ C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\refint
 C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.pdb
 C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
 C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\appsettings.json
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll

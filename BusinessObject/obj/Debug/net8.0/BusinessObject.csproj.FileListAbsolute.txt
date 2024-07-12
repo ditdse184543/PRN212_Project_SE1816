@@ -29,3 +29,20 @@ C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\Bu
 C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\refint\BusinessObject.dll
 C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.pdb
 C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\ref\BusinessObject.dll
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.deps.json
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.dll
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.pdb
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfo.cs
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.sourcelink.json
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.dll
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\refint\BusinessObject.dll
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.pdb
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\ref\BusinessObject.dll
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\appsettings.json
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\Business.4FFE46AD.Up2Date
