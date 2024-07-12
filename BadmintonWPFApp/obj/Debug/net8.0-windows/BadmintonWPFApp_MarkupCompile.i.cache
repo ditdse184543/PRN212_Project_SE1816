@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\App.xaml
-11407045341
+31061798293
 
-6483673354
+8-1473902939
 246-1272189894
-MainWindow.xaml;
+MainWindow.xaml;WindowLogin.xaml;WindowRegister.xaml;
 
 True
 

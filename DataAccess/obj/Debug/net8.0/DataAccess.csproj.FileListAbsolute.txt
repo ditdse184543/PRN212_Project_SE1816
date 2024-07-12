@@ -43,3 +43,4 @@ C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\
 C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.pdb
 C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
 C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
