@@ -1,0 +1,31 @@
+C:\prn212\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.deps.json
+C:\prn212\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.dll
+C:\prn212\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.pdb
+C:\prn212\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\DataAccess.dll
+C:\prn212\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\DataAccess.pdb
+C:\prn212\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.AssemblyReference.cache
+C:\prn212\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\prn212\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfoInputs.cache
+C:\prn212\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfo.cs
+C:\prn212\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\prn212\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\Business.4FFE46AD.Up2Date
+C:\prn212\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.dll
+C:\prn212\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\refint\BusinessObject.dll
+C:\prn212\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.pdb
+C:\prn212\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\ref\BusinessObject.dll
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\appsettings.json
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.deps.json
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.dll
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.pdb
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\DataAccess.dll
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\DataAccess.pdb
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.AssemblyReference.cache
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfoInputs.cache
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfo.cs
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\Business.4FFE46AD.Up2Date
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.dll
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\refint\BusinessObject.dll
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.pdb
+C:\wpf\prn last project\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\ref\BusinessObject.dll

@@ -1,0 +1,29 @@
+C:\prn212\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\prn212\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\prn212\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\prn212\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\prn212\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\prn212\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\prn212\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\prn212\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\prn212\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\prn212\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\prn212\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\prn212\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\prn212\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\prn212\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\appsettings.json
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
