@@ -82,3 +82,8 @@ C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-w
 C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.pdb
 C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.genruntimeconfig.cache
 C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\ref\BadmintonWPFApp.dll
+C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.g.cs
+C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.g.cs
+C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.dll.config
+C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.baml
+C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.baml

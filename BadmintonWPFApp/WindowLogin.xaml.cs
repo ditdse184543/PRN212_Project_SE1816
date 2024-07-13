@@ -41,9 +41,13 @@ namespace BadmintonWPFApp
             if (login != null)
             {
                 MessageBox.Show("Login Successfully", "Login", MessageBoxButton.OK, MessageBoxImage.Information);
-                MainWindow main = new MainWindow();
-                main.Show();
+            //    MainWindow main = new MainWindow();
+              //  main.Show();
+              WindowAdmin windowAdmin = new WindowAdmin();
+                windowAdmin.Show();
                 this.Close();
+                //phan quyen
+                Properties.Settings.Default.Email = email;
             }
             else
             {
