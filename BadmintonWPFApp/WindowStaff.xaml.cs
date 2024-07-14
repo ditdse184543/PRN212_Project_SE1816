@@ -26,8 +26,8 @@ namespace BadmintonWPFApp
 
         private void Button_Checkin(object sender, RoutedEventArgs e)
         {
-            WindowCheckedIn WindowCheckedIn = new WindowCheckedIn();
-            WindowCheckedIn.Show();
+            WindowCheckIn WindowCheckIn = new WindowCheckIn();
+            WindowCheckIn.Show();
             this.Close();
         }
 

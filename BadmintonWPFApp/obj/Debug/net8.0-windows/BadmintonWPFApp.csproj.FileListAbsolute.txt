@@ -273,5 +273,5 @@ D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-window
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Badminto.A753231E.Up2Date
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.genruntimeconfig.cache
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\ref\BadmintonWPFApp.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckedIn.g.cs
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckedIn.baml
+D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.g.cs
+D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.baml

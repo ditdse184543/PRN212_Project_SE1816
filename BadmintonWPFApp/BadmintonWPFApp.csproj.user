@@ -13,7 +13,7 @@
     <Compile Update="WindowAdmin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="WindowCheckedIn.xaml.cs">
+    <Compile Update="WindowCheckIn.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="WindowCourt.xaml.cs">
@@ -42,7 +42,7 @@
     <Page Update="WindowAdmin.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="WindowCheckedIn.xaml">
+    <Page Update="WindowCheckIn.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="WindowCourt.xaml">

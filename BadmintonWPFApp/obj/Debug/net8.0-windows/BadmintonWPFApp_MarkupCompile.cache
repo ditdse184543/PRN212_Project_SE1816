@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\App.xaml
-9-1672322984
+9-1805382682
 
-13172630336
+13-1326708554
 24628650195
-BookingWindow.xaml;MainWindow.xaml;WindowAdmin.xaml;WindowCheckedIn.xaml;WindowCourt.xaml;WindowLogin.xaml;WindowRegister.xaml;WindowReport.xaml;WindowStaff.xaml;
+BookingWindow.xaml;MainWindow.xaml;WindowAdmin.xaml;WindowCheckIn.xaml;WindowCourt.xaml;WindowLogin.xaml;WindowRegister.xaml;WindowReport.xaml;WindowStaff.xaml;
 
 False
 
