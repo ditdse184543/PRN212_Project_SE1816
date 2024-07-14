@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Repository
 {
-    internal interface IBookingRepository
+    public interface IBookingRepository
     {
         public List<Booking> getAll();
         public void Delete(int id);
