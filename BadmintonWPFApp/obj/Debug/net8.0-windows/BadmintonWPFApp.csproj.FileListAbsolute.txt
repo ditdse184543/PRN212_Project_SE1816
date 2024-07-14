@@ -183,7 +183,6 @@ D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-window
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BookingWindow.g.cs
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.g.cs
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.g.cs
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckin.g.cs
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.g.cs
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.g.cs
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.g.cs
@@ -260,7 +259,6 @@ D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-window
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\DataAccess.pdb
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.baml
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.baml
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckin.baml
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.baml
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.baml
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.baml
@@ -275,3 +273,5 @@ D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-window
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Badminto.A753231E.Up2Date
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.genruntimeconfig.cache
 D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\ref\BadmintonWPFApp.dll
+D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckedIn.g.cs
+D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckedIn.baml

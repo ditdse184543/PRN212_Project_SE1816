@@ -14,5 +14,6 @@ namespace DataAccess.Repository
         public void Update(TimeSlot TimeSlot);
         public TimeSlot findById(int id);
         public void Insert(TimeSlot TimeSlot);
+        public void Checkin(int id);
     }
 }

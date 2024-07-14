@@ -1,0 +1,44 @@
+﻿<Window x:Class="BadmintonWPFApp.WindowCheckedIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BadmintonWPFApp"
+        mc:Ignorable="d"
+        Title="WindowCheckedIn" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height = "auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <StackPanel Orientation = "Horizontal" HorizontalAlignment="Left" Margin="10">
+                <!--<Button Content = "Search Air-Conditioner" Click="SearchACButton_Click" Margin="5"/>
+    <TextBox x:Name="SearchACTextBox" Width="200" Margin="5" Foreground = "Blue" />
+    <Button Content = "Reload" Click="ReloadACButton_Click" Margin="5"/>-->
+            </StackPanel>
+
+            <DataGrid x:Name="BookedTimeSLotDataGrid" AutoGenerateColumns="False" Grid.Row="1" Margin="10" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header = "Timeslot ID" Binding="{Binding TS_ID}" Width="Auto"/>
+                    <DataGridTextColumn Header = "Court Name" Binding="{Binding CO_Name}" Width="Auto"/>
+                    <DataGridTextColumn Header = "Booking ID" Binding="{Binding B_ID}" Width="Auto"/>
+                    <DataGridTextColumn Header = "Date" Binding="{Binding TS_Date}" Width="Auto"/>
+                    <DataGridTextColumn Header = "Time" Binding="{Binding TsTime}" Width="Auto"/>
+                    <DataGridTextColumn Header = "Has Checked in" Binding="{Binding TS_Checked_in}" Width="Auto"/>
+                    <DataGridTemplateColumn Header = "Action" Width="Auto">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation = "Horizontal" HorizontalAlignment="Center">
+                                    <Button Content = "Checkin" Click="CheckinButton_Click" Tag ="{Binding TS_ID}" Margin="5" />
+                                    <!--<Button Content = "Delete" Click="DeleteACButton_Click" Tag ="{Binding TS_ID}" Margin="5" />-->
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Window>

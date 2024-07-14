@@ -17,6 +17,25 @@ namespace DataAccess.Repository
             _context = new Prn212Context();
 
         }
+
+        public void Checkin(int id)
+        {
+            try
+            {
+                using var context = new Prn212Context();
+                TimeSlot timeSlotToCheckin = context.TimeSlots.FirstOrDefault(ts => ts.TsId == id);
+                if (timeSlotToCheckin != null)
+                {
+                    timeSlotToCheckin.TsCheckedIn = true;
+                    context.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            };
+        }
+
         public void Delete(int id)
         {
             throw new NotImplementedException();
@@ -33,13 +52,13 @@ namespace DataAccess.Repository
         }
 
 
-            //var data = timeslot.Select(ts => new
-            //{
-            //    TS_ID = ts.TsId,
-            //    CO_Name = ts.Co.CoName,
-            //    B_ID = ts.BIdNavigation.BId,
-            //    TS_Date = ts.TsDate,
-            //    TS_Start = ts.TsStart,
+        //var data = timeslot.Select(ts => new
+        //{
+        //    TS_ID = ts.TsId,
+        //    CO_Name = ts.Co.CoName,
+        //    B_ID = ts.BIdNavigation.BId,
+        //    TS_Date = ts.TsDate,
+        //    TS_Start = ts.TsStart,
 
             //});
 
@@ -57,3 +76,4 @@ namespace DataAccess.Repository
         }
     }
 }
+
