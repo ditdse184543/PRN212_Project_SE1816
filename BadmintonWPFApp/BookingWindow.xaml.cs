@@ -2,15 +2,26 @@
 using DataAccess.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
 
 namespace BadmintonWPFApp
 {
+    /// <summary>
+    /// Interaction logic for BookingWindow.xaml
+    /// </summary>
     public partial class BookingWindow : Window
     {
         private readonly BookingObject bookingObject;
-
         public BookingWindow()
         {
             InitializeComponent();
@@ -33,7 +44,7 @@ namespace BadmintonWPFApp
 
         private void BookingDatePicker_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
         {
-            
+
         }
 
         private void BookButton_Click(object sender, RoutedEventArgs e)
@@ -42,7 +53,7 @@ namespace BadmintonWPFApp
             string timeSlot = (TimeSlotComboBox.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "No time slot selected";
             string playerName = PlayerNameTextBox.Text;
 
-            
+
             Booking booking = new Booking
             {
                 BBookingType = "Casual",

@@ -20,105 +20,79 @@ namespace BadmintonWPFApp
     public partial class WindowCheckin : Window
     {
 
-        private readonly AirConditionerObjects airConditionerObjects;
-        public WindowCheckin()
-        {
-            InitializeComponent();
-            Loaded += AC_Loaded;
-            airConditionerObjects = new AirConditionerObjects();
-        }
+        //private readonly AirConditionerObjects airConditionerObjects;
+        //public WindowCheckin()
+        //{
+        //    InitializeComponent();
+        //    Loaded += AC_Loaded;
+        //    airConditionerObjects = new AirConditionerObjects();
+        //}
 
-        private void AC_Loaded(object sender, RoutedEventArgs e)
-        {
-            LoadACList();
-        }
+        //private void AC_Loaded(object sender, RoutedEventArgs e)
+        //{
+        //    LoadACList();
+        //}
 
-        private void LoadACList()
-        {
-            try
-            {
-                var acList = airConditionerObjects.GetAirConditioners().Select(x => new
-                {
-                    AirConditionerId = x.AirConditionerId,
-                    AirConditionerName = x.AirConditionerName,
-                    Warranty = x.Warranty,
-                    SoundPressureLevel = x.SoundPressureLevel,
-                    FeatureFunction = x.FeatureFunction,
-                    Quantity = x.Quantity,
-                    DollarPrice = x.DollarPrice,
-                    SupplierName = x.Supplier.SupplierName
-                }).ToList();
-                ACDataGrid.ItemsSource = acList;
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
-        }
+        //private void LoadACList()
+        //{
+        //    try
+        //    {
+        //        var acList = airConditionerObjects.GetAirConditioners().Select(x => new
+        //        {
+        //            AirConditionerId = x.AirConditionerId,
+        //            AirConditionerName = x.AirConditionerName,
+        //            Warranty = x.Warranty,
+        //            SoundPressureLevel = x.SoundPressureLevel,
+        //            FeatureFunction = x.FeatureFunction,
+        //            Quantity = x.Quantity,
+        //            DollarPrice = x.DollarPrice,
+        //            SupplierName = x.Supplier.SupplierName
+        //        }).ToList();
+        //        ACDataGrid.ItemsSource = acList;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw new Exception(ex.Message);
+        //    }
+        //}
 
-        private void AddACButton_Click(object sender, RoutedEventArgs e)
-        {
-            WAddACPopUp wAddACPopUp = new WAddACPopUp();
-            wAddACPopUp.ShowDialog();
-            LoadACList();
-        }
+        //private void AddACButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    WAddACPopUp wAddACPopUp = new WAddACPopUp();
+        //    wAddACPopUp.ShowDialog();
+        //    LoadACList();
+        //}
 
-        private void SearchACButton_Click(object sender, RoutedEventArgs e)
-        {
-            string searchValue = SearchACTextBox.Text;
-            List<AirConditioner> searchResult = null;
-            if (int.TryParse(searchValue, out int quantity))
-            {
-                searchResult = airConditionerObjects.SearchAirConditioners(null, quantity);
-            }
-            else
-            {
-                searchResult = airConditionerObjects.SearchAirConditioners(searchValue, null);
-            }
-            var acList = searchResult.Select(x => new
-            {
-                AirConditionerId = x.AirConditionerId,
-                AirConditionerName = x.AirConditionerName,
-                Warranty = x.Warranty,
-                SoundPressureLevel = x.SoundPressureLevel,
-                FeatureFunction = x.FeatureFunction,
-                Quantity = x.Quantity,
-                DollarPrice = x.DollarPrice,
-                SupplierName = x.Supplier.SupplierName
-            }).ToList();
-            ACDataGrid.ItemsSource = acList;
-        }
+        //private void SearchACButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    string searchValue = SearchACTextBox.Text;
+        //    List<AirConditioner> searchResult = null;
+        //    if (int.TryParse(searchValue, out int quantity))
+        //    {
+        //        searchResult = airConditionerObjects.SearchAirConditioners(null, quantity);
+        //    }
+        //    else
+        //    {
+        //        searchResult = airConditionerObjects.SearchAirConditioners(searchValue, null);
+        //    }
+        //    var acList = searchResult.Select(x => new
+        //    {
+        //        AirConditionerId = x.AirConditionerId,
+        //        AirConditionerName = x.AirConditionerName,
+        //        Warranty = x.Warranty,
+        //        SoundPressureLevel = x.SoundPressureLevel,
+        //        FeatureFunction = x.FeatureFunction,
+        //        Quantity = x.Quantity,
+        //        DollarPrice = x.DollarPrice,
+        //        SupplierName = x.Supplier.SupplierName
+        //    }).ToList();
+        //    ACDataGrid.ItemsSource = acList;
+        //}
 
-        private void UpdateACButton_Click(object sender, RoutedEventArgs e)
-        {
+        //private void ReloadACButton_Click(object sender, RoutedEventArgs e)
+        //{
 
-            Button button = (Button)sender;
-            int ACId = (int)button.Tag;
-            AirConditioner airConditionerToUpdate = airConditionerObjects.GetAirConditionerById(ACId);
-            WUpdateACPopUp wUpdateACPopUp = new WUpdateACPopUp(airConditionerToUpdate);
-            wUpdateACPopUp.ShowDialog();
-            LoadACList();
-        }
-
-        private void DeleteACButton_Click(object sender, RoutedEventArgs e)
-        {
-
-            Button button = (Button)sender;
-            int ACId = (int)button.Tag;
-            MessageBoxResult result = MessageBox.Show("Are you sure you want to delete this Air-conditioner", "Confirm Delete", MessageBoxButton.YesNo, MessageBoxImage.Question);
-            if (result == MessageBoxResult.Yes)
-            {
-                airConditionerObjects.removeAirConditioner(ACId);
-                LoadACList();
-            }
-
-        }
-
-
-        private void ReloadACButton_Click(object sender, RoutedEventArgs e)
-        {
-
-            LoadACList();
-        }
+        //    LoadACList();
+        //}
     }
 }

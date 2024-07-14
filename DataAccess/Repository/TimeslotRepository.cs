@@ -29,22 +29,20 @@ namespace DataAccess.Repository
 
         public List<TimeSlot> getAll()
         {
-            throw new NotImplementedException();
+            return _context.TimeSlots.Include(ts => ts.BIdNavigation).Include(ts => ts.Co).ToList();
         }
 
-        public List<TimeSlot> forCheckinDatagridItemSource()
-        {
-            var timeslot = _context.TimeSlots.Include(ts => ts.BIdNavigation).Include(ts => ts.Co).ToList();
-            var data = timeslot.Select(ts => new
-            {
-                TS_ID = ts.TsId,
-                CO_Name = ts.Co.CoName,
-                B_ID = ts.BIdNavigation.BId,
-                TS_Date = ts.TsDate,
-                TS_Start = ts.TsStart,
 
-            });
-        }
+            //var data = timeslot.Select(ts => new
+            //{
+            //    TS_ID = ts.TsId,
+            //    CO_Name = ts.Co.CoName,
+            //    B_ID = ts.BIdNavigation.BId,
+            //    TS_Date = ts.TsDate,
+            //    TS_Start = ts.TsStart,
+
+            //});
+
 
 
         public void Insert(TimeSlot TimeSlot)

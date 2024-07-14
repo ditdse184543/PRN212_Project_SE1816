@@ -39,7 +39,7 @@ public partial class Prn212Context : DbContext
     {
         modelBuilder.Entity<Booking>(entity =>
         {
-            entity.HasKey(e => e.BId).HasName("PK__Booking__4B26EFE6F40977C2");
+            entity.HasKey(e => e.BId).HasName("PK__Booking__4B26EFE6E6F0568E");
 
             entity.ToTable("Booking");
 
@@ -66,7 +66,7 @@ public partial class Prn212Context : DbContext
 
         modelBuilder.Entity<Court>(entity =>
         {
-            entity.HasKey(e => e.CoId).HasName("PK__Court__F38FB8F518155CF1");
+            entity.HasKey(e => e.CoId).HasName("PK__Court__F38FB8F54C48DF60");
 
             entity.ToTable("Court");
 
@@ -124,7 +124,7 @@ public partial class Prn212Context : DbContext
 
         modelBuilder.Entity<Payment>(entity =>
         {
-            entity.HasKey(e => e.PId).HasName("PK__Payment__A3420A77623AF853");
+            entity.HasKey(e => e.PId).HasName("PK__Payment__A3420A77B06DBD7E");
 
             entity.ToTable("Payment");
 
@@ -145,7 +145,7 @@ public partial class Prn212Context : DbContext
 
         modelBuilder.Entity<Rating>(entity =>
         {
-            entity.HasKey(e => e.RatingId).HasName("PK__Rating__FCCDF87CA90E4E1A");
+            entity.HasKey(e => e.RatingId).HasName("PK__Rating__FCCDF87C9E23FB5C");
 
             entity.ToTable("Rating");
 
@@ -188,7 +188,7 @@ public partial class Prn212Context : DbContext
 
         modelBuilder.Entity<TimeSlot>(entity =>
         {
-            entity.HasKey(e => e.TsId).HasName("PK__TimeSlot__D128865AD6A926DD");
+            entity.HasKey(e => e.TsId).HasName("PK__TimeSlot__D128865A3E282777");
 
             entity.ToTable("TimeSlot");
 
@@ -197,8 +197,7 @@ public partial class Prn212Context : DbContext
             entity.Property(e => e.CoId).HasColumnName("CO_ID");
             entity.Property(e => e.TsCheckedIn).HasColumnName("TS_Checked_in");
             entity.Property(e => e.TsDate).HasColumnName("TS_Date");
-            entity.Property(e => e.TsEnd).HasColumnName("TS_End");
-            entity.Property(e => e.TsStart).HasColumnName("TS_Start");
+            entity.Property(e => e.TsTime).HasMaxLength(100);
 
             entity.HasOne(d => d.BIdNavigation).WithMany(p => p.TimeSlots)
                 .HasForeignKey(d => d.BId)

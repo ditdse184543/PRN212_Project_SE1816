@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DataAccess.Models;
 
@@ -10,7 +11,8 @@ public partial class Court
     public string CoName { get; set; } = null!;
 
     public string? CoPath { get; set; }
-
+    [NotMapped]
+    public string AbsoluteCoPath => System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\..", CoPath);
     public bool CoStatus { get; set; }
 
     public string CoAddress { get; set; } = null!;
