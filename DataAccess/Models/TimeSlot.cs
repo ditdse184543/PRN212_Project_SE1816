@@ -9,7 +9,9 @@ public partial class TimeSlot
 
     public DateOnly TsDate { get; set; }
 
-    public string TsTime { get; set; } = null!;
+    public TimeOnly TsStart { get; set; }
+
+    public TimeOnly TsEnd { get; set; }
 
     public bool TsCheckedIn { get; set; }
 

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
 namespace DataAccess.Models;
 
@@ -33,19 +32,14 @@ public partial class Prn212Context : DbContext
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        var builder = new ConfigurationBuilder()
-      .SetBasePath(Directory.GetCurrentDirectory())
-      .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Server=localhost;Database=PRN212;User Id=sa;Password=12345;TrustServerCertificate=True;");
 
-        IConfigurationRoot configuration = builder.Build();
-        optionsBuilder.UseSqlServer(configuration.GetConnectionString("Default"));
-    }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Booking>(entity =>
         {
-            entity.HasKey(e => e.BId).HasName("PK__Booking__4B26EFE63F35397E");
+            entity.HasKey(e => e.BId).HasName("PK__Booking__4B26EFE6F40977C2");
 
             entity.ToTable("Booking");
 
@@ -72,7 +66,7 @@ public partial class Prn212Context : DbContext
 
         modelBuilder.Entity<Court>(entity =>
         {
-            entity.HasKey(e => e.CoId).HasName("PK__Court__F38FB8F5BF7B6E96");
+            entity.HasKey(e => e.CoId).HasName("PK__Court__F38FB8F518155CF1");
 
             entity.ToTable("Court");
 
@@ -130,7 +124,7 @@ public partial class Prn212Context : DbContext
 
         modelBuilder.Entity<Payment>(entity =>
         {
-            entity.HasKey(e => e.PId).HasName("PK__Payment__A3420A77203B0044");
+            entity.HasKey(e => e.PId).HasName("PK__Payment__A3420A77623AF853");
 
             entity.ToTable("Payment");
 
@@ -151,7 +145,7 @@ public partial class Prn212Context : DbContext
 
         modelBuilder.Entity<Rating>(entity =>
         {
-            entity.HasKey(e => e.RatingId).HasName("PK__Rating__FCCDF87C42977EFF");
+            entity.HasKey(e => e.RatingId).HasName("PK__Rating__FCCDF87CA90E4E1A");
 
             entity.ToTable("Rating");
 
@@ -194,7 +188,7 @@ public partial class Prn212Context : DbContext
 
         modelBuilder.Entity<TimeSlot>(entity =>
         {
-            entity.HasKey(e => e.TsId).HasName("PK__TimeSlot__D128865AD75A2392");
+            entity.HasKey(e => e.TsId).HasName("PK__TimeSlot__D128865AD6A926DD");
 
             entity.ToTable("TimeSlot");
 
@@ -203,9 +197,8 @@ public partial class Prn212Context : DbContext
             entity.Property(e => e.CoId).HasColumnName("CO_ID");
             entity.Property(e => e.TsCheckedIn).HasColumnName("TS_Checked_in");
             entity.Property(e => e.TsDate).HasColumnName("TS_Date");
-            entity.Property(e => e.TsTime)
-                .HasMaxLength(100)
-                .HasColumnName("TS_Time");
+            entity.Property(e => e.TsEnd).HasColumnName("TS_End");
+            entity.Property(e => e.TsStart).HasColumnName("TS_Start");
 
             entity.HasOne(d => d.BIdNavigation).WithMany(p => p.TimeSlots)
                 .HasForeignKey(d => d.BId)

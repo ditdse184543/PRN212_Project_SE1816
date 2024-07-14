@@ -44,3 +44,19 @@ C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\
 C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
 C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
 C:\wpf\prn last project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.dll
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\appsettings.json
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.dll
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+D:\FU\p211\project\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll

@@ -13,6 +13,8 @@ public partial class User
 
     public string Password { get; set; } = null!;
 
+    public bool Status { get; set; }
+
     public virtual ICollection<Booking> Bookings { get; set; } = new List<Booking>();
 
     public virtual ICollection<Court> Courts { get; set; } = new List<Court>();

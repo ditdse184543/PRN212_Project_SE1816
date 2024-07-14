@@ -1,4 +1,5 @@
 ﻿using DataAccess.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,6 +31,21 @@ namespace DataAccess.Repository
         {
             throw new NotImplementedException();
         }
+
+        public List<TimeSlot> forCheckinDatagridItemSource()
+        {
+            var timeslot = _context.TimeSlots.Include(ts => ts.BIdNavigation).Include(ts => ts.Co).ToList();
+            var data = timeslot.Select(ts => new
+            {
+                TS_ID = ts.TsId,
+                CO_Name = ts.Co.CoName,
+                B_ID = ts.BIdNavigation.BId,
+                TS_Date = ts.TsDate,
+                TS_Start = ts.TsStart,
+
+            });
+        }
+
 
         public void Insert(TimeSlot TimeSlot)
         {

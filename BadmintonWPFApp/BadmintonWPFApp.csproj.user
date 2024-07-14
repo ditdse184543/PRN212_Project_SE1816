@@ -13,6 +13,9 @@
     <Compile Update="WindowAdmin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="WindowCheckin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="WindowCourt.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -20,6 +23,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="WindowRegister.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowReport.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowStaff.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -33,6 +42,9 @@
     <Page Update="WindowAdmin.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="WindowCheckin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="WindowCourt.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -40,6 +52,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="WindowRegister.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowReport.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowStaff.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
