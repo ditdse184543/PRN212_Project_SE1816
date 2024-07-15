@@ -14,6 +14,7 @@ namespace DataAccess.Repository
         public void Update(CourtCondition CourtCondition);
         public CourtCondition findById(int id);
         public void Insert(CourtCondition CourtCondition);
+        public List<Court> LoadCourtBasedOnBooking(int userId);
     }
 }
 

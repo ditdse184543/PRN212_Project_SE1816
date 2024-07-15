@@ -35,5 +35,9 @@ namespace BusinessObject
         {
             _courtRepository.Update(court);
         }
+        public List<Court> LoadCourtBasedOnBooking(int userId)
+        {
+            return _courtRepository.LoadCourtBasedOnBooking(userId);
+        }
     }
 }

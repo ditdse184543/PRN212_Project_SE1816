@@ -51,7 +51,24 @@ namespace BadmintonWPFApp
                 txtPrice.Text = selectedCourt.CoPrice.ToString();
                 txtImagePath.Text = selectedCourt.CoPath;
                 // Display the image in the Image control
-                imagePicture.Source = new BitmapImage(new Uri(selectedCourt.AbsoluteCoPath));
+                if (!string.IsNullOrEmpty(selectedCourt.CoPath))
+                {
+                    string absolutePath = selectedCourt.AbsoluteCoPath;
+                    if (File.Exists(absolutePath))
+                    {
+                        imagePicture.Source = new BitmapImage(new Uri(absolutePath));
+                    }
+                    else
+                    {
+                        // Handle the case where the file does not exist
+                        imagePicture.Source = null;
+                        MessageBox.Show("Image file not found.", "File Not Found", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    }
+                }
+                else
+                {
+                    imagePicture.Source = null;
+                }
 
                 status = selectedCourt.CoStatus;
 

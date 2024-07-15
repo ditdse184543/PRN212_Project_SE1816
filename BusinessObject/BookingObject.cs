@@ -19,6 +19,15 @@ namespace BusinessObject
         public void Insert(Booking booking)
         {
             bookingRepository.Insert(booking);
+
+        }
+        public List<Booking> showListBookingBasedOnCourt(int courtId, int userId)
+        {
+            return bookingRepository.showListBookingBasedOnCourt(courtId, userId);
+        }
+        public List<Booking> SearchBooking(string search, int courtId, int userId)
+        {
+            return bookingRepository.SearchBooking(search, courtId, userId);
         }
     }
 }

@@ -64,5 +64,9 @@ namespace DataAccess.Repository
                 _context.SaveChanges();
             }
         }
+        public List<Court> LoadCourtBasedOnBooking(int userId)
+        {
+            return _context.Courts.Where(c => _context.Bookings.Any(b => b.UserId == userId)).ToList();
+        }
     }
 }
