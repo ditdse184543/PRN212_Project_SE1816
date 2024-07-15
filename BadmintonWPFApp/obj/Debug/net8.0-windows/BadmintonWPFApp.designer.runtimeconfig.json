@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\theap\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\theap\\.nuget\\packages"
+      "C:\\Users\\Windows\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Windows\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Reflection.NullabilityInfoContext.IsSupported": true,

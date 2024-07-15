@@ -26,6 +26,6 @@
 
         <Button Grid.Row="3" Content="Book" Margin="10" VerticalAlignment="Center" Click="BookButton_Click"/>
 
-        <ListBox x:Name="BookingsListBox" Grid.Row="4" Margin="10"/>
+        <ListBox x:Name="BookingsListBox" Grid.Row="4" Margin="10,10,10,135"/>
     </Grid>
 </Window>

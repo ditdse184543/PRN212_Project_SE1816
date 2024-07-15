@@ -51,6 +51,11 @@ namespace DataAccess.Repository
             return _context.TimeSlots.Include(ts => ts.BIdNavigation).Include(ts => ts.Co).ToList();
         }
 
+        public List<TimeSlot> getByDate(DateOnly date)
+        {
+            return _context.TimeSlots.Where(x => x.TsDate == date).ToList();
+        }
+
 
         //var data = timeslot.Select(ts => new
         //{
@@ -60,7 +65,7 @@ namespace DataAccess.Repository
         //    TS_Date = ts.TsDate,
         //    TS_Start = ts.TsStart,
 
-            //});
+        //});
 
 
 

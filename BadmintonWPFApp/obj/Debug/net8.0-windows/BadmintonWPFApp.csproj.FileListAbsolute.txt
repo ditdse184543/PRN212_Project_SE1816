@@ -378,3 +378,15 @@ C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\B
 C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Badminto.A753231E.Up2Date
 C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.genruntimeconfig.cache
 C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\ref\BadmintonWPFApp.dll
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.g.cs
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomer.g.cs
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerBookingDetail.g.cs
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerRate.g.cs
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowReport.g.cs
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowStaff.g.cs
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.baml
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomer.baml
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerBookingDetail.baml
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerRate.baml
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowReport.baml
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowStaff.baml

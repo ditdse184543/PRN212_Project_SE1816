@@ -4411,19 +4411,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\theap\\.nuget\\packages\\": {}
+    "C:\\Users\\Windows\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
-      "packagesPath": "C:\\Users\\theap\\.nuget\\packages\\",
-      "outputPath": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\theap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

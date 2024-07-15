@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {}
+    "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {}
   },
   "projects": {
-    "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {
+    "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\theap\\.nuget\\packages\\",
-        "outputPath": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BusinessObject\\obj\\",
+        "projectPath": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\theap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -68,17 +68,17 @@
         }
       }
     },
-    "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\theap\\.nuget\\packages\\",
-        "outputPath": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\theap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -15,5 +15,6 @@ namespace DataAccess.Repository
         public TimeSlot findById(int id);
         public void Insert(TimeSlot TimeSlot);
         public void Checkin(int id);
+        public List<TimeSlot> getByDate(DateOnly date);
     }
 }

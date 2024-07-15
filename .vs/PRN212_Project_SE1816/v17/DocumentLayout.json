@@ -1,90 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\",
+  "WorkspaceRootPath": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\badmintonwpfapp\\windowadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\windowadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\badmintonwpfapp\\bookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\bookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\badmintonwpfapp\\windowlogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\windowlogin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\users\\windows\\source\\repos\\prn212_project_se1816\\badmintonwpfapp\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\badmintonwpfapp\\windowadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\windowadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\badmintonwpfapp\\windowcustomerbookingdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\windowcustomerbookingdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\badmintonwpfapp\\windowcustomerbookingdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\windowcustomerbookingdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\dataaccess\\repository\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|c:\\users\\windows\\source\\repos\\prn212_project_se1816\\dataaccess\\repository\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\dataaccess\\models\\timeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\timeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{089442A0-1BF4-4691-9798-490ADB550F92}|BusinessObject\\BusinessObject.csproj|c:\\users\\windows\\source\\repos\\prn212_project_se1816\\businessobject\\timeslotobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{089442A0-1BF4-4691-9798-490ADB550F92}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\timeslotobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\badmintonwpfapp\\windowcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\windowcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|c:\\users\\windows\\source\\repos\\prn212_project_se1816\\dataaccess\\repository\\timeslotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\timeslotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\badmintonwpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|c:\\users\\windows\\source\\repos\\prn212_project_se1816\\dataaccess\\repository\\itimeslotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\itimeslotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows\\AppData\\Local\\Temp\\.vsdbgsrc\\2c37c42019c6fdae88e6c67f2d029835c01d7fa9eb224862464974e8dbb9ff36\\Nullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\users\\windows\\source\\repos\\prn212_project_se1816\\badmintonwpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\badmintonwpfapp\\windowlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\windowlogin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\badmintonwpfapp\\windowcheckin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\windowcheckin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{089442A0-1BF4-4691-9798-490ADB550F92}|BusinessObject\\BusinessObject.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\businessobject\\courtobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{089442A0-1BF4-4691-9798-490ADB550F92}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\courtobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\dataaccess\\repository\\icourtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\icourtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\dataaccess\\repository\\icourtconditionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\icourtconditionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\dataaccess\\repository\\courtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\courtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\badmintonwpfapp\\windowcustomerrate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\windowcustomerrate.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\dataaccess\\repository\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{089442A0-1BF4-4691-9798-490ADB550F92}|BusinessObject\\BusinessObject.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\businessobject\\bookingobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{089442A0-1BF4-4691-9798-490ADB550F92}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\bookingobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{089442A0-1BF4-4691-9798-490ADB550F92}|BusinessObject\\BusinessObject.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\businessobject\\ratingobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{089442A0-1BF4-4691-9798-490ADB550F92}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\ratingobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\badmintonwpfapp\\windowcustomer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\windowcustomer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\prn212\\wpf\\4\\prn212_project_se1816\\badmintonwpfapp\\windowcheckin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\windowcheckin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +41,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 65,
+          "SelectedChildIndex": 75,
           "Children": [
             {
               "$type": "Bookmark",
@@ -238,6 +185,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:8:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:12:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
@@ -258,11 +209,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:27:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -282,6 +233,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
@@ -298,6 +253,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
@@ -307,6 +266,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:14:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -346,11 +309,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
@@ -358,251 +321,105 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WindowAdmin.xaml.cs",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowAdmin.xaml.cs",
-              "RelativeDocumentMoniker": "BadmintonWPFApp\\WindowAdmin.xaml.cs",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowAdmin.xaml.cs",
-              "RelativeToolTip": "BadmintonWPFApp\\WindowAdmin.xaml.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAswDMAAAA5AAAA",
+              "DocumentIndex": 3,
+              "Title": "TimeSlotObject.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BusinessObject\\TimeSlotObject.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\TimeSlotObject.cs",
+              "ToolTip": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BusinessObject\\TimeSlotObject.cs",
+              "RelativeToolTip": "BusinessObject\\TimeSlotObject.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T05:19:57.335Z",
+              "WhenOpened": "2024-07-15T09:06:52.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TimeslotRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\DataAccess\\Repository\\TimeslotRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\TimeslotRepository.cs",
+              "ToolTip": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\DataAccess\\Repository\\TimeslotRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\TimeslotRepository.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwDcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:05:36.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITimeSlotRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\DataAccess\\Repository\\ITimeSlotRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\ITimeSlotRepository.cs",
+              "ToolTip": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\DataAccess\\Repository\\ITimeSlotRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\ITimeSlotRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T09:04:46.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Nullable.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\AppData\\Local\\Temp\\.vsdbgsrc\\2c37c42019c6fdae88e6c67f2d029835c01d7fa9eb224862464974e8dbb9ff36\\Nullable.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\2c37c42019c6fdae88e6c67f2d029835c01d7fa9eb224862464974e8dbb9ff36\\Nullable.cs",
+              "ToolTip": "C:\\Users\\Windows\\AppData\\Local\\Temp\\.vsdbgsrc\\2c37c42019c6fdae88e6c67f2d029835c01d7fa9eb224862464974e8dbb9ff36\\Nullable.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\2c37c42019c6fdae88e6c67f2d029835c01d7fa9eb224862464974e8dbb9ff36\\Nullable.cs [Read Only]",
+              "ViewState": "AQIAAA0AAAAAAAAAAAD4vx8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T08:58:40.899Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BadmintonWPFApp\\App.xaml",
+              "RelativeDocumentMoniker": "BadmintonWPFApp\\App.xaml",
+              "ToolTip": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BadmintonWPFApp\\App.xaml",
+              "RelativeToolTip": "BadmintonWPFApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-15T08:56:42.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BadmintonWPFApp\\BookingWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BadmintonWPFApp\\BookingWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BadmintonWPFApp\\BookingWindow.xaml.cs",
+              "RelativeToolTip": "BadmintonWPFApp\\BookingWindow.xaml.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAUwGIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T08:49:42.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BadmintonWPFApp\\BookingWindow.xaml",
+              "RelativeDocumentMoniker": "BadmintonWPFApp\\BookingWindow.xaml",
+              "ToolTip": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BadmintonWPFApp\\BookingWindow.xaml",
+              "RelativeToolTip": "BadmintonWPFApp\\BookingWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-15T08:49:30.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "WindowAdmin.xaml",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowAdmin.xaml",
-              "RelativeDocumentMoniker": "BadmintonWPFApp\\WindowAdmin.xaml",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowAdmin.xaml",
-              "RelativeToolTip": "BadmintonWPFApp\\WindowAdmin.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-15T05:19:55.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TimeSlot.cs",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\Models\\TimeSlot.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Models\\TimeSlot.cs",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\Models\\TimeSlot.cs",
-              "RelativeToolTip": "DataAccess\\Models\\TimeSlot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T05:09:54.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\App.xaml",
-              "RelativeDocumentMoniker": "BadmintonWPFApp\\App.xaml",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\App.xaml",
-              "RelativeToolTip": "BadmintonWPFApp\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-15T04:59:52.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ICourtRepository.cs",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\Repository\\ICourtRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Repository\\ICourtRepository.cs",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\Repository\\ICourtRepository.cs",
-              "RelativeToolTip": "DataAccess\\Repository\\ICourtRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T04:59:00.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ICourtConditionRepository.cs",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\Repository\\ICourtConditionRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Repository\\ICourtConditionRepository.cs",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\Repository\\ICourtConditionRepository.cs",
-              "RelativeToolTip": "DataAccess\\Repository\\ICourtConditionRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T04:56:07.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IBookingRepository.cs",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\Repository\\IBookingRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Repository\\IBookingRepository.cs",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\Repository\\IBookingRepository.cs",
-              "RelativeToolTip": "DataAccess\\Repository\\IBookingRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T04:55:50.212Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RatingObject.cs",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BusinessObject\\RatingObject.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\RatingObject.cs",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BusinessObject\\RatingObject.cs",
-              "RelativeToolTip": "BusinessObject\\RatingObject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T04:53:59.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WindowLogin.xaml.cs",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowLogin.xaml.cs",
-              "RelativeDocumentMoniker": "BadmintonWPFApp\\WindowLogin.xaml.cs",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowLogin.xaml.cs",
-              "RelativeToolTip": "BadmintonWPFApp\\WindowLogin.xaml.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAQwC4AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T04:53:16.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "WindowLogin.xaml",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowLogin.xaml",
-              "RelativeDocumentMoniker": "BadmintonWPFApp\\WindowLogin.xaml",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowLogin.xaml",
-              "RelativeToolTip": "BadmintonWPFApp\\WindowLogin.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-15T04:52:44.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CourtRepository.cs",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\Repository\\CourtRepository.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Repository\\CourtRepository.cs",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\Repository\\CourtRepository.cs",
-              "RelativeToolTip": "DataAccess\\Repository\\CourtRepository.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAADwv0UAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T04:52:26.421Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "BookingRepository.cs",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\Repository\\BookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\DataAccess\\Repository\\BookingRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Repository\\BookingRepository.cs",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\DataAccess\\Repository\\BookingRepository.cs",
+              "ToolTip": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\DataAccess\\Repository\\BookingRepository.cs",
               "RelativeToolTip": "DataAccess\\Repository\\BookingRepository.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAmwDAAAABSAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T04:51:55.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CourtObject.cs",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BusinessObject\\CourtObject.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\CourtObject.cs",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BusinessObject\\CourtObject.cs",
-              "RelativeToolTip": "BusinessObject\\CourtObject.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAjwCcAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T04:51:26.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BookingObject.cs",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BusinessObject\\BookingObject.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\BookingObject.cs",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BusinessObject\\BookingObject.cs",
-              "RelativeToolTip": "BusinessObject\\BookingObject.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAewB0AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T04:51:03.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "WindowCustomerRate.xaml.cs",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowCustomerRate.xaml.cs",
-              "RelativeDocumentMoniker": "BadmintonWPFApp\\WindowCustomerRate.xaml.cs",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowCustomerRate.xaml.cs",
-              "RelativeToolTip": "BadmintonWPFApp\\WindowCustomerRate.xaml.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAASwBgAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T04:50:41.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WindowCustomerBookingDetail.xaml.cs",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowCustomerBookingDetail.xaml.cs",
-              "RelativeDocumentMoniker": "BadmintonWPFApp\\WindowCustomerBookingDetail.xaml.cs",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowCustomerBookingDetail.xaml.cs",
-              "RelativeToolTip": "BadmintonWPFApp\\WindowCustomerBookingDetail.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T04:50:38.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "WindowCustomer.xaml.cs",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowCustomer.xaml.cs",
-              "RelativeDocumentMoniker": "BadmintonWPFApp\\WindowCustomer.xaml.cs",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowCustomer.xaml.cs",
-              "RelativeToolTip": "BadmintonWPFApp\\WindowCustomer.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T04:50:32.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WindowCustomerBookingDetail.xaml",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowCustomerBookingDetail.xaml",
-              "RelativeDocumentMoniker": "BadmintonWPFApp\\WindowCustomerBookingDetail.xaml",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowCustomerBookingDetail.xaml",
-              "RelativeToolTip": "BadmintonWPFApp\\WindowCustomerBookingDetail.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-15T04:50:29.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WindowCustomer.xaml",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowCustomer.xaml",
-              "RelativeDocumentMoniker": "BadmintonWPFApp\\WindowCustomer.xaml",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowCustomer.xaml",
-              "RelativeToolTip": "BadmintonWPFApp\\WindowCustomer.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-15T04:50:27.197Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WindowCheckIn.xaml.cs",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowCheckIn.xaml.cs",
-              "RelativeDocumentMoniker": "BadmintonWPFApp\\WindowCheckIn.xaml.cs",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowCheckIn.xaml.cs",
-              "RelativeToolTip": "BadmintonWPFApp\\WindowCheckIn.xaml.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowDYAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T04:50:13.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "WindowCheckIn.xaml",
-              "DocumentMoniker": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowCheckIn.xaml",
-              "RelativeDocumentMoniker": "BadmintonWPFApp\\WindowCheckIn.xaml",
-              "ToolTip": "C:\\prn212\\wpf\\4\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowCheckIn.xaml",
-              "RelativeToolTip": "BadmintonWPFApp\\WindowCheckIn.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-15T04:50:09.506Z"
+              "WhenOpened": "2024-07-15T09:10:35.531Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -677,6 +494,16 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 449,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             }
           ]
         }
