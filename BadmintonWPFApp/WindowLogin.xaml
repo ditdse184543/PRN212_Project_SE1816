@@ -5,33 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BadmintonWPFApp"
         mc:Ignorable="d"
-        Title="WindowLogin" Height="450" Width="800">
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="WindowLogin" Height="450" Width="507">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-       
+        <Rectangle Height="500" VerticalAlignment="Center" >
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#ffffff" />
+                    <GradientStop Color="#333399" Offset="1" />
+                </LinearGradientBrush>
 
-        <StackPanel Grid.Row="0" Margin="10" HorizontalAlignment="Center">
-            <TextBlock Text="Email" FontSize="16" Margin="0,5"/>
-            <TextBox Width="450" Height="30" FontSize="16" Name="txtEmail"/>
-        </StackPanel>
+            </Rectangle.Fill>
 
-        <StackPanel Grid.Row="1" Margin="10" HorizontalAlignment="Center">
-            <TextBlock Text="Password" FontSize="16" Margin="0,5"/>
-            <PasswordBox Width="450" Height="30" FontSize="16" Name="txtPassword"/>
-        </StackPanel>
-        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+        </Rectangle>
 
-            <Button Name="btnRegister" Content="Register" Width="100" Height="30" Margin="10" FontSize="16" Click="btnRegister_Click" />
-            <Button Name="btnLogin" Content="Login" Width="100" Height="30" Margin="10" FontSize="16" Click="btnLogin_Click" />
-        </StackPanel>
+        <Rectangle Fill="White" Effect="{DynamicResource MaterialDesignShadowDepth5}" RadiusX="13.667" RadiusY="13.667" Margin="96,67,95,42" />
+        <Image Width="90" Height="90" Margin="0,0,0,300" Effect="{DynamicResource MaterialDesignShadowDepth3}"/>
+        <Grid Width="280" Height="288" VerticalAlignment="Top" Margin="35,104,35,0">
+            <TextBlock Text="LOGIN" VerticalAlignment="top" HorizontalAlignment="Center" Margin="50" FontWeight="Bold" FontSize="20" Foreground="#333399" />
+            <StackPanel VerticalAlignment="Center" Margin="15,0,15,0" Height="100">
+                <TextBox x:Name="txtEmail" materialDesign:HintAssist.Hint="Email" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Height="37" />
+                <PasswordBox x:Name="txtPassword" materialDesign:HintAssist.Hint="Password" Style="{StaticResource MaterialDesignOutlinedPasswordBox}" Margin="0,0,0,20" />
+
+            </StackPanel>
+            <Button x:Name="btn_login" VerticalAlignment="Top" Content="Login"  Margin="49,201,155,0" Height="28" Effect="{DynamicResource MaterialDesignShadowDepth2}" Background="#FF7C38F5" Click="btn_login_Click" />
+            <Button x:Name="btn_signup"  Background="White" Foreground="#FF391678" Content="Signup" Margin="140,199,64,57" Effect="{DynamicResource MaterialDesignShadowDepth2}" BorderBrush="#FF391678" Click="btn_signup_Click" />
+        </Grid>
     </Grid>
 </Window>

@@ -27,6 +27,10 @@ namespace BusinessObject
         {
             return _courtRepository.getAll();
         }
+        public List<Court> GetCourtBySearch(string search)
+        {
+            return _courtRepository.findBySearch(search);
+        }
         public void Delete(int id)
         {
           _courtRepository.Delete(id);

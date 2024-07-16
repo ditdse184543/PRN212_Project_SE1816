@@ -77,7 +77,7 @@ namespace BadmintonWPFApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BadmintonWPFApp;V1.0.0.0;component/windowcustomerbookingdetail.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BadmintonWPFApp;component/windowcustomerbookingdetail.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\WindowCustomerBookingDetail.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -5,8 +5,50 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BadmintonWPFApp"
         mc:Ignorable="d"
-        Title="WindowCourt" Height="450" Width="800">
+        Title="WindowCourt" Height="450" Width="789">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="198*"/>
+            <ColumnDefinition Width="37*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,10,222" Grid.ColumnSpan="2">
+            <TextBox x:Name="SearchTextBox" Width="318" Margin="5" Height="28"/>
+            <Button Content="Search" Width="75" Margin="5" Click="SearchButton_Click"/>
+        </StackPanel>
+        <ListView x:Name="lvData" Margin="0,59,0,0" SelectionChanged="lvData_SelectionChanged" Grid.RowSpan="2" Grid.ColumnSpan="2">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Id" DisplayMemberBinding="{Binding Path=CoId}"/>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Path=CoName}"/>
+                    <GridViewColumn Header="Address" DisplayMemberBinding="{Binding Path=CoAddress}"/>
+                    <GridViewColumn Header="Info" DisplayMemberBinding="{Binding Path=CoInfo}"/>
+                    <GridViewColumn Header="Price" DisplayMemberBinding="{Binding Path=CoPrice}"/>
+                    <GridViewColumn x:Name="image" Header="Image">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding AbsoluteCoPath}" Width="100" Height="60" Stretch="Uniform"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Status" DisplayMemberBinding="{Binding Path=CoStatus}"/>
+                    <GridViewColumn x:Name="action" Header="Action">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button x:Name="Bookbtn" Content="Book" Width="75" Margin="5" Click="Bookbtn_Click"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,10,0,10" Grid.Row="2">
+            <Button Content="Back" Width="75" Margin="5" Click="BackButton_Click"/>
+        </StackPanel>
+
     </Grid>
 </Window>

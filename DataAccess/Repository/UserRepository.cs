@@ -1,4 +1,5 @@
 ﻿using DataAccess.Models;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 using System;
 using System.Collections.Generic;
@@ -31,9 +32,10 @@ namespace DataAccess.Repository
         {
             return _context.Users.FirstOrDefault(u => u.Email == email);
         }
-        public User findByEmailAndPass(string email,string pass)
+        public User findByEmailAndPass(string email, string pass)
         {
-            return _context.Users.FirstOrDefault(u=>u.Email==email&&u.Password==pass);
+            return _context.Users.Include(u => u.Roles)
+                   .FirstOrDefault(u => u.Email == email && u.Password == pass);
         }
         public User findById(int id)
         {

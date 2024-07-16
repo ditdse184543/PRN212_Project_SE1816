@@ -16,6 +16,6 @@ namespace DataAccess.Repository
         public Court findById(int id);
         public void Insert(Court Court);
         public List<Court> LoadCourtBasedOnBooking(int userId);
-        
+        public List<Court> findBySearch(string search);
     }
 }

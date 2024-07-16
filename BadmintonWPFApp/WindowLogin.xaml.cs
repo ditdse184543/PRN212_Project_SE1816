@@ -28,7 +28,7 @@ namespace BadmintonWPFApp
             _userObject = new UserObject();
         }
 
-        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        private void btn_login_Click(object sender, RoutedEventArgs e)
         {
             string email = txtEmail.Text;
             string pass = txtPassword.Password;
@@ -37,33 +37,37 @@ namespace BadmintonWPFApp
                 MessageBox.Show("Please fill in all fields", "Login", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
-        User login=    _userObject.Login(email, pass);
+            User login = _userObject.Login(email, pass);
             if (login != null)
             {
-                MessageBox.Show("Login Successfully", "Login", MessageBoxButton.OK, MessageBoxImage.Information);
-                //    MainWindow main = new MainWindow();
-                //  main.Show();
+                List<int> roleIds = login.Roles.Select(u => u.RoleId).ToList();
+                if (roleIds.Contains(1))
+                {
+                    WindowAdmin admin = new WindowAdmin();
+                    admin.Show();
+                    this.Close();
+                }
+                else if (roleIds.Contains(2) || roleIds.Contains(3))
+                {
+                    WindowCourt court = new WindowCourt();
+                    court.Show();
+                    this.Close();
+                }
                 Properties.Settings.Default.Email = email;
-                WindowCustomer window= new WindowCustomer();
-                window.Show();
-                this.Close();
-                //phan quyen
-               
             }
             else
             {
                 MessageBox.Show("Wrong username or password", "Login", MessageBoxButton.OK, MessageBoxImage.Error);
 
             }
-           
         }
-        private void btnRegister_Click(object sender, RoutedEventArgs e)
-        {
-         WindowLogin login = new WindowLogin();
-            login.Show();
-            this.Close();
 
+        private void btn_signup_Click(object sender, RoutedEventArgs e)
+        {
+            WindowRegister register = new WindowRegister();
+            register.Show();
+            this.Close();
         }
-       
+
     }
 }

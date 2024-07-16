@@ -81,3 +81,20 @@ C:\prn212\wpf\4\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\DataAccess
 C:\prn212\wpf\4\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\DataAccess.pdb
 C:\prn212\wpf\4\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\Business.4FFE46AD.Up2Date
 C:\prn212\wpf\4\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\ref\BusinessObject.dll
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\appsettings.json
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.deps.json
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.dll
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.pdb
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\DataAccess.dll
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfo.cs
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.sourcelink.json
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\Business.4FFE46AD.Up2Date
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.dll
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\refint\BusinessObject.dll
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.pdb
+C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\ref\BusinessObject.dll

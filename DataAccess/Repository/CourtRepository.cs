@@ -1,4 +1,5 @@
 ﻿using DataAccess.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -45,7 +46,13 @@ namespace DataAccess.Repository
             _context.SaveChanges();
 
         }
-
+        public List<Court> findBySearch(string search)
+        {
+            return _context.Courts
+                            .Where(ac => EF.Functions.Like(ac.CoName, $"{search}%") ||
+                                        EF.Functions.Like(ac.CoAddress.ToString(), $"{search}%"))
+                            .ToList();
+        }
         public void Update(Court Court)
         {
             var existingCourt = findById(Court.CoId);
