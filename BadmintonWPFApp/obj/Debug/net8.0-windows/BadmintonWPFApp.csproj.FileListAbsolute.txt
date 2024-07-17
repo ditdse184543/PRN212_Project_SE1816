@@ -499,3 +499,9 @@ C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug
 C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.pdb
 C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.genruntimeconfig.cache
 C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\ref\BadmintonWPFApp.dll
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Styles\ButtonStyles.baml
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Styles\UIColors.baml
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\App.baml

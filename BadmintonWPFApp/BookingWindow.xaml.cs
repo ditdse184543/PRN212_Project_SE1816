@@ -2,28 +2,19 @@
 using DataAccess.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace BadmintonWPFApp
 {
-    /// <summary>
-    /// Interaction logic for BookingWindow.xaml
-    /// </summary>
     public partial class BookingWindow : Window
     {
         private readonly BookingObject bookingObject;
         private readonly TimeSlotObject timeSlotObject;
         private List<TimeSlot> timeSlots = new List<TimeSlot>();
+        private ComboBox fixedBooking = new ComboBox();
+        private ComboBox flexibleBooking = new ComboBox();
+        string type;
         public BookingWindow()
         {
             InitializeComponent();
@@ -31,6 +22,10 @@ namespace BadmintonWPFApp
             timeSlotObject = new TimeSlotObject();
             InitializeTimeSlots();
             BookingDatePicker.SelectedDate = DateTime.Today;
+            TypeComboBox.SelectedIndex = 0;
+
+            fixedBooking.SelectionChanged += FixedBooking_SelectionChanged;
+            flexibleBooking.SelectionChanged += FlexibleBooking_SelectionChanged;
         }
 
         private void AddPromptComboBox()
@@ -43,6 +38,18 @@ namespace BadmintonWPFApp
             };
             TimeSlotComboBox.Items.Add(promptItem);
         }
+
+        private void AddPromptDynamicComboBox(ComboBox comboBox, string promptText)
+        {
+            ComboBoxItem promptItem = new ComboBoxItem
+            {
+                Content = promptText,
+                IsEnabled = false,
+                IsSelected = true
+            };
+            comboBox.Items.Add(promptItem);
+        }
+
         private void InitializeTimeSlots()
         {
             TimeSlotComboBox.Items.Clear();
@@ -57,88 +64,249 @@ namespace BadmintonWPFApp
             TimeSlotComboBox.Items.Add("4:00 PM - 5:00 PM");
         }
 
+        private void TypeComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (TypeComboBox.SelectedItem == null)
+                return;
+
+            ComboBoxItem selectedItem = TypeComboBox.SelectedItem as ComboBoxItem;
+            if (selectedItem == null)
+                return;
+
+            type = selectedItem.Content as string;
+            if (type == null)
+                return;
+
+            fixedBooking.Items.Clear();
+            flexibleBooking.Items.Clear();
+
+            AddPromptDynamicComboBox(fixedBooking, "Choose your weeks");
+            AddPromptDynamicComboBox(flexibleBooking, "Choose your hours");
+
+            for (int i = 4; i <= 8; i++)
+            {
+                fixedBooking.Items.Add(i);
+            }
+            for (int i = 1; i <= 40; i++)
+            {
+                if (i % 5 == 0)
+                {
+                    flexibleBooking.Items.Add(i);
+                }
+            }
+
+            if (type == "Fixed")
+            {
+                Dynamic.Text = "Total weeks:";
+                DynamicInputControl.Content = fixedBooking;
+            }
+            else if (type == "Flexible")
+            {
+                Dynamic.Text = "Total hours:";
+                DynamicInputControl.Content = flexibleBooking;
+            }
+            else
+            {
+                Dynamic.Text = string.Empty;
+                DynamicInputControl.Content = null;
+            }
+            type = selectedItem.Content as string;
+        }
 
         private void BookingDatePicker_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
         {
             if (BookingDatePicker.SelectedDate.HasValue)
             {
-                DateOnly selectedDate = DateOnly.FromDateTime(BookingDatePicker.SelectedDate.Value);
-                List<TimeSlot> slots = timeSlotObject.getByDate(selectedDate);
+                DateTime selectedDate = BookingDatePicker.SelectedDate.Value;
 
-                InitializeTimeSlots();
-
-                foreach (var slot in slots)
+                if (selectedDate < DateTime.Today)
                 {
-                    for (int i = TimeSlotComboBox.Items.Count - 1; i >= 0; i--)
+                    MessageBox.Show("Please select a date that is today or later.");
+                    BookingDatePicker.SelectedDate = DateTime.Today;
+                }
+                else
+                {
+                    DateOnly dateOnly = DateOnly.FromDateTime(selectedDate);
+                    List<TimeSlot> slots = timeSlotObject.getByDate(dateOnly);
+
+                    InitializeTimeSlots();
+
+                    foreach (var slot in slots)
                     {
-                        if (TimeSlotComboBox.Items[i].ToString() == slot.TsTime)
+                        for (int i = TimeSlotComboBox.Items.Count - 1; i >= 0; i--)
                         {
-                            TimeSlotComboBox.Items.RemoveAt(i);
-                            break;
+                            if (TimeSlotComboBox.Items[i].ToString() == slot.TsTime)
+                            {
+                                TimeSlotComboBox.Items.RemoveAt(i);
+                                break;
+                            }
                         }
                     }
                 }
             }
         }
 
-
         private void BookButton_Click(object sender, RoutedEventArgs e)
         {
-            string timeSlot = TimeSlotComboBox.SelectedItem?.ToString() ?? "No time slot selected";
-            string playerName = PlayerNameTextBox.Text;
+            if (!BookingDatePicker.SelectedDate.HasValue)
+            {
+                MessageBox.Show("Please select a booking date.");
+                return;
+            }
+
+            if (TimeSlotComboBox.SelectedItem == null || (TimeSlotComboBox.SelectedItem as ComboBoxItem)?.Content.ToString() == "Choose your time")
+            {
+                MessageBox.Show("Please select a valid time slot.");
+                return;
+            }
+
+            DateOnly date = DateOnly.FromDateTime(BookingDatePicker.SelectedDate.Value);
+            string timeSlot = TimeSlotComboBox.SelectedItem.ToString();
+            string bookingDisplay = $"{date} - {timeSlot}";
+            ComboBoxItem selectedItem = (ComboBoxItem)TimeSlotComboBox.ItemContainerGenerator.ContainerFromItem(TimeSlotComboBox.SelectedItem);
+
+            if (type == "Fixed")
+            {
+                if (fixedBooking.SelectedItem == null || (fixedBooking.SelectedItem as ComboBoxItem)?.Content.ToString() == "Choose your weeks")
+                {
+                    MessageBox.Show("Please select the number of weeks.");
+                    return;
+                }
+                int weeks = int.Parse(fixedBooking.SelectedItem.ToString());
+                bookingDisplay += $" ({weeks} weeks)";
+            }
+            else if (type == "Flexible")
+            {
+                if (flexibleBooking.SelectedItem == null || (flexibleBooking.SelectedItem as ComboBoxItem)?.Content.ToString() == "Choose your hours")
+                {
+                    MessageBox.Show("Please select the number of hours.");
+                    return;
+                }
+                int hours = int.Parse(flexibleBooking.SelectedItem.ToString());
+                bookingDisplay += $" ({hours - BookingsListBox.Items.Count - 1} hours)";
+            }
 
             TimeSlot slot = new TimeSlot
             {
                 CoId = 2,
                 TsCheckedIn = false,
-                TsDate = DateOnly.FromDateTime(BookingDatePicker.SelectedDate.Value),
+                TsDate = date,
                 TsTime = timeSlot
             };
             timeSlots.Add(slot);
 
-            string bookingDisplay = $"{BookingDatePicker.SelectedDate} - {timeSlot} - {playerName}";
             BookingsListBox.Items.Add(bookingDisplay);
-
-            // Clear input fields
-            BookingDatePicker.SelectedDate = null;
             TimeSlotComboBox.SelectedIndex = 0;
-            PlayerNameTextBox.Clear();
+            selectedItem.IsEnabled = false;
+            if (BookingsListBox.Items.Count > 0)
+            {
+                TypeComboBox.IsEnabled = false;
+            }
+        }
+
+        private void FixedBooking_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            UpdateBookingDisplay();
+        }
+
+        private void FlexibleBooking_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            UpdateBookingDisplay();
+        }
+
+        private void UpdateBookingDisplay()
+        {
+            int count = BookingsListBox.Items.Count;
+            for (int i = 0; i < BookingsListBox.Items.Count; i++)
+            {
+                string originalDisplay = BookingsListBox.Items[i].ToString();
+                string newDisplay = originalDisplay.Split('(')[0].Trim();
+
+                if (type == "Fixed" && fixedBooking.SelectedItem != null)
+                {
+                    int weeks = int.Parse(fixedBooking.SelectedItem.ToString());
+                    newDisplay += $" ({weeks} weeks)";
+                }
+                else if (type == "Flexible" && flexibleBooking.SelectedItem != null)
+                {
+                    int hours = int.Parse(flexibleBooking.SelectedItem.ToString());
+                    newDisplay += $" ({hours - count - 1} hours)";
+                }
+
+                BookingsListBox.Items[i] = newDisplay;
+            }
         }
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
             timeSlots.Clear();
-            BookingsListBox.ItemsSource = null;
+            BookingsListBox.Items.Clear();
             BookingDatePicker.SelectedDate = null;
             TimeSlotComboBox.SelectedIndex = 0;
+            TypeComboBox.IsEnabled = true;
+            foreach (var item in TimeSlotComboBox.Items)
+            {
+                ComboBoxItem comboBoxItem = (ComboBoxItem)TimeSlotComboBox.ItemContainerGenerator.ContainerFromItem(item);
+                if (comboBoxItem != null)
+                {
+                    comboBoxItem.IsEnabled = true;
+                }
+            }
         }
 
         private void ConfirmButton_Click(object sender, RoutedEventArgs e)
         {
-            Booking booking = new Booking
+            int hours = int.Parse(fixedBooking.SelectedItem.ToString());
+            int weeks = int.Parse(flexibleBooking.SelectedItem.ToString());
+            if (BookingsListBox.Items.Count == 0)
             {
-                CoId= 2,
-                BBookingType = "Casual",
-                UserId = 1,
-            };
-            foreach(TimeSlot slot  in timeSlots)
-            {
-                booking.TimeSlots.Add(slot);
+                MessageBox.Show("There are no bookings to confirm.");
+                return;
             }
             if (MessageBox.Show("Are you certain with your decision?", "Confirmation", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
+                Booking booking = new Booking
+                {
+                    CoId = 2,
+                    BBookingType = type,
+                    UserId = 1,
+                    BTotalHours = hours - BookingsListBox.Items.Count,
+                };
+                if (type == "Casual")
+                {
+                    foreach (TimeSlot slot in timeSlots)
+                    {
+                        booking.TimeSlots.Add(slot);
+                    }
+                }
+                else if (type == "Fixed")
+                {
+                    foreach (var item in timeSlots)
+                    {
+                        for (int i = 0; i < weeks; i++)
+                        {
+                            TimeSlot timeSlot = new TimeSlot()
+                            {
+                                CoId = item.CoId,
+                                TsCheckedIn = item.TsCheckedIn,
+                                TsDate = item.TsDate.AddDays(7 * i),
+                                TsTime = item.TsTime,
+                            };
+                            booking.TimeSlots.Add(timeSlot);
+                        }
+                    }
+                }
+                else
+                {
+                    foreach (TimeSlot slot in timeSlots)
+                    {
+                        booking.TimeSlots.Add(slot);
+                    }
+                }
+
                 bookingObject.Insert(booking);
+                MessageBox.Show("Booking confirmed!");
             }
-        }
-
-        private void btnClose_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
-        }
-
-        private void btnMinimize_Click(object sender, RoutedEventArgs e)
-        {
-            this.WindowState = WindowState.Minimized;
         }
     }
 }

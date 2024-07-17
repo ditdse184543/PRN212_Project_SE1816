@@ -3422,33 +3422,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Windows\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\source\\New folder\\PRN212_Project_SE1816\\BadmintonWPFApp\\BadmintonWPFApp.csproj",
+      "projectUniqueName": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BadmintonWPFApp\\BadmintonWPFApp.csproj",
       "projectName": "BadmintonWPFApp",
-      "projectPath": "C:\\Users\\admin\\source\\New folder\\PRN212_Project_SE1816\\BadmintonWPFApp\\BadmintonWPFApp.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\source\\New folder\\PRN212_Project_SE1816\\BadmintonWPFApp\\obj\\",
+      "projectPath": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BadmintonWPFApp\\BadmintonWPFApp.csproj",
+      "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BadmintonWPFApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\admin\\source\\New folder\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "C:\\Users\\admin\\source\\New folder\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj"
+            "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "C:\\Users\\Windows\\source\\repos\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj"
             }
           }
         }
