@@ -5,36 +5,64 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BadmintonWPFApp"
         mc:Ignorable="d"
-        Title="WindowRegister" Height="450" Width="800">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        <StackPanel Grid.Row="0" Margin="10" HorizontalAlignment="Center">
-            <TextBlock Text="Username" FontSize="16" Margin="0,5"/>
-            <TextBox Width="450" Height="30" FontSize="16" Name="txtUsername"/>
-        </StackPanel>
+        Title="WindowRegister" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent">
+    <Border CornerRadius="55">
 
-        <StackPanel Grid.Row="1" Margin="10" HorizontalAlignment="Center">
-            <TextBlock Text="Email" FontSize="16" Margin="0,5"/>
-            <TextBox Width="450" Height="30" FontSize="16" Name="txtEmail"/>
-        </StackPanel>
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                <GradientStop Color="#1B0064" Offset="0"/>
+                <GradientStop Color="#462AD8" Offset="0.35"/>
+                <GradientStop Color="#46B8DA" Offset="1"/>
+            </LinearGradientBrush>
+        </Border.Background>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="REGISTER" VerticalAlignment="top" HorizontalAlignment="Center" Margin="30" FontWeight="Bold" FontSize="30" Foreground="{StaticResource color6}" />
+            <StackPanel Grid.Row="1" Margin="10" HorizontalAlignment="Center">
+                <TextBlock Text="Username" FontSize="16" Margin="0,5" FontWeight="Bold" Foreground="#BDBDBD"/>
+                <TextBox Width="450" Height="30" FontSize="16" Name="txtUsername" Foreground="White" BorderBrush="#BDBDBD" Padding="20,0,0,0">
+                    <TextBox.Background>
+                        <ImageBrush ImageSource="Images/user-icon.png"
+                                    Stretch="None" AlignmentX="Left"/>
+                    </TextBox.Background>
+                </TextBox>
+            </StackPanel>
 
-        <StackPanel Grid.Row="2" Margin="10" HorizontalAlignment="Center">
-            <TextBlock Text="Password" FontSize="16" Margin="0,5"/>
-            <PasswordBox Width="450" Height="30" FontSize="16" Name="txtPassword"/>
-        </StackPanel>
-        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <StackPanel Grid.Row="2" Margin="10" HorizontalAlignment="Center">
+                <TextBlock Text="Email" FontSize="16" Margin="0,5" FontWeight="Bold" Foreground="#BDBDBD"/>
+                <TextBox Padding="25,0,0,0" Width="450" Height="30" FontSize="16" Name="txtEmail" Foreground="White" BorderBrush="#BDBDBD">
+                    <TextBox.Background>
+                        <ImageBrush ImageSource="Images/icons8-email-16.png"
+                                    Stretch="None" AlignmentX="Left"/>
+                    </TextBox.Background>
+                </TextBox>
+            </StackPanel>
 
-            <Button Name="btnRegister" Content="Register" Width="100" Height="30" Margin="10" FontSize="16" Click="btnRegister_Click" />
-            <Button Name="btnLogin" Content="Login" Width="100" Height="30" Margin="10" FontSize="16" Click="btnLogin_Click" />
-        </StackPanel>
-    </Grid>
+            <StackPanel Grid.Row="3" Margin="10" HorizontalAlignment="Center">
+                <TextBlock Text="Password" FontSize="16" Margin="0,5" FontWeight="Bold" Foreground="#BDBDBD"/>
+                <PasswordBox Width="450" Height="30" FontSize="16" Name="txtPassword" Foreground="White" BorderBrush="#BDBDBD" Padding="20,0,0,0">
+                    <PasswordBox.Background>
+                        <ImageBrush ImageSource="Images/key-icon.png"
+                                    Stretch="None" AlignmentX="Left"/>
+                    </PasswordBox.Background>
+                </PasswordBox>
+            </StackPanel>
+            <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+
+                <Button Name="btnRegister" Content="Register" Width="100" Height="30" Margin="10" FontSize="16" Click="btnRegister_Click" Background="{StaticResource plainTextColor1}" Foreground="#FF391678"/>
+                <Button Name="btnLogin" Content="Login" Width="100" Height="30" Margin="10" FontSize="16" Click="btnLogin_Click" />
+            </StackPanel>
+        </Grid>
+    </Border>
 </Window>

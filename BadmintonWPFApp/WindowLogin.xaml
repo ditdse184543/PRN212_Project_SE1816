@@ -17,8 +17,9 @@
                     <GradientStop Color="#462AD8" Offset="0.35"/>
                     <GradientStop Color="#46B8DA" Offset="1"/>
                 </LinearGradientBrush>
-
+                
             </Rectangle.Fill>
+            
 
         </Rectangle>
 

@@ -18,7 +18,7 @@
 
                 <Border.BorderBrush>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                        <GradientStop Color="#DA34AE" Offset="0"/>
+                    <GradientStop Color="#8BFFD0" Offset="0"/>
                         <GradientStop Color="#462AD8" Offset="0.75"/>
                         <GradientStop Color="#46B8DA" Offset="1"/>
                     </LinearGradientBrush>
@@ -32,8 +32,8 @@
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
                 <StackPanel Orientation="Vertical" Margin="10" Grid.Row="0">
@@ -45,9 +45,9 @@
 
                     <StackPanel Orientation="Horizontal" Margin="5">
                         <Label Content="Court Name:" Width="150"
-                               FontWeight="Medium" FontSize="15"
+                               FontWeight="Medium" FontSize="20"
                                FontFamily="Montserrat"                            
-                               Foreground="White"/>
+                               Foreground="DarkGray"/>
                         <TextBox Name="txtName" Width="300" Margin="0,0,5,0"
                                  Foreground="White"
                                 CaretBrush="LightGray"
@@ -56,9 +56,9 @@
 
                     <StackPanel Orientation="Horizontal" Margin="5">
                         <Label Content="Address:" Width="150"
-                               FontWeight="Medium" FontSize="15"
+                               FontWeight="Medium" FontSize="20"
                                 FontFamily="Montserrat"                            
-                                Foreground="White"/>
+                                Foreground="DarkGray"/>
                         <TextBox Name="txtAddress" Width="300" Margin="0,0,5,0"
                                  Foreground="White"
                                 CaretBrush="LightGray"
@@ -67,9 +67,9 @@
 
                     <StackPanel Orientation="Horizontal" Margin="5">
                         <Label Content="Info:" Width="150"
-                               FontWeight="Medium" FontSize="15"
+                               FontWeight="Medium" FontSize="20"
                                 FontFamily="Montserrat"                            
-                                Foreground="White"/>
+                                Foreground="DarkGray"/>
                         <TextBox Name="txtInfo" Width="300" Margin="0,0,5,0"
                                  Foreground="White"
                                 CaretBrush="LightGray"
@@ -78,9 +78,9 @@
 
                     <StackPanel Orientation="Horizontal" Margin="5">
                         <Label Content="Price:" Width="150"
-                               FontWeight="Medium" FontSize="15"
+                               FontWeight="Medium" FontSize="20"
                                 FontFamily="Montserrat"                            
-                                Foreground="White"/>
+                                Foreground="DarkGray"/>
                         <TextBox Name="txtPrice" Width="200" Margin="0,0,5,0"
                                  Foreground="White"
                                 CaretBrush="LightGray"
@@ -89,14 +89,14 @@
 
                     <StackPanel Orientation="Horizontal" Margin="5">
                         <Label Content="Image Path:" Width="150"
-                               FontWeight="Medium" FontSize="15"
+                               FontWeight="Medium" FontSize="18"
                                 FontFamily="Montserrat"                            
-                                Foreground="White" Padding="0,20,0,0"/>
+                                Foreground="DarkGray" Padding="5,23,0,0"/>
                         <TextBox Name="txtImagePath" Width="200" IsReadOnly="True" Margin="0,0,5,0"
                                  Foreground="White"
                                 CaretBrush="LightGray"
                                 BorderBrush="DarkGray"/>
-                        <Button Name="btnUploadImage" Content="🗂️" Height="35" Width="40" Margin="5" Background="{StaticResource color5}" Padding="0"  Click="btnUploadImage_Click"/>
+                        <Button Name="btnUploadImage" Content="📁" Height="35" Width="35" Margin="5" Foreground="{StaticResource color6}" Background="{StaticResource color8}" Padding="0"  Click="btnUploadImage_Click"/>
                         <Button Name="btnSave" Content="Save" Width="100" Margin="5" Background="{StaticResource color2}" Foreground="White" Click="btnSave_Click"/>
                     </StackPanel>
 
@@ -105,7 +105,7 @@
                 </StackPanel>
 
                 <!-- DataGrid for displaying Court records -->
-                <DataGrid Name="dataGridAdminCourt" Grid.Row="1" Margin="10" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="dataGridAdminCourt_SelectionChanged">
+                <DataGrid Name="dataGridAdminCourt" Grid.Row="2" Margin="10" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="dataGridAdminCourt_SelectionChanged" Background="#DAF5FF">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Id" Binding="{Binding CoId}" Width="*"/>
                         <DataGridTextColumn Header="Name" Binding="{Binding CoName}" Width="*"/>
@@ -124,17 +124,22 @@
                 </DataGrid>
 
                 <!-- CRUD Buttons -->
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="2" Margin="10">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="1" Margin="10">
                     <Button Name="btnCreate" Content="Create" Width="80" Margin="5" Click="btnCreate_Click" Background="{StaticResource color1}"/>
                     <Button Name="btnUpdate" Content="Update" Width="80" Margin="5" Click="btnUpdate_Click" Background="{StaticResource color2}"/>
                     <Button Name="btnDelete" Content="Delete" Width="80" Margin="5" Click="btnDelete_Click" Background="{StaticResource color4}"/>
                     <Button Name="btnRefresh" Content="Refresh" Width="80" Margin="5" Click="btnRefresh_Click" Background="{StaticResource color8}"/>
-                    <StackPanel Orientation="Horizontal" Width="300">
-                        <TextBox Name="txtSearch" Width="250" Margin="0,0,5,0" 
-                                 Foreground="White"
+                    <StackPanel Orientation="Horizontal" Width="380">
+                        <TextBox Name="txtSearch" Width="280" Margin="20,0,5,0" 
+                                 Foreground="Aqua"
                                 CaretBrush="LightGray"
                                 BorderBrush="DarkGray"/>
-                        <Button Content="🔍" Name="btnSearch" Width="40" Padding="0"/>
+                        <Button Content="" Name="btnSearch" Height="40" Width="60" Padding="0" BorderBrush="#BBBBBB">
+                            <Button.Background>
+                                <ImageBrush ImageSource="Images/icons8-search-16.png"
+                                            Stretch="None" AlignmentX="Center"/>
+                            </Button.Background>
+                        </Button>
                     </StackPanel>
                 </StackPanel>
             </Grid>
