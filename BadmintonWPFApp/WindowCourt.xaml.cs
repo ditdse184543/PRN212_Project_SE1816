@@ -37,7 +37,9 @@ namespace BadmintonWPFApp
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-
+            MainWindow main = new MainWindow();
+            main.Show();
+            this.Close();
         }
 
         private void SearchButton_Click(object sender, RoutedEventArgs e)
@@ -65,13 +67,12 @@ namespace BadmintonWPFApp
                         lvData.SelectedItem = room;
                         Court selectedRoom = lvData.SelectedItem as Court;
                         Properties.Settings.Default.CourtId = selectedRoom.CoId;
-                        Properties.Settings.Default.UserId = selectedRoom.UserId;
                         Properties.Settings.Default.Save();
                         BookingWindow windowOrderBooking = new BookingWindow();
                         windowOrderBooking.Closed += LoadingAgain;
                         windowOrderBooking.Show();
-                        
-                       
+
+
                     }
                 }
             }

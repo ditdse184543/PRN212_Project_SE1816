@@ -40,20 +40,53 @@ namespace BadmintonWPFApp
             User login = _userObject.Login(email, pass);
             if (login != null)
             {
+                int userId = login.UserId;
                 List<int> roleIds = login.Roles.Select(u => u.RoleId).ToList();
+                //Customer
                 if (roleIds.Contains(1))
                 {
-                    WindowAdmin admin = new WindowAdmin();
+                    Properties.Settings.Default.Email = email;
+                    Properties.Settings.Default.RoleId = 1;
+                    Properties.Settings.Default.UserId = login.UserId;
+                    Properties.Settings.Default.Save();
+                    MainWindow admin = new MainWindow();
                     admin.Show();
                     this.Close();
+
                 }
-                else if (roleIds.Contains(2) || roleIds.Contains(3))
+                //Admin
+                else if (roleIds.Contains(2))
                 {
-                    WindowCourt court = new WindowCourt();
-                    court.Show();
+                    Properties.Settings.Default.Email = email;
+                    Properties.Settings.Default.RoleId = 2;
+                    Properties.Settings.Default.UserId = login.UserId;
+                    Properties.Settings.Default.Save();
+                    WindowAdmin main = new WindowAdmin();
+                    main.Show();
                     this.Close();
                 }
-                Properties.Settings.Default.Email = email;
+                //Manager
+                else if (roleIds.Contains(3))
+                {
+                    Properties.Settings.Default.Email = email;
+                    Properties.Settings.Default.RoleId = 3;
+                    Properties.Settings.Default.UserId = login.UserId;
+                    Properties.Settings.Default.Save();
+                    MainWindow main = new MainWindow();
+                    main.Show();
+                    this.Close();
+                }
+                //Staff
+                else if (roleIds.Contains(4))
+                {
+                    Properties.Settings.Default.Email = email;
+                    Properties.Settings.Default.RoleId = 4;
+                    Properties.Settings.Default.UserId = login.UserId;
+                    Properties.Settings.Default.Save();
+                    MainWindow main = new MainWindow();
+                    main.Show();
+                    this.Close();
+                }
             }
             else
             {

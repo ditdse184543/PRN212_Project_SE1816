@@ -61,13 +61,13 @@ namespace BadmintonWPFApp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string d {
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int RoleId {
             get {
-                return ((string)(this["d"]));
+                return ((int)(this["RoleId"]));
             }
             set {
-                this["d"] = value;
+                this["RoleId"] = value;
             }
         }
     }

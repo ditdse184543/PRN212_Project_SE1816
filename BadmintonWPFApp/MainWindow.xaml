@@ -4,9 +4,92 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BadmintonWPFApp"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <DockPanel>
+        <!-- Header -->
+        <TextBlock Text="Booking Court" FontSize="24" FontWeight="Bold" 
+                   HorizontalAlignment="Center" Margin="10" DockPanel.Dock="Top"
+                   Foreground="White" Background="DarkBlue" Padding="10"/>
 
-    </Grid>
+        <!-- Main content -->
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="800" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- TreeView for navigation -->
+            <TreeView x:Name="myTreeView" MinWidth="220" SelectedItemChanged="TreeView_SelectedItemChanged" Grid.Column="0"
+                      Background="#FFEFEDED" BorderBrush="DarkGray" Margin="0,0,0,221">
+                <TreeViewItem>
+                    <TreeViewItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="AccountCircle" Width="16" Height="16" />
+                            <TextBlock Text="Profile" Margin="5,0,0,0"/>
+                        </StackPanel>
+                    </TreeViewItem.Header>
+                    <TreeViewItem>
+                        <TreeViewItem.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="Information" Width="16" Height="16" />
+                                <TextBlock Text="Your Information" Margin="5,0,0,0"/>
+                            </StackPanel>
+                        </TreeViewItem.Header>
+                    </TreeViewItem>
+                </TreeViewItem>
+                <TreeViewItem>
+                    <TreeViewItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="Tennis" Width="16" Height="16" />
+                            <TextBlock Text="Court" Margin="5,0,0,0"/>
+                        </StackPanel>
+                    </TreeViewItem.Header>
+                    <TreeViewItem>
+                        <TreeViewItem.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="Book" Width="16" Height="16" />
+                                <TextBlock x:Name="BookingHotel" Text="Booking" Margin="5,0,0,0"/>
+                            </StackPanel>
+                        </TreeViewItem.Header>
+                    </TreeViewItem>
+                    <TreeViewItem>
+                        <TreeViewItem.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="CourtHammer" Width="16" Height="16" />
+                                <TextBlock Text="Manage court" Margin="5,0,0,0"/>
+                            </StackPanel>
+                        </TreeViewItem.Header>
+                    </TreeViewItem>
+                </TreeViewItem>
+                <TreeViewItem>
+                    <TreeViewItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="Logout" Width="16" Height="16" />
+                            <TextBlock Text="Logout" Margin="5,0,0,0"/>
+                        </StackPanel>
+                    </TreeViewItem.Header>
+                </TreeViewItem>
+                <TreeViewItem>
+                    <TreeViewItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="LoginVariant" Width="16" Height="16" />
+                            <TextBlock Text="Login" Margin="5,0,0,0"/>
+                        </StackPanel>
+                    </TreeViewItem.Header>
+                </TreeViewItem>
+                <!-- Add StackPanel here -->
+
+            </TreeView>
+            <StackPanel Width="719" Margin="40,206,40,-206" >
+                <TextBlock Text="Introduction" FontSize="18" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,0" HorizontalAlignment="Center"/>
+                <TextBlock  Text="Welcome to FUMiniHotelSystem! We are glad to have you here. Our hotel system offers a range of features designed to make your stay as comfortable and enjoyable as possible. Thank you for choosing FUMiniHotelSystem. We look forward to making your stay a memorable one." 
+               FontSize="14" Foreground="Gray" TextWrapping="Wrap" Width="643"/>
+            </StackPanel>
+            <!-- Frame for displaying content -->
+            <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Column="1"
+                   Background="White" BorderBrush="DarkGray" BorderThickness="1"/>
+        </Grid>
+    </DockPanel>
 </Window>
