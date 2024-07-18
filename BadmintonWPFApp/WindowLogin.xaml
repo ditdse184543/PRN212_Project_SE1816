@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:BadmintonWPFApp"
         mc:Ignorable="d"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        Title="WindowLogin" Height="450" Width="507">
+        Title="WindowLogin" Height="450" Width="507"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent">
     <Grid>
         <Rectangle Height="500" VerticalAlignment="Center" >
             <Rectangle.Fill>

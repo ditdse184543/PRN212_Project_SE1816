@@ -5,81 +5,139 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BadmintonWPFApp"
         mc:Ignorable="d"
-        Title="WindowAdmin" Height="800" Width="800">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
+        Title="WindowAdmin" Height="800" Width="800"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent">
+    
+        <Border CornerRadius="55">
+            <Border.Background>
+            <ImageBrush ImageSource="Images/best-badminton-background-gyixxvloqmf5t6of.jpg"
+                    Stretch="None" AlignmentX="Left"/>
+            </Border.Background>
+            <Border CornerRadius="50" BorderThickness="5" Opacity="0.92" Padding="20">
 
-        <StackPanel Orientation="Vertical" Margin="10" Grid.Row="0">
-            <!-- Labels and TextBoxes for Court attributes -->
-          <!--  <StackPanel Orientation="Horizontal" Margin="5">
-                <Label Content="Court Id:" Foreground="Black" Width="150"/>
-                <TextBox Name="txtId" Foreground="Blue" Width="200" Margin="0,0,5,0"/>
-            </StackPanel> -->
+                <Border.BorderBrush>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#DA34AE" Offset="0"/>
+                        <GradientStop Color="#462AD8" Offset="0.75"/>
+                        <GradientStop Color="#46B8DA" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.BorderBrush>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                        <GradientStop Color="#1B1448" Offset="0"/>
+                        <GradientStop Color="#2C4D70" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
 
-            <StackPanel Orientation="Horizontal" Margin="5">
-                <Label Content="Court Name:" Foreground="Black" Width="150"/>
-                <TextBox Name="txtName" Foreground="Blue" Width="200" Margin="0,0,5,0"/>
-            </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="10" Grid.Row="0">
+                    <!-- Labels and TextBoxes for Court attributes -->
+                  <!--  <StackPanel Orientation="Horizontal" Margin="5">
+                        <Label Content="Court Id:" Foreground="Black" Width="150"/>
+                        <TextBox Name="txtId" Foreground="Blue" Width="200" Margin="0,0,5,0"/>
+                    </StackPanel> -->
 
-            <StackPanel Orientation="Horizontal" Margin="5">
-                <Label Content="Address:" Foreground="Black" Width="150"/>
-                <TextBox Name="txtAddress" Foreground="Blue" Width="200" Margin="0,0,5,0"/>
-            </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="5">
+                        <Label Content="Court Name:" Width="150"
+                               FontWeight="Medium" FontSize="15"
+                               FontFamily="Montserrat"                            
+                               Foreground="White"/>
+                        <TextBox Name="txtName" Width="300" Margin="0,0,5,0"
+                                 Foreground="White"
+                                CaretBrush="LightGray"
+                                BorderBrush="DarkGray"/>
+                    </StackPanel>
 
-            <StackPanel Orientation="Horizontal" Margin="5">
-                <Label Content="Info:" Foreground="Black" Width="150"/>
-                <TextBox Name="txtInfo" Foreground="Blue" Width="200" Margin="0,0,5,0"/>
-            </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="5">
+                        <Label Content="Address:" Width="150"
+                               FontWeight="Medium" FontSize="15"
+                                FontFamily="Montserrat"                            
+                                Foreground="White"/>
+                        <TextBox Name="txtAddress" Width="300" Margin="0,0,5,0"
+                                 Foreground="White"
+                                CaretBrush="LightGray"
+                                BorderBrush="DarkGray"/>
+                    </StackPanel>
 
-            <StackPanel Orientation="Horizontal" Margin="5">
-                <Label Content="Price:" Foreground="Black" Width="150"/>
-                <TextBox Name="txtPrice" Foreground="Blue" Width="200" Margin="0,0,5,0"/>
-            </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="5">
+                        <Label Content="Info:" Width="150"
+                               FontWeight="Medium" FontSize="15"
+                                FontFamily="Montserrat"                            
+                                Foreground="White"/>
+                        <TextBox Name="txtInfo" Width="300" Margin="0,0,5,0"
+                                 Foreground="White"
+                                CaretBrush="LightGray"
+                                BorderBrush="DarkGray"/>
+                    </StackPanel>
 
-            <StackPanel Orientation="Horizontal" Margin="5">
-                <Label Content="Image Path:" Foreground="Black" Width="150"/>
-                <TextBox Name="txtImagePath" Foreground="Blue" Width="200" IsReadOnly="True" Margin="0,0,5,0"/>
-                <Button Name="btnUploadImage" Content="Upload Image" Width="100" Margin="5" Click="btnUploadImage_Click"/>
-                <Button Name="btnSave" Content="Save" Width="100" Margin="5" Click="btnSave_Click"/>
-            </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="5">
+                        <Label Content="Price:" Width="150"
+                               FontWeight="Medium" FontSize="15"
+                                FontFamily="Montserrat"                            
+                                Foreground="White"/>
+                        <TextBox Name="txtPrice" Width="200" Margin="0,0,5,0"
+                                 Foreground="White"
+                                CaretBrush="LightGray"
+                                BorderBrush="DarkGray"/>
+                    </StackPanel>
 
-            <Image Name="imagePicture" Width="200" Height="200" Margin="5" HorizontalAlignment="Center"/>
+                    <StackPanel Orientation="Horizontal" Margin="5">
+                        <Label Content="Image Path:" Width="150"
+                               FontWeight="Medium" FontSize="15"
+                                FontFamily="Montserrat"                            
+                                Foreground="White" Padding="0,20,0,0"/>
+                        <TextBox Name="txtImagePath" Width="200" IsReadOnly="True" Margin="0,0,5,0"
+                                 Foreground="White"
+                                CaretBrush="LightGray"
+                                BorderBrush="DarkGray"/>
+                        <Button Name="btnUploadImage" Content="🗂️" Height="35" Width="40" Margin="5" Background="{StaticResource color5}" Padding="0"  Click="btnUploadImage_Click"/>
+                        <Button Name="btnSave" Content="Save" Width="100" Margin="5" Background="{StaticResource color2}" Foreground="White" Click="btnSave_Click"/>
+                    </StackPanel>
+
+                    <Image Name="imagePicture" Width="400" Height="200" Margin="160,10,0,0" HorizontalAlignment="Left"/>
           
-        </StackPanel>
+                </StackPanel>
 
-        <!-- DataGrid for displaying Court records -->
-        <DataGrid Name="dataGridAdminCourt" Grid.Row="1" Margin="10" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="dataGridAdminCourt_SelectionChanged">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Id" Binding="{Binding CoId}" Width="*"/>
-                <DataGridTextColumn Header="Name" Binding="{Binding CoName}" Width="*"/>
-                <DataGridTextColumn Header="Address" Binding="{Binding CoAddress}" Width="*"/>
-                <DataGridTextColumn Header="Info" Binding="{Binding CoInfo}" Width="*"/>
-                <DataGridTextColumn Header="Price" Binding="{Binding CoPrice}" Width="*"/>
-                <DataGridTemplateColumn Header="Image" Width="*">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <Image Source="{Binding AbsoluteCoPath}" Width="100" Height="60" Stretch="Uniform"/>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
-                <DataGridTextColumn Header="Status" Binding="{Binding CoStatus}" Width="*"/>
-            </DataGrid.Columns>
-        </DataGrid>
+                <!-- DataGrid for displaying Court records -->
+                <DataGrid Name="dataGridAdminCourt" Grid.Row="1" Margin="10" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="dataGridAdminCourt_SelectionChanged">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Id" Binding="{Binding CoId}" Width="*"/>
+                        <DataGridTextColumn Header="Name" Binding="{Binding CoName}" Width="*"/>
+                        <DataGridTextColumn Header="Address" Binding="{Binding CoAddress}" Width="*"/>
+                        <DataGridTextColumn Header="Info" Binding="{Binding CoInfo}" Width="*"/>
+                        <DataGridTextColumn Header="Price" Binding="{Binding CoPrice}" Width="*"/>
+                        <DataGridTemplateColumn Header="Image" Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Image Source="{Binding AbsoluteCoPath}" Width="100" Height="60" Stretch="Uniform"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="Status" Binding="{Binding CoStatus}" Width="*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
 
-        <!-- CRUD Buttons -->
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="2" Margin="10">
-            <Button Name="btnCreate" Content="Create" Width="80" Margin="5" Click="btnCreate_Click"/>
-            <Button Name="btnUpdate" Content="Update" Width="80" Margin="5" Click="btnUpdate_Click"/>
-            <Button Name="btnDelete" Content="Delete" Width="80" Margin="5" Click="btnDelete_Click"/>
-            <Button Name="btnRefresh" Content="Refresh" Width="80" Margin="5" Click="btnRefresh_Click"/>
-            <StackPanel Orientation="Horizontal">
-                <TextBox Name="txtSearch" Foreground="Blue" Width="150" Margin="0,0,5,0"/>
-                <Button Content="Search" Name="btnSearch" Width="80"/>
-            </StackPanel>
-        </StackPanel>
-    </Grid>
+                <!-- CRUD Buttons -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="2" Margin="10">
+                    <Button Name="btnCreate" Content="Create" Width="80" Margin="5" Click="btnCreate_Click" Background="{StaticResource color1}"/>
+                    <Button Name="btnUpdate" Content="Update" Width="80" Margin="5" Click="btnUpdate_Click" Background="{StaticResource color2}"/>
+                    <Button Name="btnDelete" Content="Delete" Width="80" Margin="5" Click="btnDelete_Click" Background="{StaticResource color4}"/>
+                    <Button Name="btnRefresh" Content="Refresh" Width="80" Margin="5" Click="btnRefresh_Click" Background="{StaticResource color8}"/>
+                    <StackPanel Orientation="Horizontal" Width="300">
+                        <TextBox Name="txtSearch" Width="250" Margin="0,0,5,0" 
+                                 Foreground="White"
+                                CaretBrush="LightGray"
+                                BorderBrush="DarkGray"/>
+                        <Button Content="🔍" Name="btnSearch" Width="40" Padding="0"/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Border>
 </Window>

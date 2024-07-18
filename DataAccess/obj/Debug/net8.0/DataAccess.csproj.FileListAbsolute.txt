@@ -92,3 +92,19 @@ C:\Users\admin\source\New folder\PRN212_Project_SE1816\DataAccess\obj\Debug\net8
 C:\Users\admin\source\New folder\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.pdb
 C:\Users\admin\source\New folder\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
 C:\Users\admin\source\New folder\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\appsettings.json
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll

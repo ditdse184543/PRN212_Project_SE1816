@@ -98,3 +98,20 @@ C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\obj\Debug\
 C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\refint\BusinessObject.dll
 C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.pdb
 C:\Users\admin\source\New folder\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\ref\BusinessObject.dll
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\appsettings.json
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.deps.json
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.dll
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.pdb
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\DataAccess.dll
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.sourcelink.json
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\Business.4FFE46AD.Up2Date
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.dll
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\refint\BusinessObject.dll
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.pdb
+C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\ref\BusinessObject.dll
