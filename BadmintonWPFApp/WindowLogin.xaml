@@ -10,26 +10,36 @@
     <Grid>
         <Rectangle Height="500" VerticalAlignment="Center" >
             <Rectangle.Fill>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#ffffff" />
-                    <GradientStop Color="#333399" Offset="1" />
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#1B0064" Offset="0"/>
+                    <GradientStop Color="#462AD8" Offset="0.65"/>
+                    <GradientStop Color="#46B8DA" Offset="1"/>
                 </LinearGradientBrush>
 
             </Rectangle.Fill>
 
         </Rectangle>
 
-        <Rectangle Fill="White" Effect="{DynamicResource MaterialDesignShadowDepth5}" RadiusX="13.667" RadiusY="13.667" Margin="96,67,95,42" />
+        <Rectangle Fill="Transparent" Effect="{DynamicResource MaterialDesignShadowDepth5}" RadiusX="13.667" RadiusY="13.667" Margin="96,67,95,42" />
         <Image Width="90" Height="90" Margin="0,0,0,300" Effect="{DynamicResource MaterialDesignShadowDepth3}"/>
         <Grid Width="280" Height="288" VerticalAlignment="Top" Margin="35,104,35,0">
-            <TextBlock Text="LOGIN" VerticalAlignment="top" HorizontalAlignment="Center" Margin="50" FontWeight="Bold" FontSize="20" Foreground="#333399" />
+            <TextBlock Text="LOGIN" VerticalAlignment="top" HorizontalAlignment="Center" Margin="50" FontWeight="Bold" FontSize="20" Foreground="{StaticResource color9}" />
             <StackPanel VerticalAlignment="Center" Margin="15,0,15,0" Height="100">
-                <TextBox x:Name="txtEmail" materialDesign:HintAssist.Hint="Email" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Height="37" />
-                <PasswordBox x:Name="txtPassword" materialDesign:HintAssist.Hint="Password" Style="{StaticResource MaterialDesignOutlinedPasswordBox}" Margin="0,0,0,20" />
-
+                <TextBox x:Name="txtEmail" materialDesign:HintAssist.Hint="Email" Foreground="#BDBDBD" BorderBrush="DarkGray" Height="40" Margin="0,10,0,10" Padding="20,0,0,0">
+                    <TextBox.Background>
+                        <ImageBrush ImageSource="Images/user-icon.png"
+                                    Stretch="None" AlignmentX="Left"/>
+                    </TextBox.Background>
+                </TextBox>
+                <PasswordBox x:Name="txtPassword" materialDesign:HintAssist.Hint="Password" Foreground="#BDBDBD" BorderBrush="DarkGray" Height="40" Margin="0,0,0,0" Padding="20,0,0,0">
+                    <PasswordBox.Background>
+                        <ImageBrush ImageSource="Images/key-icon.png"
+                                    Stretch="None" AlignmentX="Left"/>
+                    </PasswordBox.Background>
+                </PasswordBox>
             </StackPanel>
-            <Button x:Name="btn_login" VerticalAlignment="Top" Content="Login"  Margin="49,201,155,0" Height="28" Effect="{DynamicResource MaterialDesignShadowDepth2}" Background="#FF7C38F5" Click="btn_login_Click" />
-            <Button x:Name="btn_signup"  Background="White" Foreground="#FF391678" Content="Signup" Margin="140,199,64,57" Effect="{DynamicResource MaterialDesignShadowDepth2}" BorderBrush="#FF391678" Click="btn_signup_Click" />
+            <Button x:Name="btn_login" VerticalAlignment="Top" Content="Login"  Margin="49,230,155,0" Height="28" Effect="{DynamicResource MaterialDesignShadowDepth2}" Background="{StaticResource color8}" Click="btn_login_Click" />
+            <Button x:Name="btn_signup" Background="{StaticResource plainTextColor1}" Foreground="#FF391678" Content="Signup" Margin="140,200,64,0" Effect="{DynamicResource MaterialDesignShadowDepth2}" BorderBrush="#FF391678" Click="btn_signup_Click" />
         </Grid>
     </Grid>
 </Window>
