@@ -96,7 +96,7 @@
                                  Foreground="White"
                                 CaretBrush="LightGray"
                                 BorderBrush="DarkGray"/>
-                        <Button Name="btnUploadImage" Content="📁" Height="35" Width="35" Margin="5" Foreground="{StaticResource color6}" Background="{StaticResource color8}" Padding="0"  Click="btnUploadImage_Click"/>
+                        <Button Name="btnUploadImage" Content="📁" Height="30" Width="30" Margin="5" Foreground="White" Background="{StaticResource color6}" Padding="0"  Click="btnUploadImage_Click"/>
                         <Button Name="btnSave" Content="Save" Width="100" Margin="5" Background="{StaticResource color2}" Foreground="White" Click="btnSave_Click"/>
                     </StackPanel>
 

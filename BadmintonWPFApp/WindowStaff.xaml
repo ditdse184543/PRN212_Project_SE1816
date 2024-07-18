@@ -6,17 +6,43 @@
         xmlns:local="clr-namespace:BadmintonWPFApp"
         mc:Ignorable="d"
         Title="WindowStaff" Height="450" Width="800">
-    <Grid>
-        <DockPanel>
-            <Button DockPanel.Dock ="Top" Margin="10" Padding="10" Click="Button_Checkin">
-                Checkin timeslot
-            </Button>
-            <Button DockPanel.Dock ="Top" Margin="10" Padding="10" Click="Button_Report">
-                Report court quality
-            </Button>
-            <!--<Button DockPanel.Dock ="Top" Margin="10" Padding="10" Click="Button_Log_Out">
+    <Border>
+        <Border.Background>
+            <ImageBrush ImageSource="Images/best-badminton-background-gyixxvloqmf5t6of.jpg"
+        Stretch="None" AlignmentX="Left"/>
+        </Border.Background>
+        <Border CornerRadius="50" BorderThickness="5" Opacity="0.92" Padding="20">
+
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#8BFFD0" Offset="0"/>
+                    <GradientStop Color="#462AD8" Offset="0.75"/>
+                    <GradientStop Color="#46B8DA" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="#1B1448" Offset="0"/>
+                    <GradientStop Color="#2C4D70" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <DockPanel Grid.Row="1">
+                    <Button DockPanel.Dock="Top" Margin="10" Padding="10" Click="Button_Checkin" Height="40" >
+                        Checkin timeslot
+                    </Button>
+                    <Button DockPanel.Dock="Bottom" Margin="10" Padding="10" Click="Button_Report" Height="40">
+                        Report court quality
+                    </Button>
+                    <!--<Button DockPanel.Dock ="Top" Margin="10" Padding="10" Click="Button_Log_Out">
                 Log out
             </Button>-->
-        </DockPanel>
-    </Grid>
+                </DockPanel>
+            </Grid>
+        </Border>
+    </Border>
 </Window>
