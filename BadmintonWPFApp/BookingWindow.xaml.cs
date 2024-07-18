@@ -1,5 +1,6 @@
 ﻿using BusinessObject;
 using DataAccess.Models;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
 using System.Windows;
@@ -14,7 +15,9 @@ namespace BadmintonWPFApp
         private List<TimeSlot> timeSlots = new List<TimeSlot>();
         private ComboBox fixedBooking = new ComboBox();
         private ComboBox flexibleBooking = new ComboBox();
+        private Dictionary<DateOnly, List<string>> disabledTimeSlots = new Dictionary<DateOnly, List<string>>();
         string type;
+
         public BookingWindow()
         {
             InitializeComponent();
@@ -26,42 +29,6 @@ namespace BadmintonWPFApp
 
             fixedBooking.SelectionChanged += FixedBooking_SelectionChanged;
             flexibleBooking.SelectionChanged += FlexibleBooking_SelectionChanged;
-        }
-
-        private void AddPromptComboBox()
-        {
-            var promptItem = new ComboBoxItem
-            {
-                Content = "Choose your time",
-                IsEnabled = false,
-                IsSelected = true
-            };
-            TimeSlotComboBox.Items.Add(promptItem);
-        }
-
-        private void AddPromptDynamicComboBox(ComboBox comboBox, string promptText)
-        {
-            ComboBoxItem promptItem = new ComboBoxItem
-            {
-                Content = promptText,
-                IsEnabled = false,
-                IsSelected = true
-            };
-            comboBox.Items.Add(promptItem);
-        }
-
-        private void InitializeTimeSlots()
-        {
-            TimeSlotComboBox.Items.Clear();
-            AddPromptComboBox();
-            TimeSlotComboBox.Items.Add("9:00 AM - 10:00 AM");
-            TimeSlotComboBox.Items.Add("10:00 AM - 11:00 AM");
-            TimeSlotComboBox.Items.Add("11:00 AM - 12:00 PM");
-            TimeSlotComboBox.Items.Add("12:00 PM - 1:00 PM");
-            TimeSlotComboBox.Items.Add("1:00 PM - 2:00 PM");
-            TimeSlotComboBox.Items.Add("2:00 PM - 3:00 PM");
-            TimeSlotComboBox.Items.Add("3:00 PM - 4:00 PM");
-            TimeSlotComboBox.Items.Add("4:00 PM - 5:00 PM");
         }
 
         private void TypeComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -113,6 +80,55 @@ namespace BadmintonWPFApp
             type = selectedItem.Content as string;
         }
 
+        private void AddPromptComboBox()
+        {
+            var promptItem = new ComboBoxItem
+            {
+                Content = "Choose your time",
+                IsEnabled = false,
+                IsSelected = true
+            };
+            TimeSlotComboBox.Items.Add(promptItem);
+        }
+
+        private void AddPromptDynamicComboBox(ComboBox comboBox, string promptText)
+        {
+            ComboBoxItem promptItem = new ComboBoxItem
+            {
+                Content = promptText,
+                IsEnabled = false,
+                IsSelected = true
+            };
+            comboBox.Items.Add(promptItem);
+        }
+
+        private void InitializeTimeSlots()
+        {
+            TimeSlotComboBox.Items.Clear();
+            AddPromptComboBox();
+
+            List<string> timeSlots = new List<string>
+            {
+                "9:00 AM - 10:00 AM",
+                "10:00 AM - 11:00 AM",
+                "11:00 AM - 12:00 PM",
+                "12:00 PM - 1:00 PM",
+                "1:00 PM - 2:00 PM",
+                "2:00 PM - 3:00 PM",
+                "3:00 PM - 4:00 PM",
+                "4:00 PM - 5:00 PM"
+            };
+
+            foreach (var slot in timeSlots)
+            {
+                ComboBoxItem item = new ComboBoxItem
+                {
+                    Content = slot
+                };
+                TimeSlotComboBox.Items.Add(item);
+            }
+        }
+
         private void BookingDatePicker_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
         {
             if (BookingDatePicker.SelectedDate.HasValue)
@@ -131,11 +147,26 @@ namespace BadmintonWPFApp
 
                     InitializeTimeSlots();
 
+                    if (disabledTimeSlots.ContainsKey(dateOnly))
+                    {
+                        foreach (var timeSlot in disabledTimeSlots[dateOnly])
+                        {
+                            foreach (ComboBoxItem item in TimeSlotComboBox.Items)
+                            {
+                                if (item.Content.ToString() == timeSlot)
+                                {
+                                    item.IsEnabled = false;
+                                }
+                            }
+                        }
+                    }
+
                     foreach (var slot in slots)
                     {
                         for (int i = TimeSlotComboBox.Items.Count - 1; i >= 0; i--)
                         {
-                            if (TimeSlotComboBox.Items[i].ToString() == slot.TsTime)
+                            ComboBoxItem item = TimeSlotComboBox.Items[i] as ComboBoxItem;
+                            if (item != null && item.Content.ToString() == slot.TsTime)
                             {
                                 TimeSlotComboBox.Items.RemoveAt(i);
                                 break;
@@ -161,10 +192,9 @@ namespace BadmintonWPFApp
             }
 
             DateOnly date = DateOnly.FromDateTime(BookingDatePicker.SelectedDate.Value);
-            string timeSlot = TimeSlotComboBox.SelectedItem.ToString();
+            string timeSlot = (TimeSlotComboBox.SelectedItem as ComboBoxItem).Content.ToString();
             string bookingDisplay = $"{date} - {timeSlot}";
-            ComboBoxItem selectedItem = (ComboBoxItem)TimeSlotComboBox.ItemContainerGenerator.ContainerFromItem(TimeSlotComboBox.SelectedItem);
-
+            ComboBoxItem selectedItem = (ComboBoxItem)TimeSlotComboBox.SelectedItem;
             if (type == "Fixed")
             {
                 if (fixedBooking.SelectedItem == null || (fixedBooking.SelectedItem as ComboBoxItem)?.Content.ToString() == "Choose your weeks")
@@ -172,7 +202,7 @@ namespace BadmintonWPFApp
                     MessageBox.Show("Please select the number of weeks.");
                     return;
                 }
-                int weeks = int.Parse(fixedBooking.SelectedItem.ToString());
+                int weeks = int.Parse((fixedBooking.SelectedItem as ComboBoxItem).Content.ToString());
                 bookingDisplay += $" ({weeks} weeks)";
             }
             else if (type == "Flexible")
@@ -182,27 +212,37 @@ namespace BadmintonWPFApp
                     MessageBox.Show("Please select the number of hours.");
                     return;
                 }
-                int hours = int.Parse(flexibleBooking.SelectedItem.ToString());
+                int hours = int.Parse((flexibleBooking.SelectedItem as ComboBoxItem).Content.ToString());
                 bookingDisplay += $" ({hours - BookingsListBox.Items.Count - 1} hours)";
             }
 
             TimeSlot slot = new TimeSlot
             {
-                CoId = 2,
+                CoId = Properties.Settings.Default.CourtId,
                 TsCheckedIn = false,
                 TsDate = date,
                 TsTime = timeSlot
             };
             timeSlots.Add(slot);
 
+            if (!disabledTimeSlots.ContainsKey(date))
+            {
+                disabledTimeSlots[date] = new List<string>();
+            }
+            disabledTimeSlots[date].Add(timeSlot);
+
             BookingsListBox.Items.Add(bookingDisplay);
             TimeSlotComboBox.SelectedIndex = 0;
-            selectedItem.IsEnabled = false;
+            if (selectedItem != null)
+            {
+                selectedItem.IsEnabled = false;
+            }
             if (BookingsListBox.Items.Count > 0)
             {
                 TypeComboBox.IsEnabled = false;
             }
         }
+
 
         private void FixedBooking_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -241,38 +281,39 @@ namespace BadmintonWPFApp
         {
             timeSlots.Clear();
             BookingsListBox.Items.Clear();
-            BookingDatePicker.SelectedDate = null;
+            BookingDatePicker.SelectedDate = DateTime.Today;
             TimeSlotComboBox.SelectedIndex = 0;
             TypeComboBox.IsEnabled = true;
             foreach (var item in TimeSlotComboBox.Items)
             {
-                ComboBoxItem comboBoxItem = (ComboBoxItem)TimeSlotComboBox.ItemContainerGenerator.ContainerFromItem(item);
+                ComboBoxItem comboBoxItem = (ComboBoxItem)item;
                 if (comboBoxItem != null)
                 {
                     comboBoxItem.IsEnabled = true;
                 }
             }
+            disabledTimeSlots.Clear();
         }
 
         private void ConfirmButton_Click(object sender, RoutedEventArgs e)
         {
-            int hours = int.Parse(fixedBooking.SelectedItem.ToString());
-            int weeks = int.Parse(flexibleBooking.SelectedItem.ToString());
             if (BookingsListBox.Items.Count == 0)
             {
                 MessageBox.Show("There are no bookings to confirm.");
                 return;
             }
+
             if (MessageBox.Show("Are you certain with your decision?", "Confirmation", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
                 Booking booking = new Booking
                 {
-                    CoId = 2,
+                    CoId = Properties.Settings.Default.CourtId,
                     BBookingType = type,
-                    UserId = 1,
-                    BTotalHours = hours - BookingsListBox.Items.Count,
+                    UserId = Properties.Settings.Default.UserId,
+                    BTotalHours = (type == "Flexible") ? int.Parse(flexibleBooking.SelectedItem.ToString()) - BookingsListBox.Items.Count : int.Parse(fixedBooking.SelectedItem.ToString())
                 };
-                if (type == "Casual")
+
+                if (type == "Casual" || type == "Flexible")
                 {
                     foreach (TimeSlot slot in timeSlots)
                     {
@@ -281,6 +322,7 @@ namespace BadmintonWPFApp
                 }
                 else if (type == "Fixed")
                 {
+                    int weeks = int.Parse(fixedBooking.SelectedItem.ToString());
                     foreach (var item in timeSlots)
                     {
                         for (int i = 0; i < weeks; i++)
@@ -294,13 +336,6 @@ namespace BadmintonWPFApp
                             };
                             booking.TimeSlots.Add(timeSlot);
                         }
-                    }
-                }
-                else
-                {
-                    foreach (TimeSlot slot in timeSlots)
-                    {
-                        booking.TimeSlots.Add(slot);
                     }
                 }
 
