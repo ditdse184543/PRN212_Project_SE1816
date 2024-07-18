@@ -3,43 +3,221 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
         xmlns:local="clr-namespace:BadmintonWPFApp"
         mc:Ignorable="d"
-        Title="BookingWindow" Height="450" Width="800">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
+        Title="BookingWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        AllowsTransparency="True">
 
-        <TextBlock Grid.Row="0" Text="Select Type:" Margin="10"/>
-        <ComboBox x:Name="TypeComboBox" Grid.Row="0" Margin="121,0,10,0" VerticalAlignment="Center" SelectionChanged="TypeComboBox_SelectionChanged">
-            <ComboBoxItem Content="Casual" />
-            <ComboBoxItem Content="Fixed"/>
-            <ComboBoxItem Content="Flexible"/>
-        </ComboBox>
+    <Window.Resources>
+        <!-- Custom DatePicker Style -->
+        <Style TargetType="DatePicker">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="DatePicker">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBox x:Name="PART_TextBox"
+                                     Width="160"
+                                     Height="25"
+                                     VerticalAlignment="Center"
+                                     Padding="5"
+                                     Margin="0,0,0,0"
+                                     Background="Transparent"
+                                     Foreground="{StaticResource color3}"
+                                     BorderBrush="#CDCDCD"
+                                     IsReadOnly="True"
+                                     Text="{Binding Path=SelectedDate, RelativeSource={RelativeSource TemplatedParent}, StringFormat={}{0:MM/dd/yyyy}}"/>
+                            <Button x:Name="PART_Button"
+                                    Grid.Column="1"
+                                    Content="📅"
+                                    Width="25"
+                                    Height="25"
+                                    HorizontalAlignment="Left"
+                                    VerticalAlignment="Center"
+                                    Margin="0,0,0,0"
+                                    Padding="0,0,0,0"
+                                    Background="#4F609B"
+                                    Foreground="White"
+                                    BorderBrush="Transparent"
+                                    Cursor="Hand"
+                                    ClickMode="Press"
+                                    IsTabStop="False"/>
+                            <Popup x:Name="PART_Popup"
+                                   Placement="Bottom"
+                                   IsOpen="{Binding Path=IsDropDownOpen, RelativeSource={RelativeSource TemplatedParent}}"
+                                   AllowsTransparency="True"
+                                   Focusable="False"
+                                   StaysOpen="False">
+                                <Border x:Name="PART_Root"
+                                        BorderBrush="{TemplateBinding BorderBrush}"
+                                        BorderThickness="{TemplateBinding BorderThickness}"
+                                        Background="{TemplateBinding Background}">
+                                    <Calendar x:Name="PART_Calendar"
+                                              IsTodayHighlighted="True"
+                                              SelectedDate="{Binding Path=SelectedDate, RelativeSource={RelativeSource TemplatedParent}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                                </Border>
+                            </Popup>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
 
-        <TextBlock Grid.Row="1" Text="Select Date:" Margin="10"/>
-        <DatePicker x:Name="BookingDatePicker" Grid.Row="1" Margin="121,0,10,0" VerticalAlignment="Center" SelectedDateChanged="BookingDatePicker_SelectedDateChanged"/>
+        <!-- Custom Calendar Style -->
+        <Style TargetType="Calendar">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Calendar">
+                        <Grid>
+                            <Border BorderBrush="Gray" BorderThickness="1" Background="LightGray">
+                                <CalendarItem x:Name="PART_CalendarItem"/>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
 
-        <TextBlock Grid.Row="2" Text="Select Time Slot:" Margin="10"/>
-        <ComboBox x:Name="TimeSlotComboBox" Grid.Row="2" Margin="121,0,10,0" VerticalAlignment="Center"/>
+    </Window.Resources>
 
-        <TextBlock Grid.Row="3" x:Name="Dynamic" Text="" Margin="10"/>
-        <ContentControl x:Name="DynamicInputControl" Grid.Row="3" Margin="121,10,10,5"/>
+    <Border CornerRadius="22">
+        <Border.Background>
+            <ImageBrush ImageSource="/Images/badminton-shuttlecock-black-background-transformed.png"
+                        Stretch="None"/>
+        </Border.Background>
+        <Border CornerRadius="20"                    
+                BorderThickness="3" Opacity="0.85">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#DA34AE" Offset="0"/>
+                    <GradientStop Color="#462AD8" Offset="0.75"/>
+                    <GradientStop Color="#46B8DA" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="#1B1448" Offset="0"/>
+                    <GradientStop Color="#2C4D70" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-        <Button Grid.Row="4" Content="Book" Margin="288,0,0,0" VerticalAlignment="Center" Click="BookButton_Click" HorizontalAlignment="Left" Width="186"/>
+                
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Select Type:" Margin="10"
+                           VerticalAlignment="Center"
+                           FontWeight="Bold" Foreground="DarkGray"
+                           FontSize="20" FontFamily="Montserrat"/>
+                <ComboBox x:Name="TypeComboBox" Grid.Row="1" Grid.Column="1" Margin="10,10,50,0" VerticalAlignment="Center" SelectionChanged="TypeComboBox_SelectionChanged" BorderBrush="#CDCDCD" Foreground="DarkGray">
+                    <ComboBoxItem Content="Casual" />
+                    <ComboBoxItem Content="Fixed"/>
+                    <ComboBoxItem Content="Flexible"/>
+                </ComboBox>
 
-        <ListBox x:Name="BookingsListBox" Grid.Row="5" Margin="10,10,10,50"/>
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Select Date:" Margin="10"
+                           VerticalAlignment="Center"
+                           FontWeight="Bold" Foreground="DarkGray"
+                           FontSize="20" FontFamily="Montserrat"/>
+                <DatePicker x:Name="BookingDatePicker" Grid.Row="2" Grid.Column="1" Margin="10,0,400,0" VerticalAlignment="Center" SelectedDateChanged="BookingDatePicker_SelectedDateChanged"/>
 
-        <StackPanel Grid.Row="6" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,10" Width="748">
-            <Button x:Name="CancelButton" Content="Cancel All" Width="100" Margin="5" Click="CancelButton_Click"/>
-            <Button x:Name="ConfirmButton" Content="Confirm" Width="100" Margin="520,5,5,5" Click="ConfirmButton_Click"/>
-        </StackPanel>
-    </Grid>
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="Select Time Slot:" Margin="10"
+                           VerticalAlignment="Center"
+                            FontWeight="Bold" Foreground="DarkGray"
+                            FontSize="20" FontFamily="Montserrat"/>
+                <ComboBox x:Name="TimeSlotComboBox" Grid.Row="3" Grid.Column="1" Margin="10,0,50,0" VerticalAlignment="Center" BorderBrush="#CDCDCD" Foreground="DarkGray"/>
+
+                <TextBlock Grid.Row="4" Grid.Column="0" x:Name="Dynamic" Text="" Margin="10"/>
+                <ContentControl x:Name="DynamicInputControl" Grid.Row="4" Grid.Column="1" Margin="10,10,10,5"/>
+
+                <Button Grid.Row="5" Grid.Column="1" Content="Book" Margin="120,0,0,0" VerticalAlignment="Center" Click="BookButton_Click" HorizontalAlignment="Left" Width="186"
+                        Foreground="White"
+                        FontSize="12"
+                        FontFamily="Montserrat"
+                        Cursor="Hand">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Background" Value="#462AD8"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#28AEED"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border Width="150" Height="40"
+                                    CornerRadius="20"
+                                    Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                                  HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <ListBox x:Name="BookingsListBox" Grid.Row="6" Margin="10,10,10,50"/>
+
+                <StackPanel Grid.Row="7" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,10" Width="548">
+                    <Button x:Name="CancelButton" Content="Cancel All" Width="100" Margin="280,5,5,5" Click="CancelButton_Click" Foreground="White" FontSize="12" FontFamily="Montserrat" Cursor="Hand">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#FF5D5D"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#FC9090"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="100" Height="40" CornerRadius="20" Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <Button x:Name="ConfirmButton" Content="Confirm" Width="100" Margin="50,5,5,5" Click="ConfirmButton_Click" Foreground="White" FontSize="12" FontFamily="Montserrat" Cursor="Hand">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#3559FC"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#637FFF"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="100" Height="40" CornerRadius="20" Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Border>
 </Window>
