@@ -8,12 +8,12 @@
         Title="WindowCourt" Height="450" Width="789"
         WindowStartupLocation="CenterScreen"
         Background="Transparent">
-    <Border CornerRadius="55">
+    <Border CornerRadius="10">
         <Border.Background>
             <ImageBrush ImageSource="Images/photo-1626224583764-f87db24ac4ea.png"
                     Stretch="None" AlignmentY="Top" AlignmentX="Center"/>
         </Border.Background>
-        <Border CornerRadius="50" BorderThickness="5" Opacity="0.92" Padding="20">
+        <Border CornerRadius="10" BorderThickness="5" Opacity="0.92" Padding="20">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="#00ACFF" Offset="0"/>

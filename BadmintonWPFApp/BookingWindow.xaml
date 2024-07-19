@@ -85,12 +85,12 @@
 
     </Window.Resources>
 
-    <Border CornerRadius="22">
+    <Border CornerRadius="10">
         <Border.Background>
             <ImageBrush ImageSource="/Images/badminton-shuttlecock-black-background-transformed.png"
                         Stretch="None" AlignmentX="Right"/>
         </Border.Background>
-        <Border CornerRadius="20"                    
+        <Border CornerRadius="10"                    
                 BorderThickness="3" Opacity="0.85">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
@@ -172,7 +172,6 @@
                     </Button.Template>
                 </Button>
 
-                <!-- New Grid for Centered Elements -->
                 <Grid Grid.Row="5" Grid.ColumnSpan="2">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>

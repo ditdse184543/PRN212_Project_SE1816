@@ -5,10 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BadmintonWPFApp"
         mc:Ignorable="d"
+        Background="Transparent"
         Title="WindowStaff" Height="550" Width="800">
-    <Border>
-        
-        <Border CornerRadius="50" BorderThickness="5" Padding="20">
+    <Border CornerRadius="10">
+        <Border.Background>
+            <ImageBrush ImageSource="Images/luminous-abstraction-organic-neon-background-colorful-fluorescence_884955-2420-transformed.jpeg"
+                 Stretch="None" AlignmentX="Left"/>
+        </Border.Background>
+        <Border CornerRadius="10" BorderThickness="5" Opacity="0.95" Padding="20">
 
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">

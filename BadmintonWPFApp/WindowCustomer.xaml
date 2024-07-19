@@ -8,12 +8,12 @@
         Title="WindowCustomer" Height="450" Width="800"
         WindowStartupLocation="CenterScreen"
         Background="Transparent">
-    <Border CornerRadius="55">
+    <Border CornerRadius="10">
         <Border.Background>
             <ImageBrush ImageSource="Images/best-badminton-background-gyixxvloqmf5t6of.jpg"
                 Stretch="None" AlignmentX="Left"/>
         </Border.Background>
-        <Border CornerRadius="50" BorderThickness="5" Opacity="0.92" Padding="20">
+        <Border CornerRadius="10" BorderThickness="5" Opacity="0.92" Padding="20">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="#8BFFD0" Offset="0"/>

@@ -8,7 +8,7 @@
         Title="WindowRegister" Height="450" Width="800"
         WindowStartupLocation="CenterScreen"
         Background="Transparent">
-    <Border CornerRadius="55">
+    <Border CornerRadius="5">
 
         <Border.Background>
             <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
