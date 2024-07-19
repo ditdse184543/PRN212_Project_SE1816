@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\
+D:\FU\p211\tempProject\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\
 BadmintonWPFApp
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\App.xaml
-14588129500
+D:\FU\p211\tempProject\PRN212_Project_SE1816\BadmintonWPFApp\App.xaml
+15647701552
 
-18731873816
-2511595199494
-BookingWindow.xaml;MainWindow.xaml;Styles\ButtonStyles.xaml;Styles\UIColors.xaml;WindowAdmin.xaml;WindowCheckIn.xaml;WindowCourt.xaml;WindowCustomer.xaml;WindowCustomerBookingDetail.xaml;WindowCustomerRate.xaml;WindowLogin.xaml;WindowRegister.xaml;WindowReport.xaml;WindowStaff.xaml;
+191340247418
+251-750826080
+BookingWindow.xaml;CourtReportListQualityW.xaml;MainWindow.xaml;Styles\ButtonStyles.xaml;Styles\UIColors.xaml;WindowAdmin.xaml;WindowCheckIn.xaml;WindowCourt.xaml;WindowCustomer.xaml;WindowCustomerBookingDetail.xaml;WindowCustomerRate.xaml;WindowLogin.xaml;WindowRegister.xaml;WindowReport.xaml;WindowStaff.xaml;
 
 False
 

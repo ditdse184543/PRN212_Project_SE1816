@@ -25,15 +25,12 @@
     <Compile Update="WindowRegister.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="WindowReport.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="WindowStaff.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="BookingWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CourtReportListQualityW.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

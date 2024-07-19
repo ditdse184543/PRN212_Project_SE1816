@@ -33,7 +33,7 @@ namespace BadmintonWPFApp
 
         private void Button_Report(object sender, RoutedEventArgs e)
         {
-            WindowReport windowReport = new WindowReport();
+            CourtReportListQualityW windowReport = new CourtReportListQualityW();
             windowReport.Show();
             this.Close();
         }
