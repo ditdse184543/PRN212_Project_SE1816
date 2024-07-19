@@ -124,7 +124,7 @@
                            VerticalAlignment="Center"
                            FontWeight="Bold" Foreground="DarkGray"
                            FontSize="20" FontFamily="Montserrat"/>
-                <ComboBox x:Name="TypeComboBox" Grid.Row="1" Grid.Column="1" Margin="10,10,50,0" VerticalAlignment="Center" SelectionChanged="TypeComboBox_SelectionChanged" BorderBrush="#CDCDCD" Foreground="DarkGray">
+                <ComboBox x:Name="TypeComboBox" Grid.Row="1" Grid.Column="1" Margin="10,10,50,0" VerticalAlignment="Center" SelectionChanged="TypeComboBox_SelectionChanged" BorderBrush="#CDCDCD" FontSize="18" Foreground="{StaticResource color1}">
                     <ComboBoxItem Content="Casual" />
                     <ComboBoxItem Content="Fixed"/>
                     <ComboBoxItem Content="Flexible"/>
@@ -140,7 +140,7 @@
                            VerticalAlignment="Center"
                            FontWeight="Bold" Foreground="DarkGray"
                            FontSize="20" FontFamily="Montserrat"/>
-                <ComboBox x:Name="TimeSlotComboBox" Grid.Row="2" Grid.Column="1" Margin="10,0,50,0" VerticalAlignment="Center" BorderBrush="#CDCDCD" Foreground="DarkGray"/>
+                <ComboBox x:Name="TimeSlotComboBox" Grid.Row="2" Grid.Column="1" Margin="10,0,50,0" VerticalAlignment="Center" BorderBrush="#CDCDCD" FontSize="18" Foreground="{StaticResource color6}"/>
 
                 <TextBlock Grid.Row="3" Grid.Column="0" x:Name="Dynamic" Text="" Margin="10"
                            FontWeight="Bold" Foreground="DarkGray"
@@ -224,7 +224,7 @@
                                 </ControlTemplate>
                             </Button.Template>
                         </Button>
-                        <Button x:Name="ConfirmButton" Content="Confirm" Width="100" Margin="500,5,5,5" Click="ConfirmButton_Click" Foreground="White" FontSize="12" FontFamily="Montserrat" Cursor="Hand" >
+                        <Button x:Name="ConfirmButton" Content="Confirm" Width="100" Margin="400,5,5,5" Click="ConfirmButton_Click" Foreground="White" FontSize="12" FontFamily="Montserrat" Cursor="Hand" >
                             <Button.Style>
                                 <Style TargetType="Button">
                                     <Setter Property="Background" Value="#3559FC"/>
