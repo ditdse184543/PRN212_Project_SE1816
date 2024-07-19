@@ -1,616 +1,110 @@
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.exe
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\appsettings.json
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.deps.json
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.runtimeconfig.json
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.pdb
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Azure.Core.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Azure.Identity.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.Memory.Data.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BusinessObject.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\DataAccess.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BusinessObject.pdb
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\DataAccess.pdb
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.csproj.AssemblyReference.cache
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.g.cs
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.g.cs
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\App.g.cs
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp_MarkupCompile.cache
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp_MarkupCompile.lref
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.baml
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.baml
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.baml
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.g.resources
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.AssemblyInfoInputs.cache
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.AssemblyInfo.cs
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.csproj.CoreCompileInputs.cache
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.sourcelink.json
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Badminto.A753231E.Up2Date
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\refint\BadmintonWPFApp.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.pdb
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.genruntimeconfig.cache
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\ref\BadmintonWPFApp.dll
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.g.cs
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.g.cs
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.dll.config
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.baml
-C:\wpf\prn last project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.baml
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.exe
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\appsettings.json
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.dll.config
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.deps.json
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.runtimeconfig.json
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.pdb
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Azure.Core.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Azure.Identity.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.Memory.Data.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BusinessObject.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\DataAccess.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BusinessObject.pdb
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\DataAccess.pdb
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.csproj.AssemblyReference.cache
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BookingWindow.baml
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BookingWindow.g.cs
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.g.cs
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.g.cs
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.g.cs
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.g.cs
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp_MarkupCompile.cache
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp_MarkupCompile.lref
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.baml
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.baml
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.baml
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.baml
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.g.resources
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.AssemblyInfoInputs.cache
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.AssemblyInfo.cs
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.csproj.CoreCompileInputs.cache
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.sourcelink.json
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Badminto.A753231E.Up2Date
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\refint\BadmintonWPFApp.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.pdb
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.genruntimeconfig.cache
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\ref\BadmintonWPFApp.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.csproj.AssemblyReference.cache
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BookingWindow.baml
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BookingWindow.g.cs
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.g.cs
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.g.cs
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.g.cs
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.g.cs
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.g.cs
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowReport.g.cs
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowStaff.g.cs
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\App.g.cs
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp_MarkupCompile.cache
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp_MarkupCompile.lref
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\refint\BadmintonWPFApp.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.pdb
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.exe
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\appsettings.json
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.dll.config
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.deps.json
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.runtimeconfig.json
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.pdb
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Azure.Core.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Azure.Identity.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.Memory.Data.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BusinessObject.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\DataAccess.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BusinessObject.pdb
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\DataAccess.pdb
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.baml
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.baml
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.baml
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.baml
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.baml
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowReport.baml
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowStaff.baml
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.g.resources
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.AssemblyInfoInputs.cache
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.AssemblyInfo.cs
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.csproj.CoreCompileInputs.cache
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.sourcelink.json
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Badminto.A753231E.Up2Date
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.genruntimeconfig.cache
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\ref\BadmintonWPFApp.dll
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.g.cs
-D:\FU\p211\project\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.baml
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.csproj.AssemblyReference.cache
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BookingWindow.g.cs
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.g.cs
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.g.cs
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.g.cs
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomer.g.cs
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerBookingDetail.g.cs
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerRate.g.cs
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.g.cs
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.g.cs
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowReport.g.cs
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowStaff.g.cs
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\App.g.cs
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp_MarkupCompile.cache
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp_MarkupCompile.lref
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\refint\BadmintonWPFApp.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.pdb
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.exe
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\appsettings.json
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.dll.config
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.deps.json
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.runtimeconfig.json
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.pdb
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Azure.Core.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Azure.Identity.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.Memory.Data.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BusinessObject.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\DataAccess.dll
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BusinessObject.pdb
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\DataAccess.pdb
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BookingWindow.baml
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.baml
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.baml
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.baml
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.baml
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomer.baml
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerBookingDetail.baml
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerRate.baml
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.baml
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.baml
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowReport.baml
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowStaff.baml
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.g.resources
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.AssemblyInfoInputs.cache
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.AssemblyInfo.cs
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.csproj.CoreCompileInputs.cache
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.sourcelink.json
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Badminto.A753231E.Up2Date
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.genruntimeconfig.cache
-C:\prn212\wpf\4\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\ref\BadmintonWPFApp.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.g.cs
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomer.g.cs
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerBookingDetail.g.cs
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerRate.g.cs
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowReport.g.cs
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowStaff.g.cs
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.baml
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomer.baml
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerBookingDetail.baml
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerRate.baml
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowReport.baml
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowStaff.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.exe
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\appsettings.json
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.dll.config
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.deps.json
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.runtimeconfig.json
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.pdb
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Azure.Core.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Azure.Identity.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\MaterialDesignColors.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.Memory.Data.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BusinessObject.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\DataAccess.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BusinessObject.pdb
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\DataAccess.pdb
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.csproj.AssemblyReference.cache
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Styles\ButtonStyles.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Styles\UIColors.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BookingWindow.g.cs
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.g.cs
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.g.cs
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.g.cs
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomer.g.cs
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerBookingDetail.g.cs
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerRate.g.cs
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.g.cs
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.g.cs
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowReport.g.cs
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowStaff.g.cs
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp_MarkupCompile.cache
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp_MarkupCompile.lref
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\App.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BookingWindow.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomer.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerBookingDetail.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerRate.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowReport.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowStaff.baml
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.g.resources
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.AssemblyInfoInputs.cache
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.AssemblyInfo.cs
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.csproj.CoreCompileInputs.cache
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.sourcelink.json
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Badminto.A753231E.Up2Date
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\refint\BadmintonWPFApp.dll
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.pdb
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.genruntimeconfig.cache
-C:\Users\admin\source\New folder\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\ref\BadmintonWPFApp.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\MaterialDesignColors.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Styles\ButtonStyles.baml
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Styles\UIColors.baml
-C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\App.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.exe
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\appsettings.json
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.dll.config
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.deps.json
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.runtimeconfig.json
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.pdb
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Azure.Core.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Azure.Identity.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\MaterialDesignColors.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.Memory.Data.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BusinessObject.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\DataAccess.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BusinessObject.pdb
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\DataAccess.pdb
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.csproj.AssemblyReference.cache
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Styles\ButtonStyles.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Styles\UIColors.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BookingWindow.g.cs
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.g.cs
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.g.cs
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.g.cs
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomer.g.cs
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerBookingDetail.g.cs
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerRate.g.cs
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.g.cs
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.g.cs
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowReport.g.cs
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowStaff.g.cs
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp_MarkupCompile.cache
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp_MarkupCompile.lref
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\App.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BookingWindow.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomer.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerBookingDetail.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerRate.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowReport.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowStaff.baml
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.g.resources
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.AssemblyInfoInputs.cache
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.AssemblyInfo.cs
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.csproj.CoreCompileInputs.cache
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.sourcelink.json
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Badminto.A753231E.Up2Date
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\refint\BadmintonWPFApp.dll
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.pdb
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.genruntimeconfig.cache
-C:\Users\ASUS\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\ref\BadmintonWPFApp.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.exe
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\appsettings.json
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.dll.config
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.deps.json
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.runtimeconfig.json
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BadmintonWPFApp.pdb
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BusinessObject.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\DataAccess.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\BusinessObject.pdb
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\bin\Debug\net8.0-windows\DataAccess.pdb
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.csproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Styles\ButtonStyles.baml
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Styles\UIColors.baml
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BookingWindow.g.cs
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.g.cs
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.g.cs
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.g.cs
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomer.g.cs
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerBookingDetail.g.cs
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerRate.g.cs
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.g.cs
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.g.cs
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowReport.g.cs
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowStaff.g.cs
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp_MarkupCompile.cache
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp_MarkupCompile.lref
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\App.baml
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BookingWindow.baml
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAdmin.baml
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCheckIn.baml
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCourt.baml
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomer.baml
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerBookingDetail.baml
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowCustomerRate.baml
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowLogin.baml
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowRegister.baml
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowReport.baml
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowStaff.baml
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.g.resources
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.AssemblyInfoInputs.cache
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.AssemblyInfo.cs
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.sourcelink.json
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Badminto.A753231E.Up2Date
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\refint\BadmintonWPFApp.dll
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.pdb
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.genruntimeconfig.cache
+C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\ref\BadmintonWPFApp.dll

@@ -202,6 +202,25 @@
                                 </ControlTemplate>
                             </Button.Template>
                         </Button>
+                        <Button x:Name="BackBtn" Content="Back" Width="100" Click="BackBtn_Click" Foreground="White" FontSize="12" FontFamily="Montserrat" Cursor="Hand" >
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="Background" Value="#FF5D5D"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#FC9090"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                            <Button.Template>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border Width="100" Height="40" CornerRadius="20" Background="{TemplateBinding Background}">
+                                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
                         <Button x:Name="ConfirmButton" Content="Confirm" Width="100" Margin="500,5,5,5" Click="ConfirmButton_Click" Foreground="White" FontSize="12" FontFamily="Montserrat" Cursor="Hand" >
                             <Button.Style>
                                 <Style TargetType="Button">

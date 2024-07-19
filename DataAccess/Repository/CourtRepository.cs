@@ -37,7 +37,7 @@ namespace DataAccess.Repository
 
         public List<Court> getAll()
         {
-            return _context.Courts.ToList();    
+            return _context.Courts.Where(c => c.CoStatus == true).ToList();
         }
 
         public void Insert(Court Court)

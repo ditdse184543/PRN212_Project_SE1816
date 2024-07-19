@@ -11,8 +11,8 @@
     <Setting Name="UserId" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
     </Setting>
-    <Setting Name="d" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+    <Setting Name="RoleId" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
     </Setting>
   </Settings>
 </SettingsFile>

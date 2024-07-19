@@ -52,7 +52,7 @@ namespace BadmintonWPFApp
 
             for (int i = 4; i <= 8; i++)
             {
-                fixedBooking.Items.Add(i);
+                fixedBooking.Items.Add(new ComboBoxItem { Content = i.ToString() });
             }
             for (int i = 1; i <= 40; i++)
             {
@@ -305,12 +305,38 @@ namespace BadmintonWPFApp
 
             if (MessageBox.Show("Are you certain with your decision?", "Confirmation", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
+                int totalHours = 0;
+                if (type == "Flexible")
+                {
+                    if (flexibleBooking.SelectedItem is ComboBoxItem flexibleItem && flexibleItem.Content != null)
+                    {
+                        totalHours = int.Parse(flexibleItem.Content.ToString()) - BookingsListBox.Items.Count;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Please select a valid number of hours.");
+                        return;
+                    }
+                }
+                else
+                {
+                    if (fixedBooking.SelectedItem is ComboBoxItem fixedItem && fixedItem.Content != null)
+                    {
+                        totalHours = int.Parse(fixedItem.Content.ToString());
+                    }
+                    else
+                    {
+                        MessageBox.Show("Please select a valid number of weeks.");
+                        return;
+                    }
+                }
+                MessageBox.Show(Properties.Settings.Default.UserId.ToString());
                 Booking booking = new Booking
                 {
                     CoId = Properties.Settings.Default.CourtId,
                     BBookingType = type,
                     UserId = Properties.Settings.Default.UserId,
-                    BTotalHours = (type == "Flexible") ? int.Parse(flexibleBooking.SelectedItem.ToString()) - BookingsListBox.Items.Count : int.Parse(fixedBooking.SelectedItem.ToString())
+                    BTotalHours = totalHours
                 };
 
                 if (type == "Casual" || type == "Flexible")
@@ -322,7 +348,7 @@ namespace BadmintonWPFApp
                 }
                 else if (type == "Fixed")
                 {
-                    int weeks = int.Parse(fixedBooking.SelectedItem.ToString());
+                    int weeks = totalHours;
                     foreach (var item in timeSlots)
                     {
                         for (int i = 0; i < weeks; i++)
@@ -341,7 +367,16 @@ namespace BadmintonWPFApp
 
                 bookingObject.Insert(booking);
                 MessageBox.Show("Booking confirmed!");
+                WindowCourt court = new WindowCourt();
+                this.Close();
             }
+        }
+
+        private void BackBtn_Click(object sender, RoutedEventArgs e)
+        {
+           WindowCourt court = new WindowCourt();
+            court.Show();
+            this.Close();
         }
     }
 }
