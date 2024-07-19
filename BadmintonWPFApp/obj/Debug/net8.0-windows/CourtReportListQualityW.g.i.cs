@@ -78,7 +78,7 @@ namespace BadmintonWPFApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BadmintonWPFApp;V1.0.0.0;component/courtreportlistqualityw.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BadmintonWPFApp;component/courtreportlistqualityw.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CourtReportListQualityW.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\FU\p211\tempProject\PRN212_Project_SE1816\BadmintonWPFApp\App.xaml
-15647701552
+17905349533
 
-17-165648459
+20466450530
 251-750826080
-BookingWindow.xaml;CourtReportListQualityW.xaml;MainWindow.xaml;Styles\ButtonStyles.xaml;Styles\UIColors.xaml;WindowAdmin.xaml;WindowCheckIn.xaml;WindowCourt.xaml;WindowCustomer.xaml;WindowCustomerBookingDetail.xaml;WindowCustomerRate.xaml;WindowLogin.xaml;WindowRegister.xaml;WindowReport.xaml;WindowStaff.xaml;
+AddAccountWindowAdmin.xaml;BookingWindow.xaml;CourtReportListQualityW.xaml;MainWindow.xaml;Styles\ButtonStyles.xaml;Styles\UIColors.xaml;WindowAccountManagement.xaml;WindowAdmin.xaml;WindowCheckIn.xaml;WindowCourt.xaml;WindowCustomer.xaml;WindowCustomerBookingDetail.xaml;WindowCustomerRate.xaml;WindowLogin.xaml;WindowRegister.xaml;WindowReport.xaml;WindowStaff.xaml;
 
 False
 

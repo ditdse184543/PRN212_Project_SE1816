@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Repository
 {
-    internal interface IRoleRepository
+    public interface IRoleRepository
     {
         public List<Role> getAll();
         public void Delete(int id);

@@ -12,8 +12,8 @@ namespace BusinessObject
     {
         private readonly IUserRepository _userRepository;
 
-       
 
+        public void AddUserAdmin(User User, bool Admin = false, bool Manager = false, bool Staff = false, bool Customer = false) => _userRepository.AddUserAdmin(User, Admin, Manager, Staff, Customer);
         public UserObject()
         {
           _userRepository = new UserRepository();
@@ -35,5 +35,10 @@ namespace BusinessObject
             return _userRepository.findByName(username);
 
         }
+
+        public List<User> forDataGrid() => _userRepository.forDataGrid();
+        public void Delete(int id) => _userRepository.Delete(id);
+
+
     }
 }

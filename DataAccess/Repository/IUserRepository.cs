@@ -18,5 +18,7 @@ namespace DataAccess.Repository
         public User findByEmail(string email);
         public User findByName(string username);
         public User findByEmailAndPass(string email, string pass);
+        public List<User> forDataGrid();
+        public void AddUserAdmin(User User, bool Admin = false, bool Manager = false, bool Staff = false, bool Customer = false);
     }
 }

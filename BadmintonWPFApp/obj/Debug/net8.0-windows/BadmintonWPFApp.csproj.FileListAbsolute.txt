@@ -220,3 +220,7 @@ D:\FU\p211\tempProject\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-wi
 D:\FU\p211\tempProject\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\Badminto.A753231E.Up2Date
 D:\FU\p211\tempProject\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\BadmintonWPFApp.genruntimeconfig.cache
 D:\FU\p211\tempProject\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\ref\BadmintonWPFApp.dll
+D:\FU\p211\tempProject\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\AddAccountWindowAdmin.g.cs
+D:\FU\p211\tempProject\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAccountManagement.g.cs
+D:\FU\p211\tempProject\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\AddAccountWindowAdmin.baml
+D:\FU\p211\tempProject\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\WindowAccountManagement.baml
