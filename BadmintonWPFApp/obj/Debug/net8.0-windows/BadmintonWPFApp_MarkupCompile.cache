@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\final swp\swp release 18\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\obj\Debug\net8.0-windows\
 BadmintonWPFApp
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\final swp\swp release 18\PRN212_Project_SE1816\BadmintonWPFApp\App.xaml
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BadmintonWPFApp\App.xaml
 17905349533
 
 20466450530
-2512015948793
+251-956719704
 AddAccountWindowAdmin.xaml;BookingWindow.xaml;CourtReportListQualityW.xaml;MainWindow.xaml;Styles\ButtonStyles.xaml;Styles\UIColors.xaml;WindowAccountManagement.xaml;WindowAdmin.xaml;WindowCheckIn.xaml;WindowCourt.xaml;WindowCustomer.xaml;WindowCustomerBookingDetail.xaml;WindowCustomerRate.xaml;WindowLogin.xaml;WindowRegister.xaml;WindowReport.xaml;WindowStaff.xaml;
 
 False

@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace BadmintonWPFApp
 {
@@ -52,13 +53,15 @@ namespace BadmintonWPFApp
 
             for (int i = 4; i <= 8; i++)
             {
-                fixedBooking.Items.Add(new ComboBoxItem { Content = i.ToString() });
+                var comboBoxItem = new ComboBoxItem { Content = i.ToString(), Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("DarkGray")) };
+                fixedBooking.Items.Add(comboBoxItem);
             }
             for (int i = 1; i <= 40; i++)
             {
                 if (i % 5 == 0)
                 {
-                    flexibleBooking.Items.Add(i);
+                    var comboBoxItem = new ComboBoxItem { Content = i.ToString(), Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("DarkGray")) };
+                    flexibleBooking.Items.Add(comboBoxItem);
                 }
             }
 
@@ -197,7 +200,7 @@ namespace BadmintonWPFApp
             ComboBoxItem selectedItem = (ComboBoxItem)TimeSlotComboBox.SelectedItem;
             if (type == "Fixed")
             {
-                if (fixedBooking.SelectedItem == null || (fixedBooking.SelectedItem as ComboBoxItem)?.Content.ToString() == "Choose your weeks")
+                if (fixedBooking.SelectedItem == null || (fixedBooking.SelectedItem as ComboBoxItem).Content.ToString() == "Choose your weeks")
                 {
                     MessageBox.Show("Please select the number of weeks.");
                     return;
@@ -207,7 +210,7 @@ namespace BadmintonWPFApp
             }
             else if (type == "Flexible")
             {
-                if (flexibleBooking.SelectedItem == null || (flexibleBooking.SelectedItem as ComboBoxItem)?.Content.ToString() == "Choose your hours")
+                if (flexibleBooking.SelectedItem == null || (flexibleBooking.SelectedItem as ComboBoxItem).Content.ToString() == "Choose your hours")
                 {
                     MessageBox.Show("Please select the number of hours.");
                     return;
@@ -305,12 +308,17 @@ namespace BadmintonWPFApp
 
             if (MessageBox.Show("Are you certain with your decision?", "Confirmation", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-                int totalHours = 0;
+                var totalHours = 0;
                 if (type == "Flexible")
                 {
                     if (flexibleBooking.SelectedItem is ComboBoxItem flexibleItem && flexibleItem.Content != null)
                     {
                         totalHours = int.Parse(flexibleItem.Content.ToString()) - BookingsListBox.Items.Count;
+                        if (totalHours < 0)
+                        {
+                            MessageBox.Show("You have booked more hours than available in your selection. Please adjust your bookings.");
+                            return;
+                        }
                     }
                     else
                     {
@@ -318,11 +326,10 @@ namespace BadmintonWPFApp
                         return;
                     }
                 }
-                else
+                else if (type == "Fixed")
                 {
                     if (fixedBooking.SelectedItem is ComboBoxItem fixedItem && fixedItem.Content != null)
                     {
-                        totalHours = int.Parse(fixedItem.Content.ToString());
                     }
                     else
                     {
@@ -330,7 +337,6 @@ namespace BadmintonWPFApp
                         return;
                     }
                 }
-                MessageBox.Show(Properties.Settings.Default.UserId.ToString());
                 Booking booking = new Booking
                 {
                     CoId = Properties.Settings.Default.CourtId,
@@ -367,16 +373,15 @@ namespace BadmintonWPFApp
 
                 bookingObject.Insert(booking);
                 MessageBox.Show("Booking confirmed!");
-                WindowCourt court = new WindowCourt();
-                this.Close();
+                Close();
             }
         }
 
         private void BackBtn_Click(object sender, RoutedEventArgs e)
         {
-           WindowCourt court = new WindowCourt();
+            WindowCourt court = new WindowCourt();
             court.Show();
-            this.Close();
+            Close();
         }
     }
 }
