@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FU\\p211\\tempProject\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {}
+    "C:\\final swp\\swp release 18\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {}
   },
   "projects": {
-    "D:\\FU\\p211\\tempProject\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {
+    "C:\\final swp\\swp release 18\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FU\\p211\\tempProject\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "C:\\final swp\\swp release 18\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\FU\\p211\\tempProject\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\FU\\p211\\tempProject\\PRN212_Project_SE1816\\BusinessObject\\obj\\",
+        "projectPath": "C:\\final swp\\swp release 18\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\theji\\.nuget\\packages\\",
+        "outputPath": "C:\\final swp\\swp release 18\\PRN212_Project_SE1816\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\theji\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\FU\\p211\\tempProject\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\FU\\p211\\tempProject\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj"
+              "C:\\final swp\\swp release 18\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\final swp\\swp release 18\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -68,25 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\FU\\p211\\tempProject\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj": {
+    "C:\\final swp\\swp release 18\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FU\\p211\\tempProject\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\final swp\\swp release 18\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\FU\\p211\\tempProject\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\FU\\p211\\tempProject\\PRN212_Project_SE1816\\DataAccess\\obj\\",
+        "projectPath": "C:\\final swp\\swp release 18\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\theji\\.nuget\\packages\\",
+        "outputPath": "C:\\final swp\\swp release 18\\PRN212_Project_SE1816\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\theji\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

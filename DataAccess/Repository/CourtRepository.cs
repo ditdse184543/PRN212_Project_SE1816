@@ -75,5 +75,19 @@ namespace DataAccess.Repository
         {
             return _context.Courts.Where(c => _context.Bookings.Any(b => b.UserId == userId)).ToList();
         }
+        public List<Court> search(string search)
+        {
+            if (int.TryParse(search, out int id))
+            {
+
+                return _context.Courts.Where(c => c.CoId == id || c.CoPrice == id).ToList();
+            }
+            else
+            {
+                search = search.ToLower();
+                // Search by string
+                return _context.Courts.Where(c => string.IsNullOrEmpty(search) || c.CoName.ToLower().Contains(search) || c.CoInfo.ToLower().Contains(search)).ToList();
+            }
+        }
     }
 }

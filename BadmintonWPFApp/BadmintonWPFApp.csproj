@@ -11,6 +11,7 @@
   <ItemGroup>
     <None Remove="Images\badminton-shuttlecock-black-background-transformed.png" />
     <None Remove="Images\best-badminton-background-gyixxvloqmf5t6of.jpg" />
+    <None Remove="Images\desktop-wallpaper-badminton-shuttlecock-sport-equipment-shuttlecock.jpg" />
     <None Remove="Images\icons8-email-16.png" />
     <None Remove="Images\icons8-search-16.png" />
     <None Remove="Images\icons8-synchronize-16.png" />
@@ -47,6 +48,9 @@
   <ItemGroup>
     <Resource Include="Images\badminton-shuttlecock-black-background-transformed.png" />
     <Resource Include="Images\best-badminton-background-gyixxvloqmf5t6of.jpg" />
+    <Resource Include="Images\desktop-wallpaper-badminton-shuttlecock-sport-equipment-shuttlecock.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Images\icons8-email-16.png" />
     <Resource Include="Images\icons8-search-16.png" />
     <Resource Include="Images\icons8-synchronize-16.png" />

@@ -43,5 +43,13 @@ namespace BusinessObject
         {
             return _courtRepository.LoadCourtBasedOnBooking(userId);
         }
+        public List<Court> SearchCourt(string search)
+        {
+            return _courtRepository.search(search);
+        }
+        public Court GetCourt(int courtId)
+        {
+            return _courtRepository.findById(courtId);
+        }
     }
 }

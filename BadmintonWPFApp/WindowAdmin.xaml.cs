@@ -50,6 +50,7 @@ namespace BadmintonWPFApp
                 txtInfo.Text = selectedCourt.CoInfo;
                 txtPrice.Text = selectedCourt.CoPrice.ToString();
                 txtImagePath.Text = selectedCourt.CoPath;
+                txtId.Text = selectedCourt.CoId.ToString();
                 // Display the image in the Image control
                 if (!string.IsNullOrEmpty(selectedCourt.CoPath))
                 {
@@ -77,20 +78,74 @@ namespace BadmintonWPFApp
 
             private void btnUploadImage_Click(object sender, RoutedEventArgs e)
         {
+            /*  OpenFileDialog openFileDialog = new OpenFileDialog();
+              openFileDialog.Filter = "Image files (*.jpg, *.jpeg, *.png) | *.jpg; *.jpeg; *.png";
+              openFileDialog.FilterIndex = 1;
+
+              if (openFileDialog.ShowDialog() == true)
+              {
+                  string selectedFilePath = openFileDialog.FileName;
+
+                  // Display the image in the Image control
+                  imagePicture.Source = new BitmapImage(new Uri(selectedFilePath));
+
+                  // Set the txtImagePath TextBox with the selected file path
+                  txtImagePath.Text = selectedFilePath;
+                  isImageSaved = false;
+              } */
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Image files (*.jpg, *.jpeg, *.png) | *.jpg; *.jpeg; *.png";
             openFileDialog.FilterIndex = 1;
 
+            /*      if (openFileDialog.ShowDialog() == true)
+                  {
+                      string selectedFilePath = openFileDialog.FileName;
+                      BitmapImage bitmap = new BitmapImage();
+                      using (FileStream stream = new FileStream(selectedFilePath, FileMode.Open, FileAccess.Read))
+                      {
+                          bitmap.BeginInit();
+                          bitmap.CacheOption = BitmapCacheOption.OnLoad;
+                          bitmap.StreamSource = stream;
+                          bitmap.EndInit();
+                      }
+                      imagePicture.Source = bitmap;
+                      // Display the image in the Image control
+                      //imagePicture.Source = new BitmapImage(new Uri(selectedFilePath));
+
+
+                      // Set the txtImagePath TextBox with the selected file path
+                      txtImagePath.Text = selectedFilePath;
+                      isImageSaved = false; */
             if (openFileDialog.ShowDialog() == true)
             {
                 string selectedFilePath = openFileDialog.FileName;
 
-                // Display the image in the Image control
-                imagePicture.Source = new BitmapImage(new Uri(selectedFilePath));
+                try
+                {
+                    // Create a BitmapImage and load the image from the file stream
+                    BitmapImage bitmap = new BitmapImage();
+                    using (FileStream stream = new FileStream(selectedFilePath, FileMode.Open, FileAccess.Read))
+                    {
+                        bitmap.BeginInit();
+                        bitmap.CacheOption = BitmapCacheOption.OnLoad;
+                        bitmap.StreamSource = stream;
+                        bitmap.EndInit();
+                    }
 
-                // Set the txtImagePath TextBox with the selected file path
-                txtImagePath.Text = selectedFilePath;
-                isImageSaved = false;
+                    // Set the image source
+                    imagePicture.Source = bitmap;
+
+                    // Set the txtImagePath TextBox with the selected file path
+                    txtImagePath.Text = selectedFilePath;
+                    isImageSaved = false;
+
+
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"An error occurred while loading the image: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
         }
 
@@ -193,25 +248,58 @@ namespace BadmintonWPFApp
 
         private void btnRefresh_Click(object sender, RoutedEventArgs e)
         {
-            LoadCourt();
+            dataGridAdminCourt.SelectedItem = null;
+            txtId.Text = null;
+            txtName.Text = null;
+            txtAddress.Text = null;
+            txtInfo.Text = null;
+            txtPrice.Text = null;
+            txtImagePath.Text = null;
+            imagePicture.Source = null;
+            selectedCourtId = 0; // Reset selectedCourtId
         }
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
-            if (selectedCourtId==null)
+            if (selectedCourtId == null || selectedCourtId == 0)
             {
                 MessageBox.Show("Id not found", "Delete court", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
-            int id = selectedCourtId;
-            _courtObject.Delete(id);
-            MessageBox.Show("Deleted court successfully", "Delete court", MessageBoxButton.OK, MessageBoxImage.None);
-            Reload();
-            LoadCourt();
+            var check = _courtObject.GetCourt(selectedCourtId);
+            if (check.CoStatus == false)
+            {
+                MessageBox.Show("Court already deleted", "Delete court", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+            MessageBoxResult result = MessageBox.Show(
+      "Are you sure you want to delete this court?",
+      "Confirm Delete",
+      MessageBoxButton.YesNo,
+      MessageBoxImage.Question
+  );
+            if (result == MessageBoxResult.Yes)
+            {
+                int id = selectedCourtId;
+                _courtObject.Delete(id);
+                MessageBox.Show("Deleted court successfully", "Delete court", MessageBoxButton.OK, MessageBoxImage.None);
+                LoadCourt();
+            }
+            else
+            {
+                MessageBox.Show("Delete operation canceled.", "Canceled", MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+
         }
 
         private void btnUpdate_Click(object sender, RoutedEventArgs e)
         {
+            if (selectedCourtId == null || selectedCourtId == 0)
+            {
+                MessageBox.Show("Id not found", "Update court", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
             string name = txtName.Text;
             string address = txtAddress.Text;
             string info = txtInfo.Text;
@@ -229,9 +317,9 @@ namespace BadmintonWPFApp
                 MessageBox.Show("Please enter a valid number for the price.", "Invalid Input", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
-           
+
             var user = _userObject.findByEmail(Properties.Settings.Default.Email);
-            
+
             Court update = new Court()
             {
                 CoId = selectedCourtId,  // Use the stored court ID
@@ -247,7 +335,6 @@ namespace BadmintonWPFApp
             _courtObject.Update(update);  // Assuming you have an UpdateCourt method in your CourtObject class
             MessageBox.Show("Updated court successfully", "Update court", MessageBoxButton.OK, MessageBoxImage.None);
             MessageBox.Show("Image path should be /Image/abc.png", "Image", MessageBoxButton.OK, MessageBoxImage.Information);
-            Reload();
             LoadCourt();
 
 
@@ -262,7 +349,21 @@ namespace BadmintonWPFApp
             txtImagePath.Text = null;
             imagePicture.Source = null;
         }
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            string search = txtSearch.Text;
+            dataGridAdminCourt.ItemsSource = _courtObject.SearchCourt(search);
+        }
 
+        private void btnLeave_Click(object sender, RoutedEventArgs e)
+        {
+           
+            MainWindow window = new MainWindow();
+            window.Show();
+            this.Close();
+
+
+        }
     }
 }
 

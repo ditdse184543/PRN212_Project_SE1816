@@ -5,30 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BadmintonWPFApp"
         mc:Ignorable="d"
-        Title="WindowAdmin" Height="800" Width="800"
+        Title="WindowAdmin" Height="800" Width="950"
         WindowStartupLocation="CenterScreen"
         Background="Transparent">
-    
-        <Border CornerRadius="10">
-            <Border.Background>
+
+    <Border CornerRadius="10">
+        <Border.Background>
             <ImageBrush ImageSource="Images/best-badminton-background-gyixxvloqmf5t6of.jpg"
                     Stretch="None" AlignmentX="Left"/>
-            </Border.Background>
-            <Border CornerRadius="10" BorderThickness="5" Opacity="0.92" Padding="20">
+        </Border.Background>
+        <Border CornerRadius="10" BorderThickness="5" Opacity="0.92" Padding="20">
 
-                <Border.BorderBrush>
-                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="#8BFFD0" Offset="0"/>
-                        <GradientStop Color="#462AD8" Offset="0.75"/>
-                        <GradientStop Color="#46B8DA" Offset="1"/>
-                    </LinearGradientBrush>
-                </Border.BorderBrush>
-                <Border.Background>
-                    <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
-                        <GradientStop Color="#1B1448" Offset="0"/>
-                        <GradientStop Color="#2C4D70" Offset="1"/>
-                    </LinearGradientBrush>
-                </Border.Background>
+                    <GradientStop Color="#462AD8" Offset="0.75"/>
+                    <GradientStop Color="#46B8DA" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="#1B1448" Offset="0"/>
+                    <GradientStop Color="#2C4D70" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
@@ -38,7 +38,7 @@
 
                 <StackPanel Orientation="Vertical" Margin="10" Grid.Row="0">
                     <!-- Labels and TextBoxes for Court attributes -->
-                  <!--  <StackPanel Orientation="Horizontal" Margin="5">
+                    <!--  <StackPanel Orientation="Horizontal" Margin="5">
                         <Label Content="Court Id:" Foreground="Black" Width="150"/>
                         <TextBox Name="txtId" Foreground="Blue" Width="200" Margin="0,0,5,0"/>
                     </StackPanel> -->
@@ -100,8 +100,20 @@
                         <Button Name="btnSave" Content="Save" Width="100" Margin="5" Background="{StaticResource color2}" Foreground="White" Click="btnSave_Click"/>
                     </StackPanel>
 
+                    <StackPanel Orientation="Horizontal" >
+                        <Label Content="Id:" Width="30"
+                FontWeight="Medium" FontSize="18"
+                FontFamily="Montserrat"                            
+                Foreground="DarkGray" Padding="5,23,0,0"/>
+                        <TextBox Name="txtId" Width="30" IsReadOnly="True"
+              Foreground="White"
+             CaretBrush="LightGray"
+             BorderBrush="DarkGray"/>
+
+                    </StackPanel>
+
                     <Image Name="imagePicture" Width="400" Height="200" Margin="160,10,0,0" HorizontalAlignment="Left"/>
-          
+
                 </StackPanel>
 
                 <!-- DataGrid for displaying Court records -->
@@ -129,12 +141,15 @@
                     <Button Name="btnUpdate" Content="Update" Width="80" Margin="5" Click="btnUpdate_Click" Background="{StaticResource color2}"/>
                     <Button Name="btnDelete" Content="Delete" Width="80" Margin="5" Click="btnDelete_Click" Background="{StaticResource color4}"/>
                     <Button Name="btnRefresh" Content="Refresh" Width="80" Margin="5" Click="btnRefresh_Click" Background="{StaticResource color8}"/>
+
+                    <Button Name="btnLeave" Content="Leave" Width="80" Margin="5" Click="btnLeave_Click" Background="{StaticResource color8}"/>
+
                     <StackPanel Orientation="Horizontal" Width="380">
                         <TextBox Name="txtSearch" Width="280" Margin="20,0,5,0" 
                                  Foreground="Aqua"
                                 CaretBrush="LightGray"
                                 BorderBrush="DarkGray"/>
-                        <Button Content="" Name="btnSearch" Height="40" Width="60" Padding="0" BorderBrush="#BBBBBB">
+                        <Button Content="" Name="btnSearch" Height="40" Width="60" Padding="0" BorderBrush="#BBBBBB" Click="btnSearch_Click">
                             <Button.Background>
                                 <ImageBrush ImageSource="Images/icons8-search-16.png"
                                             Stretch="None" AlignmentX="Center"/>
