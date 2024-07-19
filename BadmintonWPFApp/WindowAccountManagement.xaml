@@ -5,50 +5,79 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BadmintonWPFApp"
         mc:Ignorable="d"
-        Title="WindowAccountManagement" Height="450" Width="800">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10">
-            <Button Content="Add New Account" Click="AddACButton_Click" Margin="5"/>
-            <Button Content="Search Account" Click="SearchACButton_Click" Margin="5"/>
-            <TextBox x:Name="SearchACTextBox" Width="200" Margin="5" Foreground="Blue" />
-            <Button Content="Reload" Click="ReloadACButton_Click" Margin="5"/>
-        </StackPanel>
+        Title="WindowAccountManagement" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent">
+    <Border CornerRadius="10">
+        <Border.Background>
+            <ImageBrush ImageSource="Images/best-badminton-background-gyixxvloqmf5t6of.jpg"
+                Stretch="None" AlignmentX="Left"/>
+        </Border.Background>
+        <Border CornerRadius="10" BorderThickness="5" Opacity="0.96" Padding="20">
 
-        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" Margin="10">
-            <TextBlock Text="New Role:" VerticalAlignment="Center" Margin="5"/>
-            <TextBox x:Name="NewRoleTextBox" Width="200" Margin="5"/>
-            <Button Content="Add New Role" Click="AddNewRoleButton_Click" Margin="5"/>
-        </StackPanel>
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#8BFFD0" Offset="0"/>
+                    <GradientStop Color="#462AD8" Offset="0.75"/>
+                    <GradientStop Color="#46B8DA" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="#1B1448" Offset="0"/>
+                    <GradientStop Color="#2C4D70" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10">
+                    <Button Content="Add New Account" Click="AddACButton_Click" Margin="5" Background="{StaticResource color4}"/>
+                    <Button Content="Search Account" Click="SearchACButton_Click" Margin="5"/>
+                    <TextBox x:Name="SearchACTextBox" Width="200" Margin="5" Foreground="White" BorderBrush="LightGray" />
+                    <Button Click="ReloadACButton_Click" Margin="5" BorderBrush="LightGray" >
+                        <Button.Background>
+                            <ImageBrush ImageSource="Images/icons8-synchronize-16.png"
+                                        Stretch="None" AlignmentX="Center"/>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
 
-        <DataGrid x:Name="ACDataGrid" AutoGenerateColumns="False" Grid.Row="2" Margin="10" IsReadOnly="True">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="ID" Binding="{Binding UserID}" Width="Auto"/>
-                <DataGridTextColumn Header="Name" Binding="{Binding UserName}" Width="Auto"/>
-                <DataGridTemplateColumn Header="Roles" Width="Auto">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <ComboBox ItemsSource="{Binding Roles}" DisplayMemberPath="RoleName" />
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
-                <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="Auto"/>
-                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="Auto"/>
-                <DataGridTemplateColumn Header="Action" Width="Auto">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                                <Button Content="Update" Click="UpdateACButton_Click" Tag="{Binding UserID}" Margin="5"/>
-                                <Button Content="Delete" Click="DeleteACButton_Click" Tag="{Binding UserID}" Margin="5"/>
-                            </StackPanel>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
-            </DataGrid.Columns>
-        </DataGrid>
-    </Grid>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" Margin="10">
+                    <TextBlock Text="New Role:" VerticalAlignment="Center" Margin="5" Foreground="LightGray" FontSize="15"/>
+                    <TextBox x:Name="NewRoleTextBox" Width="200" Margin="5" Foreground="White" BorderBrush="LightGray"/>
+                    <Button Content="Add New Role" Click="AddNewRoleButton_Click" Margin="5"/>
+                </StackPanel>
+
+                <DataGrid x:Name="ACDataGrid" AutoGenerateColumns="False" Grid.Row="2" Margin="10" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding UserID}" Width="Auto"/>
+                        <DataGridTextColumn Header="Name" Binding="{Binding UserName}" Width="Auto"/>
+                        <DataGridTemplateColumn Header="Roles" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding Roles}" DisplayMemberPath="RoleName" />
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="Auto"/>
+                        <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="Auto"/>
+                        <DataGridTemplateColumn Header="Action" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                        <Button Content="Update" Click="UpdateACButton_Click" Tag="{Binding UserID}" Margin="5"/>
+                                        <Button Content="Delete" Click="DeleteACButton_Click" Tag="{Binding UserID}" Margin="5"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Border>
+    </Border>
 </Window>

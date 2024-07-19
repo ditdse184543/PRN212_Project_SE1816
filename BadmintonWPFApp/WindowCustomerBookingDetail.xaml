@@ -5,82 +5,104 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BadmintonWPFApp"
         mc:Ignorable="d"
-        Title="WindowCustomerBookingDetail" Height="450" Width="800">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height = "auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-        
-        <StackPanel Orientation="Horizontal" Margin="10">
-            <TextBox x:Name="txtSearch" Width="200" />
-            <Button Content="Search" Name="btnSearch" Click="btnSearch_Click" Margin="5,0" />
-        </StackPanel>
+        Title="WindowCustomerBookingDetail" Height="450" Width="800"
+        >
+    <Border CornerRadius="10">
+        <Border.Background>
+            <ImageBrush ImageSource="Images/best-badminton-background-gyixxvloqmf5t6of.jpg"
+            Stretch="None" AlignmentX="Left"/>
+        </Border.Background>
+        <Border CornerRadius="10" BorderThickness="5" Opacity="0.98" Padding="20">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#8BFFD0" Offset="0"/>
+                    <GradientStop Color="#462AD8" Offset="0.75"/>
+                    <GradientStop Color="#46B8DA" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="#1B1448" Offset="0"/>
+                    <GradientStop Color="#2C4D70" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height = "auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <StackPanel Orientation="Horizontal" Margin="10">
+                    <TextBox x:Name="txtSearch" Width="300" Foreground="White" BorderBrush="LightGray" />
+                    <Button Content="Search" Name="btnSearch" Click="btnSearch_Click" Margin="5,0" />
+                </StackPanel>
 
 
-        <DataGrid x:Name="BookingCusDataGrid" AutoGenerateColumns="False" Grid.Row="1" Margin="10" IsReadOnly="True">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header = "Booking Id" Binding="{Binding BId}" Width="Auto"/>
-                <DataGridTextColumn Header = "Booking Type" Binding="{Binding BBookingType}" Width="Auto"/>
-                <DataGridTextColumn Header = "Total hours" Binding="{Binding BTotalHours}" Width="Auto"/>
-                <DataGridTemplateColumn Header="Time Slot Id" Width="Auto">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <ItemsControl ItemsSource="{Binding TimeSlots}">
-                                <ItemsControl.ItemTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding TsId}" />
-                                    </DataTemplate>
-                                </ItemsControl.ItemTemplate>
-                            </ItemsControl>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
+                <DataGrid x:Name="BookingCusDataGrid" AutoGenerateColumns="False" Grid.Row="1" Margin="10" IsReadOnly="True">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header = "Booking Id" Binding="{Binding BId}" Width="Auto"/>
+                        <DataGridTextColumn Header = "Booking Type" Binding="{Binding BBookingType}" Width="Auto"/>
+                        <DataGridTextColumn Header = "Total hours" Binding="{Binding BTotalHours}" Width="Auto"/>
+                        <DataGridTemplateColumn Header="Time Slot Id" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ItemsControl ItemsSource="{Binding TimeSlots}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding TsId}" />
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
 
-                <DataGridTemplateColumn Header="Time Slot Date" Width="Auto">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <ItemsControl ItemsSource="{Binding TimeSlots}">
-                                <ItemsControl.ItemTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding TsDate}" />
-                                    </DataTemplate>
-                                </ItemsControl.ItemTemplate>
-                            </ItemsControl>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
-                <DataGridTemplateColumn Header="Time Slot Time" Width="Auto">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <ItemsControl ItemsSource="{Binding TimeSlots}">
-                                <ItemsControl.ItemTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding TsTime}" />
-                                    </DataTemplate>
-                                </ItemsControl.ItemTemplate>
-                            </ItemsControl>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Time Slot Date" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ItemsControl ItemsSource="{Binding TimeSlots}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding TsDate}" />
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Time Slot Time" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ItemsControl ItemsSource="{Binding TimeSlots}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding TsTime}" />
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
 
 
 
-                <DataGridTemplateColumn Header="Status" Width="Auto">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <ItemsControl ItemsSource="{Binding TimeSlots}">
-                                <ItemsControl.ItemTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding TsCheckedIn}" />
-                                    </DataTemplate>
-                                </ItemsControl.ItemTemplate>
-                            </ItemsControl>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Status" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ItemsControl ItemsSource="{Binding TimeSlots}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding TsCheckedIn}" />
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
 
-            </DataGrid.Columns>
-        </DataGrid>
-    </Grid>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Border>
+    </Border>
 </Window>

@@ -13,7 +13,7 @@
             Stretch="None" />
         </Border.Background>
         <Border CornerRadius="20"                    
-        BorderThickness="3" Opacity="0.9">
+        BorderThickness="3" Opacity="0.96">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="#DA34AE" Offset="0"/>
@@ -60,23 +60,23 @@
                         <TreeViewItem>
                             <TreeViewItem.Header>
                                 <StackPanel Orientation="Horizontal">
-                                    <materialDesign:PackIcon Kind="Tennis" Width="26" Height="26" />
-                                    <TextBlock FontSize="18" Text="Court" Margin="5,0,0,0"/>
+                                    <materialDesign:PackIcon Kind="Tennis" Width="26" Height="26" Foreground="{StaticResource color5}"/>
+                                    <TextBlock FontSize="18" Text="Court" Margin="5,0,0,0" Foreground="{StaticResource color5}"/>
                                 </StackPanel>
                             </TreeViewItem.Header>
                             <TreeViewItem>
                                 <TreeViewItem.Header>
                                     <StackPanel Orientation="Horizontal">
-                                        <materialDesign:PackIcon Kind="Book" Width="16" Height="16" />
-                                        <TextBlock x:Name="BookingHotel" Text="Booking" Margin="5,0,0,0"/>
+                                        <materialDesign:PackIcon Kind="Book" Width="16" Height="16" Foreground="{StaticResource color1}"/>
+                                        <TextBlock x:Name="BookingHotel" Text="Booking" Margin="5,0,0,0" Foreground="{StaticResource color1}"/>
                                     </StackPanel>
                                 </TreeViewItem.Header>
                             </TreeViewItem>
                             <TreeViewItem>
                                 <TreeViewItem.Header>
                                     <StackPanel Orientation="Horizontal">
-                                        <materialDesign:PackIcon Kind="CourtHammer" Width="16" Height="16" />
-                                        <TextBlock Text="Manage court" Margin="5,0,0,0"/>
+                                        <materialDesign:PackIcon Kind="CourtHammer" Width="16" Height="16" Foreground="{StaticResource color10}"/>
+                                        <TextBlock Text="Manage court" Margin="5,0,0,0" Foreground="{StaticResource color10}"/>
                                     </StackPanel>
                                 </TreeViewItem.Header>
                             </TreeViewItem>
@@ -84,20 +84,20 @@
                         <TreeViewItem>
                             <TreeViewItem.Header>
                                 <StackPanel Orientation="Horizontal">
-                                    <materialDesign:PackIcon Kind="LoginVariant" Width="26" Height="26" />
-                                    <TextBlock FontSize="18" Text="Login" Margin="5,0,0,0"/>
+                                    <materialDesign:PackIcon Kind="LoginVariant" Width="26" Height="26" Foreground="{StaticResource color6}" />
+                                    <TextBlock FontSize="18" Text="Login" Margin="5,0,0,0" Foreground="{StaticResource color6}"/>
                                 </StackPanel>
                             </TreeViewItem.Header>
                         </TreeViewItem>
                         <TreeViewItem>
                             <TreeViewItem.Header>
-                                <StackPanel Orientation="Horizontal">
-                                    <materialDesign:PackIcon Kind="Logout" Width="26" Height="26" />
-                                    <TextBlock FontSize="18" Text="Logout" Margin="5,0,0,0"/>
+                                <StackPanel Orientation="Horizontal" Margin="0,50,0,0">
+                                    <materialDesign:PackIcon Kind="Logout" Width="26" Height="26" Foreground="{StaticResource color4}" />
+                                    <TextBlock FontSize="18" Text="Logout" Margin="5,0,0,0" Foreground="{StaticResource color4}"/>
                                 </StackPanel>
                             </TreeViewItem.Header>
                         </TreeViewItem>
-                        
+
                     </TreeView>
 
                     <!-- Right Column for Main Content -->
