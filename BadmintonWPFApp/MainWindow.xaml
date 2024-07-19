@@ -6,90 +6,126 @@
         xmlns:local="clr-namespace:BadmintonWPFApp"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <DockPanel>
-        <!-- Header -->
-        <TextBlock Text="Booking Court" FontSize="24" FontWeight="Bold" 
+        Title="MainWindow" Height="600" Width="1200">
+    <Border CornerRadius="22">
+        <Border.Background>
+            <ImageBrush ImageSource="/Images/desktop-wallpaper-badminton-shuttlecock-sport-equipment-shuttlecock.jpg"
+            Stretch="None" />
+        </Border.Background>
+        <Border CornerRadius="20"                    
+        BorderThickness="3" Opacity="0.9">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#DA34AE" Offset="0"/>
+                    <GradientStop Color="#462AD8" Offset="0.75"/>
+                    <GradientStop Color="#46B8DA" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="#1B1448" Offset="0"/>
+                    <GradientStop Color="#2C4D70" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <DockPanel>
+                <TextBlock Text="Booking Court" FontSize="24" FontWeight="Bold" 
                    HorizontalAlignment="Center" Margin="10" DockPanel.Dock="Top"
                    Foreground="White" Background="DarkBlue" Padding="10"/>
 
-        <!-- Main content -->
-        <Grid DockPanel.Dock="Top">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="800" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="250" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
 
-            <!-- TreeView for navigation -->
-            <TreeView x:Name="myTreeView" MinWidth="220" SelectedItemChanged="TreeView_SelectedItemChanged" Grid.Column="0"
-                      Background="#FFEFEDED" BorderBrush="DarkGray" Margin="0,0,0,221">
-                <TreeViewItem>
-                    <TreeViewItem.Header>
-                        <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="AccountCircle" Width="16" Height="16" />
-                            <TextBlock Text="Profile" Margin="5,0,0,0"/>
-                        </StackPanel>
-                    </TreeViewItem.Header>
-                    <TreeViewItem>
-                        <TreeViewItem.Header>
-                            <StackPanel Orientation="Horizontal">
-                                <materialDesign:PackIcon Kind="Information" Width="16" Height="16" />
-                                <TextBlock Text="Your Information" Margin="5,0,0,0"/>
-                            </StackPanel>
-                        </TreeViewItem.Header>
-                    </TreeViewItem>
-                </TreeViewItem>
-                <TreeViewItem>
-                    <TreeViewItem.Header>
-                        <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="Tennis" Width="16" Height="16" />
-                            <TextBlock Text="Court" Margin="5,0,0,0"/>
-                        </StackPanel>
-                    </TreeViewItem.Header>
-                    <TreeViewItem>
-                        <TreeViewItem.Header>
-                            <StackPanel Orientation="Horizontal">
-                                <materialDesign:PackIcon Kind="Book" Width="16" Height="16" />
-                                <TextBlock x:Name="BookingHotel" Text="Booking" Margin="5,0,0,0"/>
-                            </StackPanel>
-                        </TreeViewItem.Header>
-                    </TreeViewItem>
-                    <TreeViewItem>
-                        <TreeViewItem.Header>
-                            <StackPanel Orientation="Horizontal">
-                                <materialDesign:PackIcon Kind="CourtHammer" Width="16" Height="16" />
-                                <TextBlock Text="Manage court" Margin="5,0,0,0"/>
-                            </StackPanel>
-                        </TreeViewItem.Header>
-                    </TreeViewItem>
-                </TreeViewItem>
-                <TreeViewItem>
-                    <TreeViewItem.Header>
-                        <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="Logout" Width="16" Height="16" />
-                            <TextBlock Text="Logout" Margin="5,0,0,0"/>
-                        </StackPanel>
-                    </TreeViewItem.Header>
-                </TreeViewItem>
-                <TreeViewItem>
-                    <TreeViewItem.Header>
-                        <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="LoginVariant" Width="16" Height="16" />
-                            <TextBlock Text="Login" Margin="5,0,0,0"/>
-                        </StackPanel>
-                    </TreeViewItem.Header>
-                </TreeViewItem>
-                <!-- Add StackPanel here -->
+                    <!-- TreeView for navigation -->
+                    <TreeView x:Name="myTreeView" MinWidth="220" SelectedItemChanged="TreeView_SelectedItemChanged" Grid.Column="0"
+                      Background="#3C3474" BorderBrush="DarkGray" Margin="0,-30,0,50" >
+                        <TreeViewItem>
+                            <TreeViewItem.Header>
+                                <StackPanel Orientation="Horizontal">
+                                    <materialDesign:PackIcon Kind="AccountCircle" Width="26" Height="26" Foreground="{StaticResource color9}" />
+                                    <TextBlock Text="Profile" Margin="5,0,0,0" FontSize="18" Foreground="{StaticResource color9}"/>
+                                </StackPanel>
+                            </TreeViewItem.Header>
+                            <TreeViewItem>
+                                <TreeViewItem.Header>
+                                    <StackPanel Orientation="Horizontal">
+                                        <materialDesign:PackIcon Kind="Information" Width="16" Height="16" Foreground="{StaticResource color3}" />
+                                        <TextBlock Text="Your Information" Margin="5,0,0,0" Foreground="{StaticResource color3}"/>
+                                    </StackPanel>
+                                </TreeViewItem.Header>
+                            </TreeViewItem>
+                        </TreeViewItem>
+                        <TreeViewItem>
+                            <TreeViewItem.Header>
+                                <StackPanel Orientation="Horizontal">
+                                    <materialDesign:PackIcon Kind="Tennis" Width="26" Height="26" />
+                                    <TextBlock FontSize="18" Text="Court" Margin="5,0,0,0"/>
+                                </StackPanel>
+                            </TreeViewItem.Header>
+                            <TreeViewItem>
+                                <TreeViewItem.Header>
+                                    <StackPanel Orientation="Horizontal">
+                                        <materialDesign:PackIcon Kind="Book" Width="16" Height="16" />
+                                        <TextBlock x:Name="BookingHotel" Text="Booking" Margin="5,0,0,0"/>
+                                    </StackPanel>
+                                </TreeViewItem.Header>
+                            </TreeViewItem>
+                            <TreeViewItem>
+                                <TreeViewItem.Header>
+                                    <StackPanel Orientation="Horizontal">
+                                        <materialDesign:PackIcon Kind="CourtHammer" Width="16" Height="16" />
+                                        <TextBlock Text="Manage court" Margin="5,0,0,0"/>
+                                    </StackPanel>
+                                </TreeViewItem.Header>
+                            </TreeViewItem>
+                        </TreeViewItem>
+                        <TreeViewItem>
+                            <TreeViewItem.Header>
+                                <StackPanel Orientation="Horizontal">
+                                    <materialDesign:PackIcon Kind="LoginVariant" Width="26" Height="26" />
+                                    <TextBlock FontSize="18" Text="Login" Margin="5,0,0,0"/>
+                                </StackPanel>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+                        <TreeViewItem>
+                            <TreeViewItem.Header>
+                                <StackPanel Orientation="Horizontal">
+                                    <materialDesign:PackIcon Kind="Logout" Width="26" Height="26" />
+                                    <TextBlock FontSize="18" Text="Logout" Margin="5,0,0,0"/>
+                                </StackPanel>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+                        
+                    </TreeView>
 
-            </TreeView>
-            <StackPanel Width="719" Margin="40,206,40,-206" >
-                <TextBlock Text="Introduction" FontSize="18" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,0" HorizontalAlignment="Center"/>
-                <TextBlock  Text="Welcome to FUMiniHotelSystem! We are glad to have you here. Our hotel system offers a range of features designed to make your stay as comfortable and enjoyable as possible. Thank you for choosing FUMiniHotelSystem. We look forward to making your stay a memorable one." 
-               FontSize="14" Foreground="Gray" TextWrapping="Wrap" Width="643"/>
-            </StackPanel>
-            <!-- Frame for displaying content -->
-            <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Column="1"
-                   Background="White" BorderBrush="DarkGray" BorderThickness="1"/>
-        </Grid>
-    </DockPanel>
+                    <!-- Right Column for Main Content -->
+                    <StackPanel Grid.Column="1" Margin="10">
+                        <!-- Introduction -->
+                        <TextBlock Text="Introduction" FontSize="18" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,10" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Welcome to FUMiniHotelSystem! We are glad to have you here. Our hotel system offers a range of features designed to make your stay as comfortable and enjoyable as possible. Thank you for choosing FUMiniHotelSystem. We look forward to making your stay a memorable one." 
+                           FontSize="14" Foreground="Gray" TextWrapping="Wrap" Width="Auto" Margin="0,0,0,20"/>
+
+                        <!-- 2x2 Grid for Images -->
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Image Source="/Images/court4.jpg" Grid.Row="0" Grid.Column="0" Margin="5" Height="200" Width="300"/>
+                            <Image Source="/Images/images (5).jpg" Grid.Row="0" Grid.Column="1" Margin="5" Height="200" Width="300"/>
+                            <Image Source="/Images/images (4).jpg" Grid.Row="1" Grid.Column="0" Margin="5" Height="200" Width="300"/>
+                            <Image Source="/Images/tải xuống.jpg" Grid.Row="1" Grid.Column="1" Margin="5" Height="200" Width="300"/>
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+            </DockPanel>
+        </Border>
+    </Border>
 </Window>
