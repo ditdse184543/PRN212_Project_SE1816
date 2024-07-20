@@ -44,28 +44,48 @@
 
                 <Label Grid.Row="0" Grid.Column="0" Content="Username:" VerticalAlignment="Center"
                        FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="White"/>
-                <TextBox Grid.Row="0" Grid.Column="1" Margin="0,5" Name="txtUsername"
-                         Foreground="Black" Background="LightGray" CaretBrush="Black" BorderBrush="DarkGray"/>
+                <TextBox Grid.Row="0" Grid.Column="1" Margin="0,5" Name="txtUsername" Padding="20,0,0,0"
+                         Foreground="Black" CaretBrush="Black" BorderBrush="DarkGray">
+                    <TextBox.Background>
+                        <ImageBrush ImageSource="Images/user-icon.png"
+                                    Stretch="None" AlignmentX="Left"/>
+                    </TextBox.Background>
+                </TextBox>
 
                 <Label Grid.Row="1" Grid.Column="0" Content="Email:" VerticalAlignment="Center"
                        FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="White"/>
                 <TextBox Grid.Row="1" Grid.Column="1" Margin="0,5" Name="txtEmail"
-                         Foreground="Black" Background="LightGray" CaretBrush="Black" BorderBrush="DarkGray"/>
+                         Foreground="Black" Padding="20,0,0,0" CaretBrush="Black" BorderBrush="DarkGray">
+                    <TextBox.Background>
+                        <ImageBrush ImageSource="Images/icons8-email-16.png"
+                                    Stretch="None" AlignmentX="Left"/>
+                    </TextBox.Background>
+                </TextBox>
 
                 <Label Grid.Row="2" Grid.Column="0" Content="Password:" VerticalAlignment="Center"
                        FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="White"/>
                 <PasswordBox Grid.Row="2" Grid.Column="1" Margin="0,5" Name="pwbPassword"
-                             Foreground="Black" Background="LightGray" CaretBrush="Black" BorderBrush="DarkGray"/>
+                             Foreground="Black" Padding="20,0,0,0" CaretBrush="Black" BorderBrush="DarkGray">
+                    <PasswordBox.Background>
+                        <ImageBrush ImageSource="Images/key-icon.png"
+                                    Stretch="None" AlignmentX="Left"/>
+                    </PasswordBox.Background>
+                </PasswordBox>
 
                 <Label Grid.Row="3" Grid.Column="0" Content="Confirm Password:" VerticalAlignment="Center"
                        FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="White"/>
                 <PasswordBox Grid.Row="3" Grid.Column="1" Margin="0,5" Name="pwbConfirmPassword"
-                             Foreground="Black" Background="LightGray" CaretBrush="Black" BorderBrush="DarkGray"/>
+                             Foreground="Black" Padding="20,0,0,0" CaretBrush="Black" BorderBrush="DarkGray">
+                    <PasswordBox.Background>
+                        <ImageBrush ImageSource="Images/icons8-privacy-16.png"
+                                    Stretch="None" AlignmentX="Left"/>
+                    </PasswordBox.Background>
+                </PasswordBox>
 
                 <Label Grid.Row="4" Grid.Column="0" Content="Roles:" VerticalAlignment="Top"
                        FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="White"/>
                 <StackPanel Grid.Row="4" Grid.Column="1" Margin="0,5">
-                    <CheckBox Content="Admin" Name="chkAdmin" Foreground="White" Margin="0,5"/>
+                    <CheckBox Content="Admin" Name="chkAdmin" Foreground="White" Margin="0,5" />
                     <CheckBox Content="Manager" Name="chkManager" Foreground="White" Margin="0,5"/>
                     <CheckBox Content="Staff" Name="chkStaff" Foreground="White" Margin="0,5"/>
                     <CheckBox Content="Customer" Name="chkCustomer" Foreground="White" Margin="0,5"/>

@@ -9,13 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\Badminton Court.jpg" />
     <None Remove="Images\badminton-shuttlecock-black-background-transformed.png" />
+    <None Remove="Images\badmintoncourt.jpeg" />
     <None Remove="Images\best-badminton-background-gyixxvloqmf5t6of.jpg" />
+    <None Remove="Images\court4.jpg" />
     <None Remove="Images\desktop-wallpaper-badminton-shuttlecock-sport-equipment-shuttlecock.jpg" />
     <None Remove="Images\icons8-email-16.png" />
+    <None Remove="Images\icons8-reload-32.png" />
     <None Remove="Images\icons8-search-16.png" />
     <None Remove="Images\icons8-synchronize-16.png" />
     <None Remove="Images\key-icon.png" />
+    <None Remove="Images\luminous-abstraction-organic-neon-background-colorful-fluorescence_884955-2420-transformed.jpeg" />
     <None Remove="Images\photo-1626224583764-f87db24ac4ea.png" />
     <None Remove="Images\user-icon.png" />
   </ItemGroup>
@@ -46,8 +51,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\Badminton Court.jpg" />
     <Resource Include="Images\badminton-shuttlecock-black-background-transformed.png" />
+    <Resource Include="Images\badmintoncourt.jpeg" />
     <Resource Include="Images\best-badminton-background-gyixxvloqmf5t6of.jpg" />
+    <Resource Include="Images\court4.jpg" />
     <Resource Include="Images\desktop-wallpaper-badminton-shuttlecock-sport-equipment-shuttlecock.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
@@ -55,6 +63,7 @@
     <Resource Include="Images\icons8-search-16.png" />
     <Resource Include="Images\icons8-synchronize-16.png" />
     <Resource Include="Images\key-icon.png" />
+    <Resource Include="Images\luminous-abstraction-organic-neon-background-colorful-fluorescence_884955-2420-transformed.jpeg" />
     <Resource Include="Images\photo-1626224583764-f87db24ac4ea.png" />
     <Resource Include="Images\user-icon.png" />
   </ItemGroup>
