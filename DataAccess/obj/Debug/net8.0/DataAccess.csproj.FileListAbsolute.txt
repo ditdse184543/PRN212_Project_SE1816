@@ -156,3 +156,19 @@ C:\final swp\swp release 18\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\re
 C:\final swp\swp release 18\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.pdb
 C:\final swp\swp release 18\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
 C:\final swp\swp release 18\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\appsettings.json
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.deps.json
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.dll
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.dll
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\refint\DataAccess.dll
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.pdb
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache
+C:\Users\theji\Downloads\swp 391\wpf\PRN212_Project_SE1816\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
