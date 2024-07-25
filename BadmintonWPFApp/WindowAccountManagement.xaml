@@ -49,6 +49,7 @@
                             </TransformGroup>
                         </Button.RenderTransform>
                     </Button>
+                    <Button Click="Test_Invoice" Content="Test Invoice"  Margin="5"/>
                 </StackPanel>
 
                 <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" Margin="10">
