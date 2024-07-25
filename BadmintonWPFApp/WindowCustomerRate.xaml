@@ -44,39 +44,39 @@
                 </Grid.ColumnDefinitions>
 
                 <TextBlock Text="Court Name:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="5"
-                           FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="DarkGray"/>
-                <TextBlock Text="{Binding CoName}" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Margin="5"
                            FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="White"/>
+                <TextBlock Text="{Binding CoName}" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Margin="5"
+                           FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="Aqua"/>
 
                 <TextBlock Text="Court Address:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="5"
-                           FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="DarkGray"/>
-                <TextBlock Text="{Binding CoAddress}" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Margin="5"
                            FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="White"/>
+                <TextBlock Text="{Binding CoAddress}" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Margin="5"
+                           FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="Aqua"/>
 
                 <TextBlock Text="Court Info:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="5"
-                           FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="DarkGray"/>
-                <TextBlock Text="{Binding CoInfo}" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Margin="5"
                            FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="White"/>
+                <TextBlock Text="{Binding CoInfo}" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Margin="5"
+                           FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="Aqua"/>
 
                 <TextBlock Text="Court Image:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" Margin="5"
-                           FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="DarkGray"/>
+                           FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="White"/>
                 <Image Grid.Row="3" Grid.Column="1" Width="200" Height="80" Stretch="Uniform" Margin="0"
                        Source="{Binding AbsoluteCoPath}"/>
 
                 <StackPanel Orientation="Horizontal" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" Margin="5">
-                    <TextBlock Text="Rating (1-5):" Foreground="DarkGray" FontWeight="Medium" FontSize="20" FontFamily="Montserrat"/>
-                    <TextBlock Text="⭐" Foreground="Yellow" FontSize="22"/>
+                    <TextBlock Text="Rating (1-5):" Foreground="White" FontWeight="Medium" FontSize="20" FontFamily="Montserrat"/>
+                    <TextBlock Text="⭐" Foreground="Yellow" FontSize="22" Margin="0,-5,0,0"/>
                 </StackPanel>
                 <ComboBox x:Name="RatingComboBox" Grid.Row="4" Grid.Column="1" Margin="5" BorderBrush="#ddd" Foreground="#ddd">
-                    <ComboBoxItem Content="⭐" Foreground="Yellow" FontSize="22"/>
-                    <ComboBoxItem Content="⭐⭐" Foreground="Yellow" FontSize="22"/>
-                    <ComboBoxItem Content="⭐⭐⭐" Foreground="Yellow" FontSize="22"/>
-                    <ComboBoxItem Content="⭐⭐⭐⭐" Foreground="Yellow" FontSize="22"/>
-                    <ComboBoxItem Content="⭐⭐⭐⭐⭐" Foreground="Yellow" FontSize="22"/>
+                    <ComboBoxItem Content="1" FontSize="22"/>
+                    <ComboBoxItem Content="2" FontSize="22"/>
+                    <ComboBoxItem Content="3" FontSize="22"/>
+                    <ComboBoxItem Content="4" FontSize="22"/>
+                    <ComboBoxItem Content="5" FontSize="22"/>
                 </ComboBox>
 
                 <TextBlock Text="Review:" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Center" Margin="-30,10,5,5"
-                           FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="DarkGray"/>
+                           FontWeight="Medium" FontSize="20" FontFamily="Montserrat" Foreground="White"/>
                 <TextBox x:Name="ReviewTextBox" Grid.Row="5" Grid.Column="1" Margin="5" Height="100" TextWrapping="Wrap"
                          AcceptsReturn="True" Foreground="White" CaretBrush="LightGray" BorderBrush="DarkGray"/>
 

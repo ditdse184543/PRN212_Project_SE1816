@@ -78,4 +78,40 @@
         <Setter Property="FontWeight" Value="Light"></Setter>
         <Setter Property="Margin" Value="0 0 0 10"></Setter>
     </Style>
+
+    <!-- Define the CheckBox style -->
+    <Style TargetType="CheckBox" x:Key="CustomCheckBox">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="CheckBox">
+                    <StackPanel Orientation="Horizontal">
+                        <Border x:Name="Border" Width="16" Height="16" BorderBrush="Aqua" BorderThickness="1" Margin="0,0,5,0" Background="Transparent">
+                            <Grid>
+                                <Path x:Name="CheckMark" Data="M0,6 L2,8 L6,2" Stroke="Transparent" StrokeThickness="2" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                            </Grid>
+                        </Border>
+                        <ContentPresenter VerticalAlignment="Center" />
+                    </StackPanel>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="Border" Property="Background" Value="#784DFD"/>
+                            <Setter TargetName="CheckMark" Property="Stroke" Value="White"/>
+                            <Setter TargetName="CheckMark" Property="Visibility" Value="Visible"/>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="False">
+                            <Setter TargetName="Border" Property="Background" Value="Transparent"/>
+                            <Setter TargetName="CheckMark" Property="Stroke" Value="Transparent"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="Border" Property="BorderBrush" Value="#784DFD"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="Border" Property="BorderBrush" Value="Gray"/>
+                            <Setter Property="Foreground" Value="Gray"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
 </ResourceDictionary>
