@@ -39,6 +39,7 @@
                     <Button Content="Search Account" Click="SearchACButton_Click" Margin="5"/>
                     <TextBox x:Name="SearchACTextBox" Width="200" Margin="5" Foreground="White" BorderBrush="LightGray" />
                     <Button Click="ReloadACButton_Click" Margin="5" BorderBrush="LightGray" Content="🔄" FontSize="20" Padding="0,0,0,4" Width="30" Background="Blue" />
+                    <Button Click="Test_Invoice" Content="Test Invoice"  Margin="5"/>
                 </StackPanel>
 
                 <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" Margin="10">
