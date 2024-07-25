@@ -29,7 +29,7 @@
             </Border.Background>
             <DockPanel>
                 <TextBlock Text="Booking Court" FontSize="24" FontWeight="Bold" 
-                   HorizontalAlignment="Center" Margin="10" DockPanel.Dock="Top"
+                   HorizontalAlignment="Center" Margin="240,10,0,10" DockPanel.Dock="Top"
                    Foreground="White" Background="DarkBlue" Padding="10"/>
 
                 <Grid>
@@ -40,7 +40,7 @@
 
                     <!-- TreeView for navigation -->
                     <TreeView x:Name="myTreeView" MinWidth="220" SelectedItemChanged="TreeView_SelectedItemChanged" Grid.Column="0"
-                      Background="#3C3474" BorderBrush="DarkGray" Margin="0,-30,0,50" >
+                      Background="#3C3474" BorderBrush="DarkGray" Margin="20,-72,0,0" Padding="0,80,0,0" Foreground="LightCyan">
                         <TreeViewItem>
                             <TreeViewItem.Header>
                                 <StackPanel Orientation="Horizontal">
@@ -107,7 +107,7 @@
                         </TreeViewItem>
                         <TreeViewItem>
                             <TreeViewItem.Header>
-                                <StackPanel Orientation="Horizontal" Margin="0,50,0,0">
+                                <StackPanel Orientation="Horizontal" Margin="0,50,10,0">
                                     <materialDesign:PackIcon Kind="Logout" Width="26" Height="26" Foreground="{StaticResource color4}" />
                                     <TextBlock FontSize="18" Text="Logout" Margin="5,0,0,0" Foreground="{StaticResource color4}"/>
                                 </StackPanel>
@@ -120,9 +120,9 @@
                     <!-- Right Column for Main Content -->
                     <StackPanel Grid.Column="1" Margin="10">
                         <!-- Introduction -->
-                        <TextBlock Text="Introduction" FontSize="18" FontWeight="Bold" Foreground="DarkBlue" Margin="0,0,0,10" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Introduction" FontSize="18" FontWeight="Bold" Foreground="LightBlue" Margin="0,0,0,10" HorizontalAlignment="Center"/>
                         <TextBlock Text="Welcome to ABC Court platform! We are glad to have you here. Our hotel system offers a range of features designed to make your stay as comfortable and enjoyable as possible. Thank you for choosing FUMiniHotelSystem. We look forward to making your stay a memorable one." 
-                           FontSize="14" Foreground="Gray" TextWrapping="Wrap" Width="Auto" Margin="0,0,0,20"/>
+                           FontSize="14" Foreground="White" TextWrapping="Wrap" Width="Auto" Margin="0,0,0,20"/>
 
                         <!-- 2x2 Grid for Images -->
                         <Grid>

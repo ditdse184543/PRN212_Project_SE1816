@@ -47,9 +47,9 @@
                         <Label Content="Court Name:" Width="150"
                                FontWeight="Medium" FontSize="20"
                                FontFamily="Montserrat"                            
-                               Foreground="DarkGray"/>
+                               Foreground="White"/>
                         <TextBox Name="txtName" Width="300" Margin="0,0,5,0"
-                                 Foreground="White"
+                                 Foreground="Aqua"
                                 CaretBrush="LightGray"
                                 BorderBrush="DarkGray"/>
                     </StackPanel>
@@ -58,9 +58,9 @@
                         <Label Content="Address:" Width="150"
                                FontWeight="Medium" FontSize="20"
                                 FontFamily="Montserrat"                            
-                                Foreground="DarkGray"/>
+                                Foreground="White"/>
                         <TextBox Name="txtAddress" Width="300" Margin="0,0,5,0"
-                                 Foreground="White"
+                                 Foreground="Aqua"
                                 CaretBrush="LightGray"
                                 BorderBrush="DarkGray"/>
                     </StackPanel>
@@ -69,9 +69,9 @@
                         <Label Content="Info:" Width="150"
                                FontWeight="Medium" FontSize="20"
                                 FontFamily="Montserrat"                            
-                                Foreground="DarkGray"/>
+                                Foreground="White"/>
                         <TextBox Name="txtInfo" Width="300" Margin="0,0,5,0"
-                                 Foreground="White"
+                                 Foreground="Aqua"
                                 CaretBrush="LightGray"
                                 BorderBrush="DarkGray"/>
                     </StackPanel>
@@ -80,9 +80,9 @@
                         <Label Content="Price:" Width="150"
                                FontWeight="Medium" FontSize="20"
                                 FontFamily="Montserrat"                            
-                                Foreground="DarkGray"/>
+                                Foreground="White"/>
                         <TextBox Name="txtPrice" Width="200" Margin="0,0,5,0"
-                                 Foreground="White"
+                                 Foreground="Aqua"
                                 CaretBrush="LightGray"
                                 BorderBrush="DarkGray"/>
                     </StackPanel>
@@ -91,12 +91,12 @@
                         <Label Content="Image Path:" Width="150"
                                FontWeight="Medium" FontSize="18"
                                 FontFamily="Montserrat"                            
-                                Foreground="DarkGray" Padding="5,23,0,0"/>
+                                Foreground="White" Padding="5,23,0,0"/>
                         <TextBox Name="txtImagePath" Width="200" IsReadOnly="True" Margin="0,0,5,0"
-                                 Foreground="White"
+                                 Foreground="{StaticResource color3}"
                                 CaretBrush="LightGray"
                                 BorderBrush="DarkGray"/>
-                        <Button Name="btnUploadImage" Content="📁" Height="30" Width="30" Margin="5" Foreground="White" Background="{StaticResource color6}" Padding="0"  Click="btnUploadImage_Click"/>
+                        <Button Name="btnUploadImage" Content="📁" Height="30" Width="30" Margin="5" Foreground="White" Background="Orange" Padding="0" Click="btnUploadImage_Click"/>
                         <Button Name="btnSave" Content="Save" Width="100" Margin="5" Background="{StaticResource color2}" Foreground="White" Click="btnSave_Click"/>
                     </StackPanel>
 
@@ -104,11 +104,11 @@
                         <Label Content="Id:" Width="30"
                 FontWeight="Medium" FontSize="18"
                 FontFamily="Montserrat"                            
-                Foreground="DarkGray" Padding="5,23,0,0"/>
+                Foreground="White" Padding="5,23,0,0"/>
                         <TextBox Name="txtId" Width="30" IsReadOnly="True"
-              Foreground="White"
-             CaretBrush="LightGray"
-             BorderBrush="DarkGray"/>
+                                 Foreground="{StaticResource color8}"
+                                 CaretBrush="LightGray"
+                                 BorderBrush="DarkGray"/>
 
                     </StackPanel>
 
@@ -149,7 +149,7 @@
                                  Foreground="Aqua"
                                 CaretBrush="LightGray"
                                 BorderBrush="DarkGray"/>
-                        <Button Content="" Name="btnSearch" Height="40" Width="60" Padding="0" BorderBrush="#BBBBBB" Click="btnSearch_Click">
+                        <Button Content="" Name="btnSearch" Height="40" Width="50" Padding="0" BorderBrush="Aqua" Click="btnSearch_Click">
                             <Button.Background>
                                 <ImageBrush ImageSource="Images/icons8-search-16.png"
                                             Stretch="None" AlignmentX="Center"/>

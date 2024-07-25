@@ -1,12 +1,104 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\fpt summer 2024\\prn212\\project-group\\po\\prn212_project_se1816\\badmintonwpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\badmintonwpfapp\\windowadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\windowadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\badmintonwpfapp\\addaccountwindowadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\addaccountwindowadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\users\\admin\\onedrive\\m\u00E1y t\u00EDnh\\fpt summer 2024\\prn212\\project-group\\po\\prn212_project_se1816\\badmintonwpfapp\\windowadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\windowadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\badmintonwpfapp\\courtreportlistqualityw.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\courtreportlistqualityw.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "BadmintonWPFApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\MainWindow.xaml",
+              "RelativeToolTip": "BadmintonWPFApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-25T16:56:43.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WindowAdmin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowAdmin.xaml.cs",
+              "RelativeDocumentMoniker": "BadmintonWPFApp\\WindowAdmin.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowAdmin.xaml.cs",
+              "RelativeToolTip": "BadmintonWPFApp\\WindowAdmin.xaml.cs",
+              "ViewState": "AQIAANQAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T16:44:13.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourtReportListQualityW.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\CourtReportListQualityW.xaml",
+              "RelativeDocumentMoniker": "BadmintonWPFApp\\CourtReportListQualityW.xaml",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\CourtReportListQualityW.xaml",
+              "RelativeToolTip": "BadmintonWPFApp\\CourtReportListQualityW.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-25T16:44:01.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WindowAdmin.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowAdmin.xaml",
+              "RelativeDocumentMoniker": "BadmintonWPFApp\\WindowAdmin.xaml",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\WindowAdmin.xaml",
+              "RelativeToolTip": "BadmintonWPFApp\\WindowAdmin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-25T16:43:40.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddAccountWindowAdmin.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\AddAccountWindowAdmin.xaml",
+              "RelativeDocumentMoniker": "BadmintonWPFApp\\AddAccountWindowAdmin.xaml",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\M\u00E1y t\u00EDnh\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\AddAccountWindowAdmin.xaml",
+              "RelativeToolTip": "BadmintonWPFApp\\AddAccountWindowAdmin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-25T16:43:30.621Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
