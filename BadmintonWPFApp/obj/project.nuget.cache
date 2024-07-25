@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F3HIHUVYxX4ei9ipvBDH6nIKGZrj+se+AGdBuTO8bojrxRpko9m1k4MUeYDDJHzjd4Rp0keZoniHQ8OIGk6Lzw==",
+  "dgSpecHash": "kWopeDLyghh9hRr85UDkGCUvn5fbrdRravBqR71gxGhwRR7aQuIpTf5ZsLKN5MTt2CUJgjtBruMOrokOrCF/iw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\BadmintonWPFApp.csproj",
+  "projectFilePath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\BadmintonWPFApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

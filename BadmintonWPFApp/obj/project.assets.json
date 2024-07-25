@@ -3508,11 +3508,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\BadmintonWPFApp.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\BadmintonWPFApp.csproj",
       "projectName": "BadmintonWPFApp",
-      "projectPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\BadmintonWPFApp.csproj",
+      "projectPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\BadmintonWPFApp.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\obj\\",
+      "outputPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3528,8 +3528,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj"
+            "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj"
             }
           }
         }
