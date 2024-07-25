@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BadmintonWPFApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+054d2a569265c00decdc379648c8918ae2150194")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67017c02856bd0dd27d7e9b46265b5a0e56cfb9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("BadmintonWPFApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BadmintonWPFApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

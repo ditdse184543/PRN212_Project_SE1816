@@ -344,7 +344,12 @@ namespace BadmintonWPFApp
                     UserId = Properties.Settings.Default.UserId,
                     BTotalHours = totalHours
                 };
-
+                Payment payment = new Payment
+                {
+                    PAmount = 10,
+                    PDateTime = DateTime.Now
+                };
+                booking.Payments.Add(payment);
                 if (type == "Casual" || type == "Flexible")
                 {
                     foreach (TimeSlot slot in timeSlots)

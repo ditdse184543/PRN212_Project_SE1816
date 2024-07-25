@@ -94,7 +94,7 @@ namespace BadmintonWPFApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BadmintonWPFApp;V1.0.0.0;component/windowstaff.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BadmintonWPFApp;component/windowstaff.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\WindowStaff.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

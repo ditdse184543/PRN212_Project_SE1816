@@ -3133,33 +3133,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Windows\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
+      "projectUniqueName": "C:\\Users\\Windows\\Source\\Repos\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
       "projectName": "BusinessObject",
-      "projectPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\BusinessObject\\obj\\",
+      "projectPath": "C:\\Users\\Windows\\Source\\Repos\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
+      "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Windows\\Source\\Repos\\PRN212_Project_SE1816\\BusinessObject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Windows\\Source\\Repos\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Windows\\Source\\Repos\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj"
             }
           }
         }

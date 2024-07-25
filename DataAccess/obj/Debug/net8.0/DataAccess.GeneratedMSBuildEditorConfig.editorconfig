@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DataAccess
-build_property.ProjectDir = C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PO\PRN212_Project_SE1816\DataAccess\
+build_property.ProjectDir = C:\Users\Windows\Source\Repos\PRN212_Project_SE1816\DataAccess\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
