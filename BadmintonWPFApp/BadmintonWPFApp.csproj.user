@@ -19,6 +19,9 @@
     <Compile Update="WindowCourt.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="WindowDashBoard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="WindowLogin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -64,6 +67,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="WindowCustomerRate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowDashBoard.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="WindowLogin.xaml">

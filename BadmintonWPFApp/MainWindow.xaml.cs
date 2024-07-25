@@ -99,6 +99,23 @@ namespace BadmintonWPFApp
                             bookingReservationWindow.Show();
                             this.Close();
                         }
+                        else if (textBlock.Text == "Dashboard")
+                        {
+                            int role = Properties.Settings.Default.RoleId;
+                            if (role != 3)
+                            {
+                                throw new Exception("You aren't permited to access this function!!");
+                            }
+                            var dashBoard = new WindowDashBoard();
+                            dashBoard.Show();
+                            this.Close();
+                        }
+                        else if (textBlock.Text == "Checkin")
+                        {
+                            var newWindow = new WindowStaff();
+                            newWindow.Show();
+                            this.Close();
+                        }
                         else if (textBlock.Text == "Login")
                         {
                             var profileScreen = new WindowLogin();
