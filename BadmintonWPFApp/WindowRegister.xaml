@@ -62,6 +62,7 @@
 
                 <Button Name="btnRegister" Content="Register" Width="100" Height="30" Margin="10" FontSize="16" Click="btnRegister_Click" Background="{StaticResource plainTextColor1}" Foreground="#FF391678"/>
                 <Button Name="btnLogin" Content="Login" Width="100" Height="30" Margin="10" FontSize="16" Click="btnLogin_Click" />
+                <Button Name="btnBack" Content="Back" Width="100" Height="30" Margin="10" FontSize="16" Click="btnBack_Click" />
             </StackPanel>
         </Grid>
     </Border>

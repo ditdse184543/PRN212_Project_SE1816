@@ -89,5 +89,23 @@ namespace DataAccess.Repository
                 return _context.Courts.Where(c => string.IsNullOrEmpty(search) || c.CoName.ToLower().Contains(search) || c.CoInfo.ToLower().Contains(search)).ToList();
             }
         }
+
+        public List<Court> getByUserID(int userId)
+        {
+            return _context.Courts.Include(c => c.Bookings).ThenInclude(b => b.Payments).Where(c => c.UserId == userId).ToList();
+        }
+
+        public List<Court> getCourtByUserID(int userId)
+        {
+            User user = _context.Users.Include(u=> u.Roles).SingleOrDefault(u => u.UserId == userId);
+            if(user.Roles.First().RoleId == 2)
+            {
+                return _context.Courts.Where(c => c.CoStatus == true).ToList();
+            }
+            else
+            {
+                return _context.Courts.Where(c => c.CoStatus == true && c.User.UserId==userId).ToList();
+            }
+        }
     }
 }

@@ -16,6 +16,7 @@
     <None Remove="Images\court4.jpg" />
     <None Remove="Images\desktop-wallpaper-badminton-shuttlecock-sport-equipment-shuttlecock.jpg" />
     <None Remove="Images\icons8-email-16.png" />
+    <None Remove="Images\icons8-privacy-16.png" />
     <None Remove="Images\icons8-reload-32.png" />
     <None Remove="Images\icons8-search-16.png" />
     <None Remove="Images\icons8-synchronize-16.png" />
@@ -61,6 +62,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Images\icons8-email-16.png" />
+    <Resource Include="Images\icons8-privacy-16.png" />
     <Resource Include="Images\icons8-search-16.png" />
     <Resource Include="Images\icons8-synchronize-16.png" />
     <Resource Include="Images\key-icon.png" />

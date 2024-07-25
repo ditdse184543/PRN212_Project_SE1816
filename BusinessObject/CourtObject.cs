@@ -1,6 +1,7 @@
 ﻿using DataAccess.Models;
 using DataAccess.Repository;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -50,6 +51,15 @@ namespace BusinessObject
         public Court GetCourt(int courtId)
         {
             return _courtRepository.findById(courtId);
+        }
+        public List<Court> getAllPaymentByUserId(int userId)
+        {
+            return _courtRepository.getByUserID(userId);
+        }
+
+        public IEnumerable getCourtByUserID(int userId)
+        {
+            return _courtRepository.getCourtByUserID(userId);
         }
     }
 }

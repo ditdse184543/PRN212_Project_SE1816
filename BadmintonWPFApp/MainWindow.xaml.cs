@@ -20,6 +20,7 @@ namespace BadmintonWPFApp
         {
             InitializeComponent();
             CheckLoginBtnStatus();
+            CheckRolePermissions(); 
         }
 
         private void CheckLoginBtnStatus()
@@ -58,6 +59,46 @@ namespace BadmintonWPFApp
                 }
             }
             return null;
+        }
+        private void CheckRolePermissions()
+        {
+            int role = Properties.Settings.Default.RoleId;
+            if (role != 3)
+            {
+                dashboardItem.Visibility = Visibility.Collapsed;
+            }
+            if (role != 2 && role !=3)
+            {
+                manageCourtItem.Visibility = Visibility.Collapsed;
+            }
+            if(role != 1)
+            {
+                CustomerItem.Visibility = Visibility.Collapsed;
+            }
+            if (role != 2)
+            {
+                ManageAccountItem.Visibility = Visibility.Collapsed;
+            }
+            if (role != 4)
+            {
+                StaffFuncItem.Visibility = Visibility.Collapsed;
+            }
+            if (role == 1) //Customer
+            {
+                TitleBooking.Text = "Booking Court";
+            }
+            else if(role == 2) //Admin
+            {
+                TitleBooking.Text = "Booking Workplace for Admin";
+            }
+            else if (role == 3) //Maanager
+            {
+                TitleBooking.Text = "Booking Workplace for Manager";
+            }
+            else if (role == 4) //Staff
+            {
+                TitleBooking.Text = "Booking Workplace for Staff";
+            }
         }
 
         private void TreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
@@ -108,6 +149,24 @@ namespace BadmintonWPFApp
                             }
                             var dashBoard = new WindowDashBoard();
                             dashBoard.Show();
+                            this.Close();
+                        }
+                        else if (textBlock.Text == "Manage Account")
+                        {
+                            var newWindow = new WindowAccountManagement();
+                            newWindow.Show();
+                            this.Close();
+                        }
+                        else if (textBlock.Text == "Staff")
+                        {
+                            var newWindow = new WindowStaff();
+                            newWindow.Show();
+                            this.Close();
+                        }
+                        else if (textBlock.Text == "Your Booking")
+                        {
+                            var newWindow = new WindowCustomer();
+                            newWindow.Show();
                             this.Close();
                         }
                         else if (textBlock.Text == "Checkin")

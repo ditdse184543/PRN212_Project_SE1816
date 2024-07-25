@@ -37,5 +37,12 @@ namespace BadmintonWPFApp
             windowReport.Show();
             this.Close();
         }
+
+        private void Button_Back(object sender, RoutedEventArgs e)
+        {
+            var newWindow = new MainWindow();
+            newWindow.Show();
+            this.Close();
+        }
     }
 }

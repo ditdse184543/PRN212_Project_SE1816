@@ -102,5 +102,11 @@ namespace BadmintonWPFApp
             this.Close();
         }
 
+        private void btn_back_Click(object sender, RoutedEventArgs e)
+        {
+            var newWindow = new MainWindow();
+            newWindow.Show();
+            this.Close();
+        }
     }
 }

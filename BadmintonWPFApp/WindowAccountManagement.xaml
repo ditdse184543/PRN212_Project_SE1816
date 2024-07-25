@@ -37,8 +37,18 @@
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10">
                     <Button Content="Add New Account" Click="AddACButton_Click" Margin="5" Background="{StaticResource color4}"/>
                     <Button Content="Search Account" Click="SearchACButton_Click" Margin="5"/>
+                    <Button Content="Back" Click="Back_Click" Margin="5"/>
                     <TextBox x:Name="SearchACTextBox" Width="200" Margin="5" Foreground="White" BorderBrush="LightGray" />
-                    <Button Click="ReloadACButton_Click" Margin="5" BorderBrush="LightGray" Content="🔄" FontSize="20" Padding="0,0,0,4" Width="30" Background="Blue" />
+                    <Button Click="ReloadACButton_Click" Margin="5" BorderBrush="LightGray" Content="🔄" FontSize="20" Padding="0,0,0,4" Width="30" Background="Blue" RenderTransformOrigin="0.5,0.5" >
+                        <Button.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-1.693"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Button.RenderTransform>
+                    </Button>
                 </StackPanel>
 
                 <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left" Margin="10">

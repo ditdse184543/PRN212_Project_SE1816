@@ -30,7 +30,7 @@
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="120"/>
+                    <RowDefinition Height="180"/>
                 </Grid.RowDefinitions>
 
                 <Grid Grid.Row="0">
@@ -124,6 +124,9 @@
                     </Button>
                     <Button DockPanel.Dock="Bottom" Margin="10" Padding="10" Click="Button_Report" Height="40">
                         Report court quality
+                    </Button>
+                    <Button DockPanel.Dock="Bottom" Margin="10" Padding="10" Click="Button_Back" Height="40">
+                        Back
                     </Button>
                     <!--<Button DockPanel.Dock ="Top" Margin="10" Padding="10" Click="Button_Log_Out">
                             Log out

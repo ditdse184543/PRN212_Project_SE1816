@@ -28,7 +28,7 @@
                 </LinearGradientBrush>
             </Border.Background>
             <DockPanel>
-                <TextBlock Text="Booking Court" FontSize="24" FontWeight="Bold" 
+                <TextBlock x:Name="TitleBooking" Text="Booking Court" FontSize="24" FontWeight="Bold" 
                    HorizontalAlignment="Center" Margin="240,10,0,10" DockPanel.Dock="Top"
                    Foreground="White" Background="DarkBlue" Padding="10"/>
 
@@ -72,7 +72,7 @@
                                     </StackPanel>
                                 </TreeViewItem.Header>
                             </TreeViewItem>
-                            <TreeViewItem>
+                            <TreeViewItem x:Name="manageCourtItem">
                                 <TreeViewItem.Header>
                                     <StackPanel Orientation="Horizontal">
                                         <materialDesign:PackIcon Kind="CourtHammer" Width="16" Height="16" Foreground="{StaticResource color10}"/>
@@ -80,7 +80,7 @@
                                     </StackPanel>
                                 </TreeViewItem.Header>
                             </TreeViewItem>
-                            <TreeViewItem>
+                            <TreeViewItem x:Name="dashboardItem">
                                 <TreeViewItem.Header>
                                     <StackPanel Orientation="Horizontal">
                                         <materialDesign:PackIcon Kind="MonitorDashboard" Width="16" Height="16" Foreground="{StaticResource color10}"/>
@@ -88,11 +88,28 @@
                                     </StackPanel>
                                 </TreeViewItem.Header>
                             </TreeViewItem>
-                            <TreeViewItem>
+                            <TreeViewItem x:Name="ManageAccountItem">
                                 <TreeViewItem.Header>
                                     <StackPanel Orientation="Horizontal">
                                         <materialDesign:PackIcon Kind="Check" Width="16" Height="16" Foreground="{StaticResource color10}"/>
-                                        <TextBlock Text="Checkin" Margin="5,0,0,0" Foreground="{StaticResource color10}"/>
+                                        <TextBlock Text="Manage Account" Margin="5,0,0,0" Foreground="{StaticResource color10}"/>
+                                    </StackPanel>
+                                </TreeViewItem.Header>
+                            </TreeViewItem>
+                            <TreeViewItem x:Name="StaffFuncItem">
+                                <TreeViewItem.Header>
+                                    <StackPanel Orientation="Horizontal">
+                                        <materialDesign:PackIcon Kind="Check" Width="16" Height="16" Foreground="{StaticResource color10}"/>
+                                        <TextBlock Text="Staff" Margin="5,0,0,0" Foreground="{StaticResource color10}"/>
+                                    </StackPanel>
+                                </TreeViewItem.Header>
+                            </TreeViewItem>
+              
+                            <TreeViewItem x:Name="CustomerItem">
+                                <TreeViewItem.Header>
+                                    <StackPanel Orientation="Horizontal">
+                                        <materialDesign:PackIcon Kind="Check" Width="16" Height="16" Foreground="{StaticResource color10}"/>
+                                        <TextBlock Text="Your Booking" Margin="5,0,0,0" Foreground="{StaticResource color10}"/>
                                     </StackPanel>
                                 </TreeViewItem.Header>
                             </TreeViewItem>

@@ -28,15 +28,15 @@
                 </LinearGradientBrush>
             </Border.Background>
 
-            <Grid>
+            <Grid Margin="0,57,0,0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height = "auto" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
+                <Button Content="Back" Click="Back_Click" Margin="5" Background="{StaticResource plainTextColor3}"/>
 
-
-                <DataGrid x:Name="BookingCusDataGrid" AutoGenerateColumns="False" Grid.Row="1" Margin="10" IsReadOnly="True" Background="#EAFCFF">
+                <DataGrid x:Name="BookingCusDataGrid" AutoGenerateColumns="False" Grid.Row="1" Margin="10,0,10,10" IsReadOnly="True" Background="#EAFCFF">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header = "Court Name" Binding="{Binding CoName}" Width="Auto"/>
                         <DataGridTextColumn Header = "Address" Binding="{Binding CoAddress}" Width="Auto"/>
@@ -54,6 +54,7 @@
                         </DataGridTemplateColumn>
                     </DataGrid.Columns>
                 </DataGrid>
+                
             </Grid>
         </Border>
     </Border>

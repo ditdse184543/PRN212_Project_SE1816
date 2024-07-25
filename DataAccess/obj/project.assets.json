@@ -4411,26 +4411,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Windows\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Windows\\Source\\Repos\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\Windows\\Source\\Repos\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
-      "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Windows\\Source\\Repos\\PRN212_Project_SE1816\\DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\PRN212_Project_SE1816\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
