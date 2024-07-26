@@ -21,6 +21,7 @@ namespace BadmintonWPFApp
         private Dictionary<DateOnly, List<string>> disabledTimeSlots = new Dictionary<DateOnly, List<string>>();
         private readonly InvoiceObject invoiceObject;
         string type;
+        TextBox guestName;
 
         public BookingWindow()
         {
@@ -30,7 +31,7 @@ namespace BadmintonWPFApp
             InitializeTimeSlots();
             BookingDatePicker.SelectedDate = DateTime.Today;
             TypeComboBox.SelectedIndex = 0;
-
+            guestName = new TextBox();
             fixedBooking.SelectionChanged += FixedBooking_SelectionChanged;
             flexibleBooking.SelectionChanged += FlexibleBooking_SelectionChanged;
             fixedBooking.Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("Aqua"));
@@ -43,7 +44,13 @@ namespace BadmintonWPFApp
                 flexibleBooking.SelectedIndex = 0;
                 flexibleBooking.IsEnabled = false;
             }
-
+            if(Properties.Settings.Default.RoleId == 3)
+            {
+                TypeComboBox.SelectedIndex = 0;
+                TypeComboBox.IsEnabled = false;
+                Dynamic.Text = "Guest Name:";
+                DynamicInputControl.Content = guestName;
+            }
             this.invoiceObject = new InvoiceObject();
         }
 
@@ -237,32 +244,41 @@ namespace BadmintonWPFApp
             double price = bookingObject.getPrice(Properties.Settings.Default.CourtId);
             int count = BookingsListBox.Items.Count;
 
-            if (type == "Fixed" && fixedBooking.SelectedItem != null)
+            var flexible = bookingObject.getFlexible(Properties.Settings.Default.CourtId, Properties.Settings.Default.UserId);
+            if (flexible != null)
             {
-                ComboBoxItem selectedFixedItem = fixedBooking.SelectedItem as ComboBoxItem;
-                if (selectedFixedItem != null && int.TryParse(selectedFixedItem.Content.ToString(), out int selectedWeeks))
-                {
-                    PriceLabel.Text = $"Price: ${price * count * selectedWeeks:F2}";
-                }
-            }
-            else if (type == "Flexible" && flexibleBooking.SelectedItem != null)
-            {
-                ComboBoxItem selectedFixedItem = flexibleBooking.SelectedItem as ComboBoxItem;
-                if (selectedFixedItem != null && int.TryParse(selectedFixedItem.Content.ToString(), out int selectedHours))
-                {
-                    PriceLabel.Text = $"Price: ${price * selectedHours:F2}";
-                }
-            }
-            else if (type == "Casual")
-            {
-
-                PriceLabel.Text = $"Price: ${price * count:F2}";
-
+                PriceLabel.Text = string.Empty;
             }
             else
             {
-                PriceLabel.Text = "Price: $0.00";
+                if (type == "Fixed" && fixedBooking.SelectedItem != null)
+                {
+                    ComboBoxItem selectedFixedItem = fixedBooking.SelectedItem as ComboBoxItem;
+                    if (selectedFixedItem != null && int.TryParse(selectedFixedItem.Content.ToString(), out int selectedWeeks))
+                    {
+                        PriceLabel.Text = $"Price: ${price * count * selectedWeeks:F2}";
+                    }
+                }
+                else if (type == "Flexible" && flexibleBooking.SelectedItem != null)
+                {
+                    ComboBoxItem selectedFixedItem = flexibleBooking.SelectedItem as ComboBoxItem;
+                    if (selectedFixedItem != null && int.TryParse(selectedFixedItem.Content.ToString(), out int selectedHours))
+                    {
+                        PriceLabel.Text = $"Price: ${price * selectedHours:F2}";
+                    }
+                }
+                else if (type == "Casual")
+                {
+
+                    PriceLabel.Text = $"Price: ${price * count:F2}";
+
+                }
+                else
+                {
+                    PriceLabel.Text = "Price: $0.00";
+                }
             }
+            
         }
 
         private void BookButton_Click(object sender, RoutedEventArgs e)

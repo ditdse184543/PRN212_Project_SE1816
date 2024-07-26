@@ -93,7 +93,7 @@ namespace BadmintonWPFApp
             {
                 TitleBooking.Text = "Booking Workplace for Admin";
             }
-            else if (role == 3) //Maanager
+            else if (role == 3) //Manager
             {
                 TitleBooking.Text = "Booking Workplace for Manager";
             }

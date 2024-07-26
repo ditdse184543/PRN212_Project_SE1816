@@ -54,7 +54,7 @@ namespace BadmintonWPFApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BadmintonWPFApp;V1.0.0.0;component/invoicew.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BadmintonWPFApp;component/invoicew.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\InvoiceW.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

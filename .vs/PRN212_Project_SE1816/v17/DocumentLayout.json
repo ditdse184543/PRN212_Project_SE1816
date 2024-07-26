@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\users\\windows\\source\\repos\\demoprn212_project_se1816\\badmintonwpfapp\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\users\\windows\\source\\repos\\demoprn212_project_se1816\\badmintonwpfapp\\bookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\bookingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\users\\windows\\source\\repos\\demoprn212_project_se1816\\badmintonwpfapp\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|c:\\users\\windows\\source\\repos\\demoprn212_project_se1816\\badmintonwpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7817CAC-2720-4BE0-9A33-E536B637D3D7}|BadmintonWPFApp\\BadmintonWPFApp.csproj|solutionrelative:badmintonwpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|c:\\users\\windows\\source\\repos\\demoprn212_project_se1816\\dataaccess\\repository\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01A4267C-2A64-4D72-B255-4143CDD04F05}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repository\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 71,
+          "SelectedChildIndex": 73,
           "Children": [
             {
               "$type": "Bookmark",
@@ -302,15 +318,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\Windows\\source\\repos\\demoPRN212_Project_SE1816\\BadmintonWPFApp\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "BadmintonWPFApp\\Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\Windows\\source\\repos\\demoPRN212_Project_SE1816\\BadmintonWPFApp\\Properties\\Settings.settings",
+              "RelativeToolTip": "BadmintonWPFApp\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-07-26T06:12:30.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Windows\\source\\repos\\demoPRN212_Project_SE1816\\BadmintonWPFApp\\BookingWindow.xaml",
+              "RelativeDocumentMoniker": "BadmintonWPFApp\\BookingWindow.xaml",
+              "ToolTip": "C:\\Users\\Windows\\source\\repos\\demoPRN212_Project_SE1816\\BadmintonWPFApp\\BookingWindow.xaml",
+              "RelativeToolTip": "BadmintonWPFApp\\BookingWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-26T06:00:14.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BookingWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Windows\\source\\repos\\demoPRN212_Project_SE1816\\BadmintonWPFApp\\BookingWindow.xaml.cs",
               "RelativeDocumentMoniker": "BadmintonWPFApp\\BookingWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Windows\\source\\repos\\demoPRN212_Project_SE1816\\BadmintonWPFApp\\BookingWindow.xaml.cs",
               "RelativeToolTip": "BadmintonWPFApp\\BookingWindow.xaml.cs",
-              "ViewState": "AQIAAK0BAAAAAAAAAAAowMIBAAA6AAAA",
+              "ViewState": "AQIAAOUAAAAAAAAAAAAkwPkAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T05:48:18.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\source\\repos\\demoPRN212_Project_SE1816\\BadmintonWPFApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BadmintonWPFApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Windows\\source\\repos\\demoPRN212_Project_SE1816\\BadmintonWPFApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "BadmintonWPFApp\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAkwF8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T06:12:52.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\source\\repos\\demoPRN212_Project_SE1816\\DataAccess\\Repository\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repository\\BookingRepository.cs",
+              "ToolTip": "C:\\Users\\Windows\\source\\repos\\demoPRN212_Project_SE1816\\DataAccess\\Repository\\BookingRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repository\\BookingRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T06:08:22.219Z",
               "EditorCaption": ""
             }
           ]
