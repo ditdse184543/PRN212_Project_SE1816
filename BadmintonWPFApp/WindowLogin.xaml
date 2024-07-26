@@ -3,12 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
         xmlns:local="clr-namespace:BadmintonWPFApp"
         mc:Ignorable="d"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         Title="WindowLogin" Height="450" Width="507"
         WindowStartupLocation="CenterScreen"
-        Background="Transparent">
+        WindowStyle="None" MouseDown="Window_MouseDown"
+        Background="Transparent"
+        AllowsTransparency="True">
     <Grid>
         <Rectangle Height="500" VerticalAlignment="Center" >
             <Rectangle.Fill>
@@ -22,7 +25,84 @@
             
 
         </Rectangle>
-
+        <Grid>
+            <StackPanel x:Name="pnlControlBar"
+                        Orientation="Horizontal"
+                        FlowDirection="RightToLeft"
+                        Background="Transparent"
+                        Margin="0,-420,0,0" Height="20"
+                        MouseLeftButtonDown="pnlControlBar_MouseLeftButtonDown"
+                        MouseEnter="pnlControlBar_MouseEnter">
+                <Button x:Name="btnClose"
+                        Style="{StaticResource controlButton}"
+                        Tag="{StaticResource color4}"
+                        Click="btnClose_Click">
+                    <fa:IconImage Icon="Xmark" Style="{StaticResource controlButtonIcon}"/>
+                </Button>
+                <Button x:Name="btnMaximize"
+                        Style="{StaticResource controlButton}"
+                        Tag="{StaticResource color6}"
+                        Click="btnMaximize_Click">
+                    <fa:IconImage Icon="Square" Style="{StaticResource controlButtonIcon}"/>
+                </Button>
+                <Button x:Name="btnMinimize"
+                        Style="{StaticResource controlButton}"
+                        Tag="{StaticResource color8}"
+                        Click="btnMinimize_Click">
+                    <fa:IconImage Icon="WindowMinimize" Width="12" Style="{StaticResource controlButtonIcon}"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+        <Grid>
+            <Path Data="M 5 827 c -3 -6 -4 -167 -3 -357 l 3 -345 l 45 0 l 45 0 l 3 118 l 3 117 l 399 0 l 399 0 l 3 -118 l 3 -117 l 45 0 l 45 0 l 0 355 l 0 355 l -43 3 c -37 3 -44 0 -49 -17 c -5 -21 -10 -21 -403 -21 c -389 0 -398 0 -403 20 c -4 16 -14 20 -46 20 c -24 0 -44 -5 -46 -13 Z m 55 -347 c 0 -207 -4 -320 -10 -320 c -6 0 -10 113 -10 320 c 0 207 4 320 10 320 c 6 0 10 -113 10 -320 Z m 900 0 c 0 -207 -4 -320 -10 -320 c -6 0 -10 113 -10 320 c 0 207 4 320 10 320 c 6 0 10 -113 10 -320 Z m -780 250 c 0 -28 -2 -30 -40 -30 c -38 0 -40 2 -40 30 c 0 28 2 30 40 30 c 38 0 40 -2 40 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 120 0 c 0 -28 -2 -30 -40 -30 c -38 0 -40 2 -40 30 c 0 28 2 30 40 30 c 38 0 40 -2 40 -30 Z m -720 -100 c 0 -28 -2 -30 -40 -30 c -38 0 -40 2 -40 30 c 0 28 2 30 40 30 c 38 0 40 -2 40 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 120 0 c 0 -28 -2 -30 -40 -30 c -38 0 -40 2 -40 30 c 0 28 2 30 40 30 c 38 0 40 -2 40 -30 Z m -720 -100 c 0 -28 -2 -30 -40 -30 c -38 0 -40 2 -40 30 c 0 28 2 30 40 30 c 38 0 40 -2 40 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 120 0 c 0 -28 -2 -30 -40 -30 c -38 0 -40 2 -40 30 c 0 28 2 30 40 30 c 38 0 40 -2 40 -30 Z m -720 -100 c 0 -28 -2 -30 -40 -30 c -38 0 -40 2 -40 30 c 0 28 2 30 40 30 c 38 0 40 -2 40 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 100 0 c 0 -27 -3 -30 -30 -30 c -27 0 -30 3 -30 30 c 0 27 3 30 30 30 c 27 0 30 -3 30 -30 Z m 120 0 c 0 -28 -2 -30 -40 -30 c -38 0 -40 2 -40 30 c 0 28 2 30 40 30 c 38 0 40 -2 40 -30 Z"
+                Height="145" 
+                Width="200" 
+                StrokeDashOffset="0" 
+                StrokeThickness="2" 
+                Stretch="Fill"
+                StrokeStartLineCap="Triangle"
+                StrokeEndLineCap="Triangle"
+                StrokeDashArray="500"
+                Margin="0,-260,0,0"
+                x:Name="MyPath"
+                SnapsToDevicePixels="True">
+                <Path.RenderTransform>
+                    <ScaleTransform ScaleY="-1" CenterY="80"/>
+                </Path.RenderTransform>
+                <Path.Stroke>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop x:Name="B1" Color="Beige" Offset="0"/>
+                        <GradientStop x:Name="B2" Color="Purple" Offset="0.65"/>
+                        <GradientStop x:Name="B3" Color="Blue" Offset="0.95"/>
+                    </LinearGradientBrush>
+                </Path.Stroke>
+                <Path.Triggers>
+                    <EventTrigger RoutedEvent="Path.Loaded">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetName="MyPath" 
+                                                Storyboard.TargetProperty="StrokeDashOffset"
+                                                From="500" To="10"
+                                                Duration="0:0:6"
+                                                BeginTime="0:0:0"/>
+                                <DoubleAnimation Storyboard.TargetName="B1" 
+                                                Storyboard.TargetProperty="Offset"
+                                                From="0" To="0.35"
+                                                AutoReverse="True"
+                                                Duration="0:0:3"
+                                                BeginTime="0:0:0"/>
+                                <DoubleAnimation Storyboard.TargetName="B2" 
+                                            Storyboard.TargetProperty="Offset"
+                                            From="0.65" To="0.85"
+                                            AutoReverse="True"
+                                            Duration="0:0:3"
+                                            BeginTime="0:0:2.5"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Path.Triggers>
+            </Path>
+        </Grid>
         <Rectangle Fill="Transparent" Effect="{DynamicResource MaterialDesignShadowDepth5}" RadiusX="13.667" RadiusY="13.667" Margin="96,67,95,42" />
         <Image Width="90" Height="90" Margin="0,0,0,300" Effect="{DynamicResource MaterialDesignShadowDepth3}"/>
         <Grid Width="280" Height="288" VerticalAlignment="Top" Margin="35,104,35,0">
