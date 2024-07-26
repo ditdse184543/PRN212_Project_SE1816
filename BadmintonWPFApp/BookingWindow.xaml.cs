@@ -439,53 +439,67 @@ namespace BadmintonWPFApp
                 }
                 // Retrieve the list of current booking IDs for the user before the insert
                 List<int> BeforeInsert = bookingObject.FindBookingIdByUser(Properties.Settings.Default.UserId);
-                Booking booking = new Booking
+                var flexibleBooked = bookingObject.getFlexible(Properties.Settings.Default.CourtId, Properties.Settings.Default.UserId);
+                if (flexibleBooked != null)
                 {
-                    CoId = Properties.Settings.Default.CourtId,
-                    BBookingType = type,
-                    UserId = Properties.Settings.Default.UserId,
-                    BTotalHours = totalHours
-                };
-                Payment payment = new Payment
-                {
-                    PAmount = price,
-                    PDateTime = DateTime.Now
-                };
-                booking.Payments.Add(payment);
-                if (type == "Casual" || type == "Flexible")
-                {
+                    flexibleBooked.BTotalHours -= BookingsListBox.Items.Count;
                     foreach (TimeSlot slot in timeSlots)
                     {
-                        booking.TimeSlots.Add(slot);
+                        flexibleBooked.TimeSlots.Add(slot);
                     }
+                    bookingObject.Update(flexibleBooked);
+                    MessageBox.Show("Booking confirmed!");
                 }
-                else if (type == "Fixed")
+                else
                 {
-                    var selectedWeeks = fixedBooking.SelectedItem as ComboBoxItem;
-                    int weeks = int.Parse(selectedWeeks.Content.ToString());
-                    foreach (var item in timeSlots)
+                    Booking booking = new Booking
                     {
-                        for (int i = 0; i < weeks; i++)
+                        CoId = Properties.Settings.Default.CourtId,
+                        BBookingType = type,
+                        UserId = Properties.Settings.Default.UserId,
+                        BTotalHours = totalHours
+                    };
+                    Payment payment = new Payment
+                    {
+                        PAmount = price,
+                        PDateTime = DateTime.Now
+                    };
+                    booking.Payments.Add(payment);
+                    if (type == "Casual" || type == "Flexible")
+                    {
+                        foreach (TimeSlot slot in timeSlots)
                         {
-                            TimeSlot timeSlot = new TimeSlot()
-                            {
-                                CoId = item.CoId,
-                                TsCheckedIn = item.TsCheckedIn,
-                                TsDate = item.TsDate.AddDays(7 * i),
-                                TsTime = item.TsTime,
-                            };
-                            booking.TimeSlots.Add(timeSlot);
+                            booking.TimeSlots.Add(slot);
                         }
                     }
-                }
-                // Retrieve the list of booking IDs for the user after the insert
-                List<int> afterInsert = bookingObject.FindBookingIdByUser(Properties.Settings.Default.UserId);
-                int NewestBookingId = bookingObject.NewestBookingIdByUser(BeforeInsert, afterInsert);
+                    else if (type == "Fixed")
+                    {
+                        var selectedWeeks = fixedBooking.SelectedItem as ComboBoxItem;
+                        int weeks = int.Parse(selectedWeeks.Content.ToString());
+                        foreach (var item in timeSlots)
+                        {
+                            for (int i = 0; i < weeks; i++)
+                            {
+                                TimeSlot timeSlot = new TimeSlot()
+                                {
+                                    CoId = item.CoId,
+                                    TsCheckedIn = item.TsCheckedIn,
+                                    TsDate = item.TsDate.AddDays(7 * i),
+                                    TsTime = item.TsTime,
+                                };
+                                booking.TimeSlots.Add(timeSlot);
+                            }
+                        }
+                    }
+                    // Retrieve the list of booking IDs for the user after the insert
+                    List<int> afterInsert = bookingObject.FindBookingIdByUser(Properties.Settings.Default.UserId);
+                    int NewestBookingId = bookingObject.NewestBookingIdByUser(BeforeInsert, afterInsert);
 
-                // Find the ID that is present in the second list but not in the first list
-                bookingObject.Insert(booking);
-                //MessageBox.Show("Booking confirmed!");
-                InvoiceW invoiceW = new InvoiceW(invoiceObject.CreateInvoice(NewestBookingId));
+                    // Find the ID that is present in the second list but not in the first list
+                    bookingObject.Insert(booking);
+                    InvoiceW invoiceW = new InvoiceW(invoiceObject.CreateInvoice(NewestBookingId));
+                    invoiceW.Show();
+                }
                 Close();
             }
         }
