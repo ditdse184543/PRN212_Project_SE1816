@@ -22,7 +22,7 @@ namespace BadmintonWPFApp
         {
             InitializeComponent();
             CheckLoginBtnStatus();
-            CheckRolePermissions(); 
+            CheckRolePermissions();
         }
 
         private void CheckLoginBtnStatus()
@@ -69,11 +69,11 @@ namespace BadmintonWPFApp
             {
                 dashboardItem.Visibility = Visibility.Collapsed;
             }
-            if (role != 2 && role !=3)
+            if (role != 2 && role != 3)
             {
                 manageCourtItem.Visibility = Visibility.Collapsed;
             }
-            if(role != 1)
+            if (role != 1)
             {
                 CustomerItem.Visibility = Visibility.Collapsed;
             }
@@ -89,7 +89,7 @@ namespace BadmintonWPFApp
             {
                 TitleBooking.Text = "Booking Court";
             }
-            else if(role == 2) //Admin
+            else if (role == 2) //Admin
             {
                 TitleBooking.Text = "Booking Workplace for Admin";
             }
