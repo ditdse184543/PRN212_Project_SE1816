@@ -5,15 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BadmintonWPFApp"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="1200">
+        Title="MainWindow" Height="600" Width="1200"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None" MouseDown="Window_MouseDown"
+        AllowsTransparency="True" Background="Transparent">
     <Border CornerRadius="22">
         <Border.Background>
             <ImageBrush ImageSource="/Images/desktop-wallpaper-badminton-shuttlecock-sport-equipment-shuttlecock.jpg"
             Stretch="None" />
         </Border.Background>
         <Border CornerRadius="20"                    
-        BorderThickness="3" Opacity="0.96">
+                BorderThickness="3" Opacity="0.96">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="#DA34AE" Offset="0"/>
@@ -28,10 +32,36 @@
                 </LinearGradientBrush>
             </Border.Background>
             <DockPanel>
+                <StackPanel x:Name="pnlControlBar" DockPanel.Dock="Top"
+                            Grid.Row="0" Height="20"
+                            Orientation="Horizontal"
+                            FlowDirection="RightToLeft"
+                            Background="Transparent"
+                            Margin="0,10,5,0"
+                            MouseLeftButtonDown="pnlControlBar_MouseLeftButtonDown"
+                            MouseEnter="pnlControlBar_MouseEnter">
+                    <Button x:Name="btnClose"
+                            Style="{StaticResource controlButton}"
+                            Tag="{StaticResource color4}"
+                            Click="btnClose_Click">
+                        <fa:IconImage Icon="Xmark" Style="{StaticResource controlButtonIcon}"/>
+                    </Button>
+                    <Button x:Name="btnMaximize"
+                            Style="{StaticResource controlButton}"
+                            Tag="{StaticResource color6}"
+                            Click="btnMaximize_Click">
+                        <fa:IconImage Icon="Square" Style="{StaticResource controlButtonIcon}"/>
+                    </Button>
+                    <Button x:Name="btnMinimize"
+                            Style="{StaticResource controlButton}"
+                            Tag="{StaticResource color8}"
+                            Click="btnMinimize_Click">
+                        <fa:IconImage Icon="WindowMinimize" Width="12" Style="{StaticResource controlButtonIcon}"/>
+                    </Button>
+                </StackPanel>
                 <TextBlock x:Name="TitleBooking" Text="Booking Court" FontSize="24" FontWeight="Bold" 
-                   HorizontalAlignment="Center" Margin="240,10,0,10" DockPanel.Dock="Top"
-                   Foreground="White" Background="DarkBlue" Padding="10"/>
-
+                           HorizontalAlignment="Center" Margin="240,10,0,10" DockPanel.Dock="Top"
+                           Foreground="White" Background="DarkBlue" Padding="10"/>
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="250" />
@@ -40,7 +70,7 @@
 
                     <!-- TreeView for navigation -->
                     <TreeView x:Name="myTreeView" MinWidth="220" SelectedItemChanged="TreeView_SelectedItemChanged" Grid.Column="0"
-                      Background="#3C3474" BorderBrush="DarkGray" Margin="20,-72,0,0" Padding="0,80,0,0" Foreground="LightCyan">
+                              Background="#3C3474" BorderBrush="DarkGray" Margin="20,-102,0,0" Padding="0,80,0,0" Foreground="LightCyan">
                         <TreeViewItem>
                             <TreeViewItem.Header>
                                 <StackPanel Orientation="Horizontal">
@@ -104,7 +134,7 @@
                                     </StackPanel>
                                 </TreeViewItem.Header>
                             </TreeViewItem>
-              
+
                             <TreeViewItem x:Name="CustomerItem">
                                 <TreeViewItem.Header>
                                     <StackPanel Orientation="Horizontal">
@@ -139,7 +169,7 @@
                         <!-- Introduction -->
                         <TextBlock Text="Introduction" FontSize="18" FontWeight="Bold" Foreground="LightBlue" Margin="0,0,0,10" HorizontalAlignment="Center"/>
                         <TextBlock Text="Welcome to ABC Court platform! We are glad to have you here. Our hotel system offers a range of features designed to make your stay as comfortable and enjoyable as possible. Thank you for choosing FUMiniHotelSystem. We look forward to making your stay a memorable one." 
-                           FontSize="14" Foreground="White" TextWrapping="Wrap" Width="Auto" Margin="0,0,0,20"/>
+           FontSize="14" Foreground="White" TextWrapping="Wrap" Width="Auto" Margin="0,0,0,20"/>
 
                         <!-- 2x2 Grid for Images -->
                         <Grid>

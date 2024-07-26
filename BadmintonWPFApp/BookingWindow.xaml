@@ -145,36 +145,33 @@
                 <TextBlock Grid.Row="3" Grid.Column="0" x:Name="Dynamic" Text="" Margin="10"
                            FontWeight="Bold" Foreground="DarkGray"
                            FontSize="20" FontFamily="Montserrat"/>
-                <ContentControl x:Name="DynamicInputControl" Grid.Row="3" Grid.Column="1" Margin="10,10,10,5"
+                <ContentControl x:Name="DynamicInputControl" Grid.Row="3" Grid.Column="1" Margin="10,10,50,5"
                                 FontWeight="Bold" Foreground="DarkGray"
-                                FontSize="20"/>
+                                FontSize="14"/>
 
-                <Button Grid.Row="4" Grid.Column="1" Content="Book" Margin="100,0,0,0" VerticalAlignment="Center" Click="BookButton_Click" HorizontalAlignment="Left" Width="186"
-                        Foreground="White"
-                        FontSize="12"
-                        FontFamily="Montserrat"
-                        Cursor="Hand">
-                    <Button.Style>
-                        <Style TargetType="Button">
-                            <Setter Property="Background" Value="#462AD8"/>
-                            <Style.Triggers>
-                                <Trigger Property="IsMouseOver" Value="True">
-                                    <Setter Property="Background" Value="#28AEED"/>
-                                </Trigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Button.Style>
-                    <Button.Template>
-                        <ControlTemplate TargetType="Button">
-                            <Border Width="150" Height="40"
-                                    CornerRadius="20"
-                                    Background="{TemplateBinding Background}">
-                                <ContentPresenter VerticalAlignment="Center"
-                                                  HorizontalAlignment="Center"/>
-                            </Border>
-                        </ControlTemplate>
-                    </Button.Template>
-                </Button>
+                <StackPanel Grid.Row="4" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,0,0,0">
+                    <Button Content="Book" Width="186" Click="BookButton_Click" Foreground="White"
+                            FontSize="12" FontFamily="Montserrat" Cursor="Hand">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#462AD8"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#28AEED"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="150" Height="40" CornerRadius="20" Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <TextBlock x:Name="PriceLabel" Foreground="DarkGray" FontSize="20" FontFamily="Montserrat" FontWeight="Bold" Text="Price: $0.00" Width="116"/>
+                </StackPanel>
 
                 <Grid Grid.Row="5" Grid.ColumnSpan="2">
                     <Grid.RowDefinitions>
@@ -244,6 +241,7 @@
                             </Button.Template>
                         </Button>
                     </StackPanel>
+
                 </Grid>
             </Grid>
         </Border>

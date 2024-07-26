@@ -39,13 +39,13 @@
         </Style.Triggers>
     </Style>
 
-    <!--Menu button icon
+    <!--Menu button icon-->
     <Style x:Key="menuButtonIcon" TargetType="fa:IconImage">
         <Setter Property="Foreground" Value="{Binding Path=Tag, RelativeSource={RelativeSource AncestorType=RadioButton}}"/>
         <Setter Property="Width" Value="22"/>
         <Setter Property="Height" Value="22"/>
         <Setter Property="Margin" Value="35,0,20,0"/>
-    </Style> -->
+    </Style>
 
     <!--Menu button text-->
     <Style x:Key="menuButtonText" TargetType="TextBlock">
@@ -61,7 +61,7 @@
         <!--Normal button style-->
         <Setter Property="Width" Value="35"/>
         <Setter Property="Background" Value="Transparent"/>
-        <Setter Property="Foreground" Value="{StaticResource plainTextColor3}"/>
+        <Setter Property="Foreground" Value="{StaticResource color3}"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
@@ -75,17 +75,17 @@
         <Style.Triggers>
             <!--Button Style on hover-->
             <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Background" Value="{StaticResource panelActiveColor}"/>
+                <Setter Property="Background" Value="{StaticResource color5}"/>
                 <Setter Property="Foreground" Value="{Binding Path=Tag, RelativeSource={RelativeSource Self}}"/>
             </Trigger>
         </Style.Triggers>
     </Style>
-    <!--Menu button icon
+    <!--Menu button icon-->
     <Style x:Key="controlButtonIcon" TargetType="fa:IconImage">
         <Setter Property="Foreground" Value="{Binding Path=Foreground, RelativeSource={RelativeSource AncestorType=Button}}"/>
         <Setter Property="Width" Value="9"/>
         <Setter Property="Height" Value="9"/>
-    </Style>-->
+    </Style>
     <!--Icon button-->
     <Style x:Key="iconButton" TargetType="Button">
         <!--Normal button style-->
@@ -109,11 +109,11 @@
             </Trigger>
         </Style.Triggers>
     </Style>
-    <!--Menu button icon
+    <!--Menu button icon-->
     <Style x:Key="iconButtonIcon" TargetType="fa:IconImage">
         <Setter Property="Foreground" Value="{Binding Path=Foreground, RelativeSource={RelativeSource AncestorType=Button}}"/>
         <Setter Property="Width" Value="16"/>
         <Setter Property="Height" Value="16"/>
-    </Style> -->
+    </Style>
 
 </ResourceDictionary>
