@@ -1,6 +1,8 @@
 ﻿using BusinessObject;
 using DataAccess.Models;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.VisualBasic.ApplicationServices;
 using System;
 using System.Collections.Generic;
 using System.Windows;
@@ -17,6 +19,7 @@ namespace BadmintonWPFApp
         private ComboBox fixedBooking = new ComboBox();
         private ComboBox flexibleBooking = new ComboBox();
         private Dictionary<DateOnly, List<string>> disabledTimeSlots = new Dictionary<DateOnly, List<string>>();
+        private readonly InvoiceObject invoiceObject;
         string type;
 
         public BookingWindow()
@@ -40,6 +43,8 @@ namespace BadmintonWPFApp
                 flexibleBooking.SelectedIndex = 0;
                 flexibleBooking.IsEnabled = false;
             }
+
+            this.invoiceObject = new InvoiceObject();
         }
 
         private void TypeComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -432,6 +437,8 @@ namespace BadmintonWPFApp
                         return;
                     }
                 }
+                // Retrieve the list of current booking IDs for the user before the insert
+                List<int> BeforeInsert = bookingObject.FindBookingIdByUser(Properties.Settings.Default.UserId);
                 Booking booking = new Booking
                 {
                     CoId = Properties.Settings.Default.CourtId,
@@ -471,9 +478,14 @@ namespace BadmintonWPFApp
                         }
                     }
                 }
+                // Retrieve the list of booking IDs for the user after the insert
+                List<int> afterInsert = bookingObject.FindBookingIdByUser(Properties.Settings.Default.UserId);
+                int NewestBookingId = bookingObject.NewestBookingIdByUser(BeforeInsert, afterInsert);
 
+                // Find the ID that is present in the second list but not in the first list
                 bookingObject.Insert(booking);
-                MessageBox.Show("Booking confirmed!");
+                //MessageBox.Show("Booking confirmed!");
+                InvoiceW invoiceW = new InvoiceW(invoiceObject.CreateInvoice(NewestBookingId));
                 Close();
             }
         }

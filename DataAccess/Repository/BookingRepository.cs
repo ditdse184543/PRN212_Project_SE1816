@@ -78,5 +78,15 @@ namespace DataAccess.Repository
         {
             return _context.Courts.FirstOrDefault(x => x.CoId == courtId).CoPrice.Value;
         }
+
+        public List<int> FindBookingIdByUser(int userId)
+        {
+            return _context.Bookings.Where(b => b.UserId == userId).Select(b => b.BId).ToList();
+        }
+
+        public int NewestBookingIdJustCreatedByUser(List<int>BeforInsert, List<int> AfterInsert)
+        {
+            return AfterInsert.Except(BeforInsert).FirstOrDefault();
+        }
     }
 }

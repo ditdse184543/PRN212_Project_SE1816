@@ -41,5 +41,7 @@ namespace BusinessObject
         {
             return bookingRepository.getPrice(courtId);
         }
+        public List<int> FindBookingIdByUser (int userId) => bookingRepository.FindBookingIdByUser(userId);
+        public int NewestBookingIdByUser(List<int> before,List<int>after) => bookingRepository.NewestBookingIdJustCreatedByUser(before,after);
     }
 }
