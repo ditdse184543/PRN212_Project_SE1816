@@ -27,9 +27,9 @@ namespace DataAccess.Repository
             throw new NotImplementedException();
         }
 
-        public List<Booking> getAll()
+        public Booking getFlexible(int courtId)
         {
-            throw new NotImplementedException();
+            return _context.Bookings.FirstOrDefault(x => x.BTotalHours.HasValue && x.BTotalHours > 0 && x.CoId == courtId);
         }
 
         public void Insert(Booking Booking)
@@ -40,7 +40,7 @@ namespace DataAccess.Repository
 
         public void Update(Booking Booking)
         {
-            throw new NotImplementedException();
+            _context.Bookings.Update(Booking);
         }
         public List<Booking> showListBookingBasedOnCourt(int courtId, int userid)
         {
@@ -62,16 +62,21 @@ namespace DataAccess.Repository
                 else
                 {
                     query = query.Where(b => b.BBookingType.Contains(search) ||
-                                             b.TimeSlots.Any(ts => ts.TsCheckedIn.ToString().Contains(search)||ts.TsTime.ToString().Contains(search)));
+                                             b.TimeSlots.Any(ts => ts.TsCheckedIn.ToString().Contains(search) || ts.TsTime.ToString().Contains(search)));
                 }
             }
 
             return query.ToList();
         }
 
-        public List<Booking> getByUserID(int userId)
+        public List<Booking> getAll()
         {
-            return _context.Bookings.Include(b => b.Payments).Where(b => b.UserId == userId).ToList();
+            throw new NotImplementedException();
+        }
+
+        public double getPrice(int courtId)
+        {
+            return _context.Courts.FirstOrDefault(x => x.CoId == courtId).CoPrice.Value;
         }
     }
 }

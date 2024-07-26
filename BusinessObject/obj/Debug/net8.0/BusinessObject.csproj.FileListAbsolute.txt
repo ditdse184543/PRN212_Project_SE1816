@@ -15,3 +15,20 @@ C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PO\New f
 C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PO\New folder (2)\PO\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\refint\BusinessObject.dll
 C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PO\New folder (2)\PO\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.pdb
 C:\Users\admin\OneDrive\Máy tính\FPT SUMMER 2024\PRN212\project-group\PO\New folder (2)\PO\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\ref\BusinessObject.dll
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\appsettings.json
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.deps.json
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.dll
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\BusinessObject.pdb
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\DataAccess.dll
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfo.cs
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.sourcelink.json
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\Business.4FFE46AD.Up2Date
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.dll
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\refint\BusinessObject.dll
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\BusinessObject.pdb
+C:\Users\Windows\source\repos\PRN212_Project_SE1816\BusinessObject\obj\Debug\net8.0\ref\BusinessObject.dll

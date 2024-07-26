@@ -29,9 +29,17 @@ namespace BusinessObject
         {
             return bookingRepository.SearchBooking(search, courtId, userId);
         }
-        public List<Booking> getAllPaymentByUserId(int userId)
+        public Booking getFlexible(int courtId)
         {
-            return bookingRepository.getByUserID(userId);
+            return bookingRepository.getFlexible(courtId);
+        }
+        public void Update(Booking booking)
+        {
+            bookingRepository.Update(booking);
+        }
+        public double getPrice(int courtId)
+        {
+            return bookingRepository.getPrice(courtId);
         }
     }
 }

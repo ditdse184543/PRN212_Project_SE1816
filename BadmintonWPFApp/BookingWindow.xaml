@@ -6,8 +6,8 @@
         xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
         xmlns:local="clr-namespace:BadmintonWPFApp"
         mc:Ignorable="d"
-        Title="BookingWindow" Height="480" Width="800"
-        WindowStartupLocation="CenterScreen" WindowStyle="None" MouseDown="Window_MouseDown"
+        Title="BookingWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
         Background="Transparent">
 
     <Window.Resources>
@@ -112,98 +112,68 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="200"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <StackPanel x:Name="pnlControlBar"
-                            Grid.Row="0"
-                            Grid.Column="1"
-                            Orientation="Horizontal"
-                            FlowDirection="RightToLeft"
-                            Background="Transparent"
-                            MouseLeftButtonDown="pnlControlBar_MouseLeftButtonDown"
-                            MouseEnter="pnlControlBar_MouseEnter"
-                            Margin="0,0,0,0">
-                    <Button x:Name="btnClose"
-                            Style="{StaticResource controlButton}"
-                            Tag="{StaticResource color4}"
-                            Click="btnClose_Click">
-                        <fa:IconImage Icon="Xmark" Style="{StaticResource controlButtonIcon}"/>
-                    </Button>
-                    <Button x:Name="btnMaximize"
-                            Style="{StaticResource controlButton}"
-                            Tag="{StaticResource color6}"
-                            Click="btnMaximize_Click">
-                        <fa:IconImage Icon="Square" Style="{StaticResource controlButtonIcon}"/>
-                    </Button>
-                    <Button x:Name="btnMinimize"
-                            Style="{StaticResource controlButton}"
-                            Tag="{StaticResource color8}"
-                            Click="btnMinimize_Click">
-                        <fa:IconImage Icon="WindowMinimize" Width="12" Style="{StaticResource controlButtonIcon}"/>
-                    </Button>
-                </StackPanel>
-                <TextBlock Grid.Row="2" Grid.Column="0" Text="Select Type:" Margin="10"
+
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Select Type:" Margin="10"
                            VerticalAlignment="Center"
                            FontWeight="Bold" Foreground="DarkGray"
                            FontSize="20" FontFamily="Montserrat"/>
-                <ComboBox x:Name="TypeComboBox" Grid.Row="2" Grid.Column="1" Margin="10,10,50,0" VerticalAlignment="Center" SelectionChanged="TypeComboBox_SelectionChanged" BorderBrush="#CDCDCD" FontSize="18" Foreground="{StaticResource color1}">
+                <ComboBox x:Name="TypeComboBox" Grid.Row="1" Grid.Column="1" Margin="10,10,50,0" VerticalAlignment="Center" SelectionChanged="TypeComboBox_SelectionChanged" BorderBrush="#CDCDCD" FontSize="18" Foreground="{StaticResource color1}">
                     <ComboBoxItem Content="Casual" />
                     <ComboBoxItem Content="Fixed"/>
                     <ComboBoxItem Content="Flexible"/>
                 </ComboBox>
 
-                <TextBlock Grid.Row="1" Grid.Column="0" Text="Select Date:" Margin="10"
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Select Date:" Margin="10"
                            VerticalAlignment="Center"
                            FontWeight="Bold" Foreground="DarkGray"
                            FontSize="20" FontFamily="Montserrat"/>
-                <DatePicker x:Name="BookingDatePicker" Grid.Row="1" Grid.Column="1" Margin="10,0,400,0" VerticalAlignment="Center" SelectedDateChanged="BookingDatePicker_SelectedDateChanged"/>
+                <DatePicker x:Name="BookingDatePicker" Grid.Row="0" Grid.Column="1" Margin="10,0,400,0" VerticalAlignment="Center" SelectedDateChanged="BookingDatePicker_SelectedDateChanged"/>
 
-                <TextBlock Grid.Row="3" Grid.Column="0" Text="Select Time Slot:" Margin="10"
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Select Time Slot:" Margin="10"
                            VerticalAlignment="Center"
                            FontWeight="Bold" Foreground="DarkGray"
                            FontSize="20" FontFamily="Montserrat"/>
-                <ComboBox x:Name="TimeSlotComboBox" Grid.Row="3" Grid.Column="1" Margin="10,0,50,0" VerticalAlignment="Center" BorderBrush="#CDCDCD" FontSize="18" Foreground="{StaticResource color6}"/>
+                <ComboBox x:Name="TimeSlotComboBox" Grid.Row="2" Grid.Column="1" Margin="10,0,50,0" VerticalAlignment="Center" BorderBrush="#CDCDCD" FontSize="18" Foreground="{StaticResource color6}"/>
 
-                <TextBlock Grid.Row="4" Grid.Column="0" x:Name="Dynamic" Text="" Margin="10"
+                <TextBlock Grid.Row="3" Grid.Column="0" x:Name="Dynamic" Text="" Margin="10"
                            FontWeight="Bold" Foreground="DarkGray"
                            FontSize="20" FontFamily="Montserrat"/>
-                <ContentControl x:Name="DynamicInputControl" Grid.Row="4" Grid.Column="1" Margin="10,10,10,5"
+                <ContentControl x:Name="DynamicInputControl" Grid.Row="3" Grid.Column="1" Margin="10,10,50,5"
                                 FontWeight="Bold" Foreground="DarkGray"
-                                FontSize="20"/>
+                                FontSize="14"/>
 
-                <Button Grid.Row="5" Grid.Column="1" Content="Book" Margin="100,0,0,0" VerticalAlignment="Center" Click="BookButton_Click" HorizontalAlignment="Left" Width="186"
-                        Foreground="White"
-                        FontSize="12"
-                        FontFamily="Montserrat"
-                        Cursor="Hand">
-                    <Button.Style>
-                        <Style TargetType="Button">
-                            <Setter Property="Background" Value="#462AD8"/>
-                            <Style.Triggers>
-                                <Trigger Property="IsMouseOver" Value="True">
-                                    <Setter Property="Background" Value="#28AEED"/>
-                                </Trigger>
-                            </Style.Triggers>
-                        </Style>
-                    </Button.Style>
-                    <Button.Template>
-                        <ControlTemplate TargetType="Button">
-                            <Border Width="150" Height="40"
-                                    CornerRadius="20"
-                                    Background="{TemplateBinding Background}">
-                                <ContentPresenter VerticalAlignment="Center"
-                                                  HorizontalAlignment="Center"/>
-                            </Border>
-                        </ControlTemplate>
-                    </Button.Template>
-                </Button>
+                <StackPanel Grid.Row="4" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,0,0,0">
+                    <Button Content="Book" Width="186" Click="BookButton_Click" Foreground="White"
+                            FontSize="12" FontFamily="Montserrat" Cursor="Hand">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#462AD8"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#28AEED"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="150" Height="40" CornerRadius="20" Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <TextBlock x:Name="PriceLabel" Margin="140,0,0,0" Foreground="DarkGray" FontSize="20" FontFamily="Montserrat" FontWeight="Bold" VerticalAlignment="Center" Text="Price: $0.00" Width="116"/>
+                </StackPanel>
 
-                <Grid Grid.Row="6" Grid.ColumnSpan="2">
+                <Grid Grid.Row="5" Grid.ColumnSpan="2">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="Auto"/>
@@ -271,6 +241,7 @@
                             </Button.Template>
                         </Button>
                     </StackPanel>
+
                 </Grid>
             </Grid>
         </Border>
