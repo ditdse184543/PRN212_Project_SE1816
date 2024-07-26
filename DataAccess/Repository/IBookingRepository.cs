@@ -16,7 +16,7 @@ namespace DataAccess.Repository
         public void Insert(Booking Booking);
         public List<Booking> showListBookingBasedOnCourt(int courtId, int userid);
         public List<Booking> SearchBooking(string search, int courtId, int userId);
-        public Booking getFlexible(int courtId);
+        public Booking getFlexible(int courtId, int userId);
         public double getPrice(int courtId);
     }
 }

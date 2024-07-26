@@ -29,9 +29,9 @@ namespace BusinessObject
         {
             return bookingRepository.SearchBooking(search, courtId, userId);
         }
-        public Booking getFlexible(int courtId)
+        public Booking getFlexible(int courtId, int userId)
         {
-            return bookingRepository.getFlexible(courtId);
+            return bookingRepository.getFlexible(courtId, userId);
         }
         public void Update(Booking booking)
         {

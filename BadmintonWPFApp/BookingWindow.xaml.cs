@@ -32,7 +32,7 @@ namespace BadmintonWPFApp
             flexibleBooking.SelectionChanged += FlexibleBooking_SelectionChanged;
             fixedBooking.Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("Aqua"));
             flexibleBooking.Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString("Aqua"));
-            var flexible = bookingObject.getFlexible(Properties.Settings.Default.CourtId);
+            var flexible = bookingObject.getFlexible(Properties.Settings.Default.CourtId, Properties.Settings.Default.UserId);
             if (flexible != null)
             {
                 TypeComboBox.SelectedIndex = 2;
@@ -44,7 +44,7 @@ namespace BadmintonWPFApp
 
         private void TypeComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Booking flexible = bookingObject.getFlexible(Properties.Settings.Default.CourtId);
+            Booking flexible = bookingObject.getFlexible(Properties.Settings.Default.CourtId, Properties.Settings.Default.UserId);
 
             if (TypeComboBox.SelectedItem == null)
                 return;
@@ -169,7 +169,7 @@ namespace BadmintonWPFApp
                 else
                 {
                     DateOnly dateOnly = DateOnly.FromDateTime(selectedDate);
-                    List<TimeSlot> slots = timeSlotObject.getByDate(dateOnly);
+                    List<TimeSlot> slots = timeSlotObject.getByDate(dateOnly, Properties.Settings.Default.CourtId);
 
                     InitializeTimeSlots();
 
@@ -238,6 +238,14 @@ namespace BadmintonWPFApp
                 if (selectedFixedItem != null && int.TryParse(selectedFixedItem.Content.ToString(), out int selectedWeeks))
                 {
                     PriceLabel.Text = $"Price: ${price * count * selectedWeeks:F2}";
+                }
+            }
+            else if (type == "Flexible" && flexibleBooking.SelectedItem != null)
+            {
+                ComboBoxItem selectedFixedItem = flexibleBooking.SelectedItem as ComboBoxItem;
+                if (selectedFixedItem != null && int.TryParse(selectedFixedItem.Content.ToString(), out int selectedHours))
+                {
+                    PriceLabel.Text = $"Price: ${price * selectedHours:F2}";
                 }
             }
             else if (type == "Casual")
@@ -329,19 +337,7 @@ namespace BadmintonWPFApp
         private void FlexibleBooking_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             UpdateBookingDisplay();
-            if (flexibleBooking.SelectedItem != null)
-            {
-                double price = bookingObject.getPrice(Properties.Settings.Default.CourtId) * 0.85;
-                var selectedItem = flexibleBooking.SelectedItem as ComboBoxItem;
-                if (selectedItem != null && int.TryParse(selectedItem.Content.ToString(), out int selectedHours))
-                {
-                    PriceLabel.Text = $"Price: ${price * selectedHours:F2}";
-                }
-                else
-                {
-                    PriceLabel.Text = $"Price: $0.00";
-                }
-            }
+            UpdatePriceLabel();
         }
 
         private void UpdateBookingDisplay()
@@ -379,7 +375,7 @@ namespace BadmintonWPFApp
             BookingsListBox.Items.Clear();
             BookingDatePicker.SelectedDate = DateTime.Today;
             TimeSlotComboBox.SelectedIndex = 0;
-            if (bookingObject.getFlexible(Properties.Settings.Default.CourtId) == null)
+            if (bookingObject.getFlexible(Properties.Settings.Default.CourtId, Properties.Settings.Default.UserId) == null)
             {
                 TypeComboBox.IsEnabled = true;
             }
@@ -458,7 +454,8 @@ namespace BadmintonWPFApp
                 }
                 else if (type == "Fixed")
                 {
-                    int weeks = totalHours;
+                    var selectedWeeks = fixedBooking.SelectedItem as ComboBoxItem;
+                    int weeks = int.Parse(selectedWeeks.Content.ToString());
                     foreach (var item in timeSlots)
                     {
                         for (int i = 0; i < weeks; i++)
@@ -483,7 +480,8 @@ namespace BadmintonWPFApp
 
         private void BackBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            WindowCourt court = new WindowCourt();
+            court.Show();
             Close();
         }
     }

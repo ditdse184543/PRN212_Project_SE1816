@@ -27,9 +27,9 @@ namespace DataAccess.Repository
             throw new NotImplementedException();
         }
 
-        public Booking getFlexible(int courtId)
+        public Booking getFlexible(int courtId, int userId)
         {
-            return _context.Bookings.FirstOrDefault(x => x.BTotalHours.HasValue && x.BTotalHours > 0 && x.CoId == courtId);
+            return _context.Bookings.FirstOrDefault(x => x.BTotalHours.HasValue && x.BTotalHours > 0 && x.CoId == courtId && x.UserId == userId);
         }
 
         public void Insert(Booking Booking)

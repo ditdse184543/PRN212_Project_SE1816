@@ -51,9 +51,9 @@ namespace DataAccess.Repository
             return _context.TimeSlots.Include(ts => ts.BIdNavigation).Include(ts => ts.Co).ToList();
         }
 
-        public List<TimeSlot> getByDate(DateOnly date)
+        public List<TimeSlot> getByDate(DateOnly date, int courtId)
         {
-            return _context.TimeSlots.Where(x => x.TsDate == date).ToList();
+            return _context.TimeSlots.Where(x => x.TsDate == date && x.CoId == courtId).ToList();
         }
 
 

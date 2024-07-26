@@ -18,9 +18,9 @@ namespace BusinessObject
         }
         public List<TimeSlot> GetAllTimeSlots() => timeSlotRepository.getAll();
         public void Checkin(int tsId) => timeSlotRepository.Checkin(tsId);
-        public List<TimeSlot> getByDate(DateOnly date)
+        public List<TimeSlot> getByDate(DateOnly date, int courtId)
         {
-            return timeSlotRepository.getByDate(date);
+            return timeSlotRepository.getByDate(date, courtId);
         }
 
     }
