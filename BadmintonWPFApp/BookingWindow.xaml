@@ -124,7 +124,7 @@
                            VerticalAlignment="Center"
                            FontWeight="Bold" Foreground="DarkGray"
                            FontSize="20" FontFamily="Montserrat"/>
-                <ComboBox x:Name="TypeComboBox" Grid.Row="1" Grid.Column="1" Margin="10,10,50,0" VerticalAlignment="Center" SelectionChanged="TypeComboBox_SelectionChanged" BorderBrush="#CDCDCD" FontSize="18" Foreground="{StaticResource color1}">
+                <ComboBox x:Name="TypeComboBox" Grid.Row="1" Grid.Column="1" Margin="10,10,50,0" VerticalAlignment="Center" SelectionChanged="TypeComboBox_SelectionChanged" BorderBrush="#CDCDCD" FontSize="15" Foreground="{StaticResource color1}">
                     <ComboBoxItem Content="Casual" />
                     <ComboBoxItem Content="Fixed"/>
                     <ComboBoxItem Content="Flexible"/>
@@ -140,7 +140,7 @@
                            VerticalAlignment="Center"
                            FontWeight="Bold" Foreground="DarkGray"
                            FontSize="20" FontFamily="Montserrat"/>
-                <ComboBox x:Name="TimeSlotComboBox" Grid.Row="2" Grid.Column="1" Margin="10,0,50,0" VerticalAlignment="Center" BorderBrush="#CDCDCD" FontSize="18" Foreground="{StaticResource color6}"/>
+                <ComboBox x:Name="TimeSlotComboBox" Grid.Row="2" Grid.Column="1" Margin="10,0,50,0" VerticalAlignment="Center" BorderBrush="#CDCDCD" FontSize="15" Foreground="{StaticResource color6}"/>
 
                 <TextBlock Grid.Row="3" Grid.Column="0" x:Name="Dynamic" Text="" Margin="10"
                            FontWeight="Bold" Foreground="DarkGray"
@@ -170,8 +170,9 @@
                             </ControlTemplate>
                         </Button.Template>
                     </Button>
-                    <TextBlock x:Name="PriceLabel" Foreground="DarkGray" FontSize="20" FontFamily="Montserrat" FontWeight="Bold" Text="Price: $0.00" Width="116"/>
+                    
                 </StackPanel>
+                <TextBlock x:Name="PriceLabel" Grid.Row="4" Foreground="DarkGray" FontSize="20" FontFamily="Montserrat" FontWeight="Bold" Text="Price: $0.00" Width="116"/>
 
                 <Grid Grid.Row="5" Grid.ColumnSpan="2">
                     <Grid.RowDefinitions>
@@ -180,7 +181,7 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
 
-                    <ListBox x:Name="BookingsListBox" Grid.Row="0" Margin="0,10,0,0"/>
+                    <ListBox x:Name="BookingsListBox" Grid.Row="0" Margin="0,10,0,0" Foreground="{StaticResource color9}"/>
 
                     <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,10">
                         <Button x:Name="CancelButton" Content="Cancel All" Width="100" Margin="50,5,5,5" Click="CancelButton_Click" Foreground="White" FontSize="12" FontFamily="Montserrat" Cursor="Hand" >

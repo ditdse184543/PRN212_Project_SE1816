@@ -122,7 +122,7 @@
                 </PasswordBox>
             </StackPanel>
             <Button x:Name="btn_login" VerticalAlignment="Top" Content="Login"  Margin="49,230,155,0" Height="28" Effect="{DynamicResource MaterialDesignShadowDepth2}" Background="{StaticResource color8}" Click="btn_login_Click" />
-            <Button x:Name="btn_back" VerticalAlignment="Top" Content="Back"  Margin="299,-92,-95,0" Height="28" Effect="{DynamicResource MaterialDesignShadowDepth2}" Background="{StaticResource color8}" Click="btn_back_Click" />
+            <Button x:Name="btn_back" VerticalAlignment="Top" Content="Back"  Margin="-100,-80,300,0" Height="28" Effect="{DynamicResource MaterialDesignShadowDepth2}" Background="{StaticResource color8}" Click="btn_back_Click" />
             <Button x:Name="btn_signup" Background="{StaticResource plainTextColor1}" Foreground="#FF391678" Content="Signup" Margin="140,200,64,0" Effect="{DynamicResource MaterialDesignShadowDepth2}" BorderBrush="#FF391678" Click="btn_signup_Click" />
             
         </Grid>

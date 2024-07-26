@@ -34,7 +34,7 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
-                <Button Content="Back" Click="Back_Click" Margin="5" Background="{StaticResource plainTextColor3}"/>
+                <Button Content="Back" Click="Back_Click" Margin="5" Background="{StaticResource plainTextColor3}" Width="80" HorizontalAlignment="Left"/>
 
                 <DataGrid x:Name="BookingCusDataGrid" AutoGenerateColumns="False" Grid.Row="1" Margin="10,0,10,10" IsReadOnly="True" Background="#EAFCFF">
                     <DataGrid.Columns>
