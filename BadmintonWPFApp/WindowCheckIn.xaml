@@ -34,8 +34,9 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10" Grid.Row="0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,10,0,10" Grid.Row="0" Width="740">
                     <Button Content="Search Time Slot by Booking ID" Click="SearchTSButton_Click" Margin="5" Background="{StaticResource plainTextColor3}"/>
+                    <Button Content="Back" Click="Back_Click" Margin="5" Background="{StaticResource plainTextColor3}"/>
                     <TextBox x:Name="SearchTsTB" Width="360" Margin="20,5,60,5" Foreground="{StaticResource color3}" BorderBrush="#ddd"/>
                     <Button Content="🔄" Click="ReloadTsButton_Click" Margin="5" FontSize="20" Padding="0" Width="30" Height="30" Background="#1000AB"/>
                 </StackPanel>

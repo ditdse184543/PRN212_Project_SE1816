@@ -68,5 +68,10 @@ namespace DataAccess.Repository
 
             return query.ToList();
         }
+
+        public List<Booking> getByUserID(int userId)
+        {
+            return _context.Bookings.Include(b => b.Payments).Where(b => b.UserId == userId).ToList();
+        }
     }
 }

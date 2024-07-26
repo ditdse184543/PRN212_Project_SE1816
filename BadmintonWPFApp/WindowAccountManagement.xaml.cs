@@ -25,12 +25,14 @@ namespace BadmintonWPFApp
     {
         private readonly UserObject userObject;
         private readonly RoleObject roleObject;
+        private readonly InvoiceObject invoiceObject;
         public WindowAccountManagement()
         {
             InitializeComponent();
             userObject = new UserObject();
             Loaded += AC_Loaded;
             roleObject = new RoleObject();
+            invoiceObject = new InvoiceObject();
         }
 
         private void AC_Loaded(object sender, RoutedEventArgs e)
@@ -131,8 +133,18 @@ namespace BadmintonWPFApp
             }
         }
 
-
-
+        private void Test_Invoice(object sender, RoutedEventArgs e)
+        {
+            InvoiceW invoiceW = new InvoiceW(invoiceObject.CreateInvoice(2));
+            invoiceW.Show();
+            this.Close();
+        }
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            var newWindow = new MainWindow();
+            newWindow.Show();
+            this.Close();
+        }
     }
 }
 

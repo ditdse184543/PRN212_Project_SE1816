@@ -58,6 +58,30 @@
           "Microsoft.WindowsDesktop.App"
         ]
       },
+      "LiveCharts.Core/0.9.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LiveCharts.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LiveCharts.dll": {}
+        }
+      },
+      "LiveCharts.Wpf.Core/0.9.8": {
+        "type": "package",
+        "dependencies": {
+          "LiveCharts.Core": "0.9.8"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/LiveCharts.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/LiveCharts.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "MaterialDesignColors/3.1.0": {
         "type": "package",
         "compile": {
@@ -1330,6 +1354,34 @@
         "lib/net48/FontAwesome.Sharp.dll",
         "lib/net6.0-windows7.0/FontAwesome.Sharp.dll",
         "lib/netcoreapp3.1/FontAwesome.Sharp.dll"
+      ]
+    },
+    "LiveCharts.Core/0.9.8": {
+      "sha512": "USb2TBOeER19X0ar5Zgki1ezjrSXBOmUoz3IqzTeksDm6hoaLFqs3iW9+wjHFuWNQGy9lLcVh2YIhhxVIg+zNQ==",
+      "type": "package",
+      "path": "livecharts.core/0.9.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.dll",
+        "lib/netstandard2.0/LiveCharts.dll",
+        "livecharts.core.0.9.8.nupkg.sha512",
+        "livecharts.core.nuspec"
+      ]
+    },
+    "LiveCharts.Wpf.Core/0.9.8": {
+      "sha512": "jMBdknuG3EOMKA0NaqqwMjhsZpRAzd0UqP0SlwXIBJ+ZoJg5TF9C4rDdKqInEs+RycYmIwmrZWvmfDxsM5MMJw==",
+      "type": "package",
+      "path": "livecharts.wpf.core/0.9.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.Wpf.dll",
+        "lib/net472/LiveCharts.Wpf.dll",
+        "lib/net5.0-windows7.0/LiveCharts.Wpf.dll",
+        "lib/netcoreapp3.1/LiveCharts.Wpf.dll",
+        "livecharts.wpf.core.0.9.8.nupkg.sha512",
+        "livecharts.wpf.core.nuspec"
       ]
     },
     "MaterialDesignColors/3.1.0": {
@@ -3445,39 +3497,39 @@
     "net8.0-windows7.0": [
       "BusinessObject >= 1.0.0",
       "FontAwesome.Sharp >= 6.3.0",
+      "LiveCharts.Wpf.Core >= 0.9.8",
       "MaterialDesignColors >= 3.1.0",
       "MaterialDesignThemes >= 5.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\theji\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\BadmintonWPFApp\\BadmintonWPFApp.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\BadmintonWPFApp.csproj",
       "projectName": "BadmintonWPFApp",
-      "projectPath": "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\BadmintonWPFApp\\BadmintonWPFApp.csproj",
-      "packagesPath": "C:\\Users\\theji\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\BadmintonWPFApp\\obj\\",
+      "projectPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\BadmintonWPFApp.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BadmintonWPFApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\theji\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj"
+            "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj"
             }
           }
         }
@@ -3500,6 +3552,10 @@
           "FontAwesome.Sharp": {
             "target": "Package",
             "version": "[6.3.0, )"
+          },
+          "LiveCharts.Wpf.Core": {
+            "target": "Package",
+            "version": "[0.9.8, )"
           },
           "MaterialDesignColors": {
             "target": "Package",

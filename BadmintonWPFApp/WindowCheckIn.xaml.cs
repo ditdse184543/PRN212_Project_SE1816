@@ -122,5 +122,12 @@ namespace BadmintonWPFApp
                 MessageBox.Show("Please enter a valid Booking ID (numeric value).", "Invalid Input", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            var newWindow = new WindowStaff();
+            newWindow.Show();
+            this.Close();
+        }
     }
 }

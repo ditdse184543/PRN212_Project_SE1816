@@ -31,7 +31,6 @@
                     <GradientStop Color="#2C4D70" Offset="1"/>
                 </LinearGradientBrush>
             </Border.Background>
-            
             <DockPanel>
                 <StackPanel x:Name="pnlControlBar" DockPanel.Dock="Top"
                             Grid.Row="0"
@@ -104,11 +103,44 @@
                                     </StackPanel>
                                 </TreeViewItem.Header>
                             </TreeViewItem>
-                            <TreeViewItem>
+                            <TreeViewItem x:Name="manageCourtItem">
                                 <TreeViewItem.Header>
                                     <StackPanel Orientation="Horizontal">
                                         <materialDesign:PackIcon Kind="CourtHammer" Width="16" Height="16" Foreground="{StaticResource color10}"/>
                                         <TextBlock Text="Manage court" Margin="5,0,0,0" Foreground="{StaticResource color10}"/>
+                                    </StackPanel>
+                                </TreeViewItem.Header>
+                            </TreeViewItem>
+                            <TreeViewItem x:Name="dashboardItem">
+                                <TreeViewItem.Header>
+                                    <StackPanel Orientation="Horizontal">
+                                        <materialDesign:PackIcon Kind="MonitorDashboard" Width="16" Height="16" Foreground="{StaticResource color10}"/>
+                                        <TextBlock Text="Dashboard" Margin="5,0,0,0" Foreground="{StaticResource color10}"/>
+                                    </StackPanel>
+                                </TreeViewItem.Header>
+                            </TreeViewItem>
+                            <TreeViewItem x:Name="ManageAccountItem">
+                                <TreeViewItem.Header>
+                                    <StackPanel Orientation="Horizontal">
+                                        <materialDesign:PackIcon Kind="Check" Width="16" Height="16" Foreground="{StaticResource color10}"/>
+                                        <TextBlock Text="Manage Account" Margin="5,0,0,0" Foreground="{StaticResource color10}"/>
+                                    </StackPanel>
+                                </TreeViewItem.Header>
+                            </TreeViewItem>
+                            <TreeViewItem x:Name="StaffFuncItem">
+                                <TreeViewItem.Header>
+                                    <StackPanel Orientation="Horizontal">
+                                        <materialDesign:PackIcon Kind="Check" Width="16" Height="16" Foreground="{StaticResource color10}"/>
+                                        <TextBlock Text="Staff" Margin="5,0,0,0" Foreground="{StaticResource color10}"/>
+                                    </StackPanel>
+                                </TreeViewItem.Header>
+                            </TreeViewItem>
+              
+                            <TreeViewItem x:Name="CustomerItem">
+                                <TreeViewItem.Header>
+                                    <StackPanel Orientation="Horizontal">
+                                        <materialDesign:PackIcon Kind="Check" Width="16" Height="16" Foreground="{StaticResource color10}"/>
+                                        <TextBlock Text="Your Booking" Margin="5,0,0,0" Foreground="{StaticResource color10}"/>
                                     </StackPanel>
                                 </TreeViewItem.Header>
                             </TreeViewItem>
@@ -128,6 +160,7 @@
                                     <TextBlock FontSize="18" Text="Logout" Margin="5,0,0,0" Foreground="{StaticResource color4}"/>
                                 </StackPanel>
                             </TreeViewItem.Header>
+
                         </TreeViewItem>
 
                     </TreeView>
@@ -136,7 +169,7 @@
                     <StackPanel Grid.Column="1" Margin="10">
                         <!-- Introduction -->
                         <TextBlock Text="Introduction" FontSize="18" FontWeight="Bold" Foreground="LightBlue" Margin="0,0,0,10" HorizontalAlignment="Center"/>
-                        <TextBlock Text="Welcome to FUMiniHotelSystem! We are glad to have you here. Our hotel system offers a range of features designed to make your stay as comfortable and enjoyable as possible. Thank you for choosing FUMiniHotelSystem. We look forward to making your stay a memorable one." 
+                        <TextBlock Text="Welcome to ABC Court platform! We are glad to have you here. Our hotel system offers a range of features designed to make your stay as comfortable and enjoyable as possible. Thank you for choosing FUMiniHotelSystem. We look forward to making your stay a memorable one." 
                            FontSize="14" Foreground="White" TextWrapping="Wrap" Width="Auto" Margin="0,0,0,20"/>
 
                         <!-- 2x2 Grid for Images -->

@@ -18,5 +18,7 @@ namespace DataAccess.Repository
         public List<Court> LoadCourtBasedOnBooking(int userId);
         public List<Court> findBySearch(string search);
         public List<Court> search(string search);
+        List<Court> getByUserID(int userId);
+        List<Court> getCourtByUserID(int userId);
     }
 }

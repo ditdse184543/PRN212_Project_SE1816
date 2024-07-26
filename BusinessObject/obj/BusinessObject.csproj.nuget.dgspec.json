@@ -1,35 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {}
+    "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {
+    "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\theji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\BusinessObject\\obj\\",
+        "projectPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\theji\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -68,24 +67,23 @@
         }
       }
     },
-    "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\theji\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\theji\\Downloads\\swp 391\\wpf\\PRN212_Project_SE1816\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\OneDrive\\Máy tính\\FPT SUMMER 2024\\PRN212\\project-group\\PO\\New folder (2)\\PO\\PRN212_Project_SE1816\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\theji\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
