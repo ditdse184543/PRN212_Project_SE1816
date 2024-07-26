@@ -41,6 +41,7 @@ namespace DataAccess.Repository
         public void Update(Booking Booking)
         {
             _context.Bookings.Update(Booking);
+            _context.SaveChanges();
         }
         public List<Booking> showListBookingBasedOnCourt(int courtId, int userid)
         {

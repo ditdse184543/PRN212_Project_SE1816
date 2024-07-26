@@ -180,7 +180,7 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
 
-                    <ListBox x:Name="BookingsListBox" Grid.Row="0" Margin="0,10,0,0"/>
+                    <ListBox x:Name="BookingsListBox" Foreground="White" Grid.Row="0" Margin="0,10,0,0"/>
 
                     <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,10">
                         <Button x:Name="CancelButton" Content="Cancel All" Width="100" Margin="50,5,5,5" Click="CancelButton_Click" Foreground="White" FontSize="12" FontFamily="Montserrat" Cursor="Hand" >
