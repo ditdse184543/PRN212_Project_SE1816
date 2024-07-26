@@ -384,8 +384,7 @@ namespace BadmintonWPFApp
 
         private void BackBtn_Click(object sender, RoutedEventArgs e)
         {
-            WindowCourt court = new WindowCourt();
-            court.Show();
+
             Close();
         }
     }

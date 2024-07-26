@@ -62,13 +62,7 @@
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="ID" Binding="{Binding UserID}" Width="Auto"/>
                         <DataGridTextColumn Header="Name" Binding="{Binding UserName}" Width="Auto"/>
-                        <DataGridTemplateColumn Header="Roles" Width="Auto">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <ComboBox ItemsSource="{Binding Roles}" DisplayMemberPath="RoleName" />
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="Role" Binding="{Binding Roles}" Width="Auto"/>
                         <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="Auto"/>
                         <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="Auto"/>
                         <DataGridTemplateColumn Header="Action" Width="Auto">

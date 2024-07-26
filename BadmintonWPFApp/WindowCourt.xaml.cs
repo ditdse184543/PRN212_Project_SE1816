@@ -59,6 +59,7 @@ namespace BadmintonWPFApp
             Button button = sender as Button;
             try
             {
+                authen();
                 if (button != null)
                 {
                     Court room = button.DataContext as Court;
@@ -78,9 +79,24 @@ namespace BadmintonWPFApp
             }
             catch (Exception ex)
             {
-
+                if(MessageBox.Show(ex.Message, "Error", MessageBoxButton.YesNo, MessageBoxImage.Error) == MessageBoxResult.Yes)
+                {
+                    var newWindow = new WindowLogin();
+                    newWindow.Show();
+                    Close();
+                } 
             }
         }
+
+        private void authen()
+        {
+            int role = Properties.Settings.Default.RoleId;
+            if (role == 0)
+            {
+                throw new Exception("Your are not permit to access!!! Please Login to booking");
+            }
+        }
+
         private void LoadingItem()
         {
             lvData.ItemsSource = CourtObject.GetAll();

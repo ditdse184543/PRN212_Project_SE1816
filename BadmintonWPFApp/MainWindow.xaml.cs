@@ -132,7 +132,7 @@ namespace BadmintonWPFApp
                         else if (textBlock.Text == "Manage court")
                         {
                             int role = Properties.Settings.Default.RoleId;
-                            if (role != 3)
+                            if (role != 3 && role !=2)
                             {
                                 throw new Exception("You aren't permited to access this function!!");
                             }

@@ -11,7 +11,7 @@
     Title="WindowDashBoard" Height="450" Width="800">
 
     <Grid>
-        <lvc:CartesianChart Series="{Binding SeriesCollection}">
+        <lvc:CartesianChart Series="{Binding SeriesCollection}" Margin="-10,59,10,107">
             <lvc:CartesianChart.AxisX>
                 <lvc:Axis Title="Booking Name" Labels="{Binding Labels}"/>
             </lvc:CartesianChart.AxisX>

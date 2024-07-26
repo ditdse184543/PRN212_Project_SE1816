@@ -46,10 +46,11 @@ namespace BadmintonWPFApp
         private void LoadData()
         {
             // Fetch the booking data
-            List<Court> courts = courtObject.getAllPaymentByUserId(6);
+            int userId = Properties.Settings.Default.UserId;
+            List<Court> courts = courtObject.getAllPaymentByUserId(userId);
             if (courts.IsNullOrEmpty())
             {
-                MessageBox.Show("null roi");
+                MessageBox.Show("Error " + userId);
             }
 
             // Aggregate payment amounts for each booking

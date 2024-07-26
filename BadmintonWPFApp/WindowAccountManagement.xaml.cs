@@ -46,7 +46,7 @@ namespace BadmintonWPFApp
             {
                 UserID = x.UserId,
                 UserName = x.UserName,
-                Roles = x.Roles,
+                Roles = string.Join(", ", x.Roles.Select(r => r.RoleName)), // Join role names
                 Email = x.Email,
                 Status = x.Status,
                 Password = x.Password
